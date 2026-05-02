@@ -5,11 +5,50 @@
     <link>https://github.com</link>
     <description><![CDATA[AI 精选 GitHub 热门仓库，每日更新]]></description>
     <language>zh-CN</language>
-    <lastBuildDate>Sat, 02 May 2026 07:34:16 GMT</lastBuildDate>
+    <lastBuildDate>Sat, 02 May 2026 07:48:34 GMT</lastBuildDate>
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>GitHub Scout</generator>
     <atom:link href="https://2538514844.github.io/feeds/feed.xml" rel="self" type="application/rss+xml"/>
     <item>
+      <title><![CDATA[flipphoneguy/totp_app]]></title>
+      <link>https://github.com/flipphoneguy/totp_app</link>
+      <author>GitHub Scout</author>
+      <description><![CDATA[flipphoneguy/totp_app — 轻量离线Android 2FA应用，支持方向键操作，界面美观，保障账户安全。 | ⭐6 | Java]]></description>
+      <content:encoded><![CDATA[<h2><a href="https://github.com/flipphoneguy/totp_app">flipphoneguy/totp_app</a></h2>
+<p>⭐ 6 · Java · 2026-04-30</p>
+<blockquote>轻量离线Android 2FA应用，支持方向键操作，界面美观，保障账户安全。</blockquote>
+<p><a href="https://github.com/flipphoneguy/totp_app">&#128279; 查看仓库</a></p>]]></content:encoded>
+      <pubDate>Thu, 30 Apr 2026 00:00:00 GMT</pubDate>
+      <guid isPermaLink="true">https://github.com/flipphoneguy/totp_app</guid>
+      <category>Java</category>
+    </item>
+    <item>
+      <title><![CDATA[jmerelnyc/gpt-nucleus]]></title>
+      <link>https://github.com/jmerelnyc/gpt-nucleus</link>
+      <author>GitHub Scout</author>
+      <description><![CDATA[jmerelnyc/gpt-nucleus — 从零实现最小化GPT训练与推理，代码精简，适合深入理解生成式模型原理。 | ⭐6 | C]]></description>
+      <content:encoded><![CDATA[<h2><a href="https://github.com/jmerelnyc/gpt-nucleus">jmerelnyc/gpt-nucleus</a></h2>
+<p>⭐ 6 · C · 2026-05-01</p>
+<blockquote>从零实现最小化GPT训练与推理，代码精简，适合深入理解生成式模型原理。</blockquote>
+<p><a href="https://github.com/jmerelnyc/gpt-nucleus">&#128279; 查看仓库</a></p>]]></content:encoded>
+      <pubDate>Fri, 01 May 2026 00:00:00 GMT</pubDate>
+      <guid isPermaLink="true">https://github.com/jmerelnyc/gpt-nucleus</guid>
+      <category>C</category>
+    </item>
+    <item>
+      <title><![CDATA[Dev-moe-kyawaung/supreme-tachyon-ktor]]></title>
+      <link>https://github.com/Dev-moe-kyawaung/supreme-tachyon-ktor</link>
+      <author>GitHub Scout</author>
+      <description><![CDATA[Dev-moe-kyawaung/supreme-tachyon-ktor — 基于Kotlin与Ktor框架的现代后端示例，展示高效Web服务与API开发实践。 | ⭐6 | Kotlin]]></description>
+      <content:encoded><![CDATA[<h2><a href="https://github.com/Dev-moe-kyawaung/supreme-tachyon-ktor">Dev-moe-kyawaung/supreme-tachyon-ktor</a></h2>
+<p>⭐ 6 · Kotlin · 2026-04-29</p>
+<blockquote>基于Kotlin与Ktor框架的现代后端示例，展示高效Web服务与API开发实践。</blockquote>
+<p><a href="https://github.com/Dev-moe-kyawaung/supreme-tachyon-ktor">&#128279; 查看仓库</a></p>]]></content:encoded>
+      <pubDate>Wed, 29 Apr 2026 00:00:00 GMT</pubDate>
+      <guid isPermaLink="true">https://github.com/Dev-moe-kyawaung/supreme-tachyon-ktor</guid>
+      <category>Kotlin</category>
+    </item>
+<item>
       <title><![CDATA[hamzerbug-wq/Animal-Crossing-New-Horizons-PC]]></title>
       <link>https://github.com/hamzerbug-wq/Animal-Crossing-New-Horizons-PC</link>
       <author>GitHub Scout</author>
@@ -22,7 +61,7 @@
       <guid isPermaLink="true">https://github.com/hamzerbug-wq/Animal-Crossing-New-Horizons-PC</guid>
       <category>C++</category>
     </item>
-    <item>
+<item>
       <title><![CDATA[Edosaqw/Tomodachi-Life-Living-The-Dream-PC]]></title>
       <link>https://github.com/Edosaqw/Tomodachi-Life-Living-The-Dream-PC</link>
       <author>GitHub Scout</author>
@@ -35,7 +74,7 @@
       <guid isPermaLink="true">https://github.com/Edosaqw/Tomodachi-Life-Living-The-Dream-PC</guid>
       <category>C++</category>
     </item>
-    <item>
+<item>
       <title><![CDATA[lucas831029/Heroes-of-Might-and-Magic-Olden-Era-Release]]></title>
       <link>https://github.com/lucas831029/Heroes-of-Might-and-Magic-Olden-Era-Release</link>
       <author>GitHub Scout</author>
