@@ -1,4 +1,4 @@
-base_url = "https://2538514844.github.io/"
+base_url = "https://2538514844.github.io/juya-ai-daily/"
 generate_feeds = true
 feed_filenames = ["rss.xml"]
 theme = "even"
@@ -9,7 +9,7 @@ taxonomies = [
 [extra]
 even_title = "GitHub Scout 每日精选"
 even_menu = [
-    {url = "https://2538514844.github.io/", name = "Home"},
+    {url = "https://2538514844.github.io/juya-ai-daily/", name = "Home"},
 ]
 [markdown]
 highlight_code = true
