@@ -5,7 +5,7 @@
     <link>https://github.com</link>
     <description><![CDATA[AI 精选 GitHub 热门仓库，每日更新]]></description>
     <language>zh-CN</language>
-    <lastBuildDate>Sat, 02 May 2026 06:58:08 GMT</lastBuildDate>
+    <lastBuildDate>Sat, 02 May 2026 07:03:27 GMT</lastBuildDate>
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>GitHub Scout</generator>
     <atom:link href="https://2538514844.github.io/feeds/feed.xml" rel="self" type="application/rss+xml"/>
@@ -13,10 +13,10 @@
       <title><![CDATA[wustghj/cursor-deepseek-v4-proxy]]></title>
       <link>https://github.com/wustghj/cursor-deepseek-v4-proxy</link>
       <author>GitHub Scout</author>
-      <description><![CDATA[wustghj/cursor-deepseek-v4-proxy — 一个代理工具，专门修复Cursor使用DeepSeek V4模型时出现的`reasoning_content must be passed back`错误。 | ⭐19 | Python]]></description>
+      <description><![CDATA[wustghj/cursor-deepseek-v4-proxy — 修复Cursor使用DeepSeek V4模型时`reasoning_content`回传错误的代理工具。 | ⭐19 | Python]]></description>
       <content:encoded><![CDATA[<h2><a href="https://github.com/wustghj/cursor-deepseek-v4-proxy">wustghj/cursor-deepseek-v4-proxy</a></h2>
 <p>⭐ 19 · Python · 2026-04-29</p>
-<blockquote>一个代理工具，专门修复Cursor使用DeepSeek V4模型时出现的`reasoning_content must be passed back`错误。</blockquote>
+<blockquote>修复Cursor使用DeepSeek V4模型时`reasoning_content`回传错误的代理工具。</blockquote>
 <p><a href="https://github.com/wustghj/cursor-deepseek-v4-proxy">&#128279; 查看仓库</a></p>]]></content:encoded>
       <pubDate>Wed, 29 Apr 2026 00:00:00 GMT</pubDate>
       <guid isPermaLink="true">https://github.com/wustghj/cursor-deepseek-v4-proxy</guid>
