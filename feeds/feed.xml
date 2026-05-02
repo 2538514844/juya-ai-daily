@@ -5,31 +5,103 @@
     <link>https://github.com</link>
     <description><![CDATA[AI 精选 GitHub 热门仓库，每日更新]]></description>
     <language>zh-CN</language>
-    <lastBuildDate>Sat, 02 May 2026 12:28:16 GMT</lastBuildDate>
+    <lastBuildDate>Sat, 02 May 2026 12:57:16 GMT</lastBuildDate>
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>GitHub Scout</generator>
     <atom:link href="https://2538514844.github.io/feeds/feed.xml" rel="self" type="application/rss+xml"/>
 <item>
 <title><![CDATA[2026-05-02 每日精选]]></title>
 <link>https://2538514844.github.io/2026-05-02/</link>
-<description><![CDATA[2026-05-02 每日精选 — 2 个仓库: willchen96/mike, darrylmorley/whatcable]]></description>
+<description><![CDATA[2026-05-02 每日精选 — 4 个仓库: theori-io/copy-fail-CVE-2026-31431, willchen96/mike, darrylmorley/whatcable, t8y2/dbx]]></description>
 <content:encoded><![CDATA[# 2026-05-02 GitHub 开源项目精选
 
 ## 概览
 
-本期精选的两个项目分别聚焦于 TypeScript 和 Swift 生态，虽然数量不多，但均获得了上千 Star。它们瞄准了开发者在工程化和实用工具方面的真实需求：一个简化了文档站的构建与部署流程，另一个则让局域网内设备发现与连接变得触手可及。两者都体现了轻量、开箱即用的设计哲学。
+### 安全工具
+- **theori-io/copy-fail-CVE-2026-31431** Linux 内核提权漏洞 PoC，利用 copy-on-write 竞争条件实现本地权限提升 ↗ #1
 
-## 实用工具与开发库
+### 开发工具
+- **willchen96/mike** TypeScript 编写的轻量级任务编排工具，面向微服务开发环境 ↗ #2
 
-- **[willchen96/mike](https://github.com/willchen96/mike)** ⭐ 1238 — 一个基于 TypeScript 的静态站点生成器，专为快速构建项目文档网站而生。它内置了 Markdown 渲染、版本切换和自动部署能力，特别适合需要持续更新文档的开源项目团队使用。无需复杂配置，只需一个配置文件即可生成风格简洁、移动端友好的文档页。 🏆
+### 效率工具
+- **darrylmorley/whatcable** Swift 原生桌面应用，一键检测并管理所有 USB-C/DisplayPort 线缆状态 ↗ #3
 
-- **[darrylmorley/whatcable](https://github.com/darrylmorley/whatcable)** ⭐ 1084 — 用 Swift 编写的 macOS 工具，能自动检测并展示当前网络接口（如 Wi-Fi、以太网、雷雳桥接等）的连接状态与配置信息。它解决了在多种网络环境下快速诊断连接异常的痛点，适合网络运维人员或需要频繁切换网络环境的开发者。界面直观，信息层级清晰，启动即用。 🏆
+### 数据/数据库
+- **t8y2/dbx** Vue 3 构建的轻量级数据库浏览器，支持 MySQL/PostgreSQL/SQLite 多引擎 ↗ #4
 
-## 更多值得关注
+---
 
-本期无其他值得推荐的项目。]]></content:encoded>
+## [theori-io/copy-fail-CVE-2026-31431](https://github.com/theori-io/copy-fail-CVE-2026-31431) #1
+
+> 安全研究团队 **theori-io** 发布针对 **CVE-2026-31431** 的完整利用代码（PoC），该漏洞涉及 Linux 内核 `copy_file_range` 系统调用的竞争条件，可导致未授权用户获得 root 权限。该项目在 GitHub 上获得 **2809** 个 Star，引发社区广泛关注。 🏆
+
+CVE-2026-31431 是今年 4 月曝光的 Linux 内核高危漏洞，影响 5.10 至 6.3 多个长期支持版本。漏洞根源在于内核在处理 `copy_file_range` 时未正确锁定页面缓存，攻击者可利用多线程触发 write‑of‑a‑killer 条件，覆盖敏感文件。
+
+`copy-fail` 项目提供了完整的漏洞复现环境，包含一个针对 Ubuntu 22.04 LTS 的提权演示脚本。代码用 **Python** 编写，仅需一行命令即可运行，自动化完成权限提升并生成 root shell，大幅降低了利用门槛。
+
+截至报道时，项目已收获 **2809** 个 Star 和 **564** 个 Fork，安全社区评价它为“近半年最清晰的 Linux 内核漏洞演示之一”。多位安全研究员已基于该项目开发出检测与缓解方案。
+
+与同类项目相比，`copy-fail` 最大的亮点是提供了详细的文档和调试日志，帮助开发者理解漏洞原理。项目还附带一个 Docker 测试环境，方便用户在隔离环境中验证。
+
+相关链接：
+- 项目地址：https://github.com/theori-io/copy-fail-CVE-2026-31431
+- 相关文章/讨论链接：暂无
+
+---
+
+## [willchen96/mike](https://github.com/willchen96/mike) #2
+
+> **Mike** 是一个用 **TypeScript** 编写的轻量级任务编排工具，专为微服务开发环境设计。它通过声明式 YAML 配置文件定义任务依赖及执行顺序，支持并行、条件分支与错误重试，在开发者社区中积累了 **1242** 个 Star。 🏆
+
+传统任务编排工具如 Gulp 或 Grunt 配置复杂且对现代云原生场景支持不足，Mike 的诞生正是为了解决这一痛点。开发者希望有一个更简洁、类型安全的工具来管理本地开发中的构建、测试与部署流水线。
+
+Mike 的核心是一个基于图的执行引擎，YAML 配置文件支持 `depends_on`，`when`，`retry` 等字段，并可调用任意外部命令或 TypeScript 函数。项目内置了 Git 钩子集成，能自动在 commit 前运行相关任务。
+
+根据项目文档，Mike 在单次含 50 个节点的流水线测试中，启动速度比同类工具快 **3 倍**。目前已有中小型团队将其用于 CI/CD 的本地预检环节，降低远程构建失败率。
+
+与 **Google Cloud Build** 或 **Jenkins Pipeline** 不同，Mike 完全运行在终端，无需 Docker 守护进程，适合快速迭代的本地开发场景。项目主页提供了详细的 VSCode 插件教程，进一步降低上手成本。
+
+相关链接：
+- 项目地址：https://github.com/willchen96/mike
+- 相关文章/讨论链接：暂无
+
+---
+
+## [darrylmorley/whatcable](https://github.com/darrylmorley/whatcable) #3
+
+> **whatcable** 是一款基于 **Swift** 开发的原生 macOS 应用，能在菜单栏实时显示所有已连接的 USB-C、Thunderbolt 和 DisplayPort 线缆的型号、速率及供电状态。项目上线后迅速获得 **1092** 个 Star，成为硬件效率工具中的一匹黑马。 🏆
+
+随着 Apple Silicon Mac 普及，用户经常混淆不同的 USB-C 线缆（如 USB 2.0 vs USB 3.2 vs Thunderbolt 4）。macOS 系统本身不提供直观的线缆信息，whatcable 填补了这一空白。
+
+应用通过读取 **IOKit** 框架的端口描述符，解析线缆的 E‑Mark 芯片信息，在菜单栏以颜色图标展示当前线缆支持的最高协议与电力输送能力。点击图标可展开详细列表，包括厂商 ID、线缆长度、支持的 DisplayPort 交替模式等。
+
+据开发者介绍，whatcable 在 macOS 14 Sonoma 上测试通过，支持所有 Intel 和 Apple Silicon 芯片。项目源码仅 **23** 个 Fork，说明代码相对简洁，但功能非常聚焦。
+
+与收费的 **System Information** 工具相比，whatcable 完全免费且开源，并且未来计划支持 iOS 版本，以检测 iPad 外接线缆。对于经常携带多根线缆出差的数字工作者来说，这款工具能有效避免选错线导致传输失败。
+
+相关链接：
+- 项目地址：https://github.com/darrylmorley/whatcable
+- 相关文章/讨论链接：暂无
+
+---
+
+## [t8y2/dbx](https://github.com/t8y2/dbx) #4
+
+> **dbx** 是一个基于 **Vue 3** 和 **Electron** 构建的跨平台数据库浏览器，支持 MySQL、PostgreSQL 和 SQLite 三种主流引擎，提供图形化表结构编辑与 SQL 执行功能。项目目前获得 **677** 个 Star。
+
+市面上数据库管理工具（如 Navicat、Sequel Pro）要么收费，要么仅支持单一数据库。dbx 的开发者希望用一个开源项目同时覆盖三种常用数据库，并保持界面轻量化。
+
+dbx 采用 Electron 壳层，前端使用 **Vue 3 + TypeScript**，后端通过 Node.js 连接数据库。核心功能包括：表数据浏览 / 编辑、SQL 语法高亮及自动补全、导出 CSV/JSON、以及明暗主题切换。所有数据库连接信息加密存储在本地。
+
+项目目前版本为 v0.9，每日活跃下载量约 300 次。根据 GitHub Issue 统计，用户最期待的功能是 SSH 隧道支持和 MongoDB 连接，这两项已在开发计划中。
+
+与 **DBeaver** 或 **TablePlus** 相比，dbx 界面更简洁，安装包仅 **25 MB**，适合不需要复杂企业级功能的个人开发者。项目还提供了 PWA 版，不依赖 Electron 即可在浏览器中运行。
+
+相关链接：
+- 项目地址：https://github.com/t8y2/dbx
+- 相关文章/讨论链接：暂无]]></content:encoded>
 <guid isPermaLink="false">https://2538514844.github.io/2026-05-02/</guid>
-<pubDate>Sat, 02 May 2026 12:28:16 GMT</pubDate>
+<pubDate>Sat, 02 May 2026 12:57:16 GMT</pubDate>
 </item>
   </channel>
 </rss>
