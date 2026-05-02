@@ -10,6 +10,8 @@ on:
       - config.toml
       - static/**
       - templates/**
+      - BACKUP/**
+      - rss.xml
       - .github/workflows/generate_site.yml
   issues:
     types:
