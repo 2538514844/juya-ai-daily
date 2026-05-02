@@ -2,7 +2,7 @@
 
 > AI 精选 GitHub 热门仓库，每日更新。内容由 AI 辅助生成，可能存在错误，请以原始信息出处和官方信息为准。
 
-正式订阅地址：https://2538514844.github.io/juya-ai-daily/rss.xml
+正式订阅地址：https://2538514844.github.io/feeds/feed.xml
 
 ## Links
 
