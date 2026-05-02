@@ -116,7 +116,7 @@ def main():
                 og_url = repo_og_image(repo_title)
                 section = f"## [{repo_title}]({url})\n\n"
                 if og_url:
-                    section += f'<img src="{og_url}" alt="{repo_title}" loading="lazy" style="max-width:100%;border-radius:8px;">\n\n'
+                    section += f'<p><img src="{og_url}" alt="{repo_title}" loading="lazy" style="max-width:100%;border-radius:8px;"></p>\n\n'
                 if stats:
                     section += f"{stats}\n\n"
                 if desc:
