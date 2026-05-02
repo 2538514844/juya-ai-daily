@@ -5,126 +5,35 @@
     <link>https://github.com</link>
     <description><![CDATA[AI 精选 GitHub 热门仓库，每日更新]]></description>
     <language>zh-CN</language>
-    <lastBuildDate>Sat, 02 May 2026 08:05:19 GMT</lastBuildDate>
+    <lastBuildDate>Sat, 02 May 2026 08:13:39 GMT</lastBuildDate>
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>GitHub Scout</generator>
     <atom:link href="https://2538514844.github.io/feeds/feed.xml" rel="self" type="application/rss+xml"/>
 <item>
-      <title><![CDATA[flipphoneguy/totp_app]]></title>
-      <link>https://github.com/flipphoneguy/totp_app</link>
-      <author>GitHub Scout</author>
-      <description><![CDATA[flipphoneguy/totp_app — 轻量离线Android 2FA应用，支持方向键操作，界面美观，保障账户安全。 | ⭐6 | Java]]></description>
-      <content:encoded><![CDATA[<h2><a href="https://github.com/flipphoneguy/totp_app">flipphoneguy/totp_app</a></h2>
-<p>⭐ 6 · Java · 2026-04-30</p>
-<blockquote>轻量离线Android 2FA应用，支持方向键操作，界面美观，保障账户安全。</blockquote>
-<p><a href="https://github.com/flipphoneguy/totp_app">&#128279; 查看仓库</a></p>]]></content:encoded>
-      <pubDate>Thu, 30 Apr 2026 00:00:00 GMT</pubDate>
-      <guid isPermaLink="true">https://github.com/flipphoneguy/totp_app</guid>
-      <category>Java</category>
-    </item>
-<item>
-      <title><![CDATA[jmerelnyc/gpt-nucleus]]></title>
-      <link>https://github.com/jmerelnyc/gpt-nucleus</link>
-      <author>GitHub Scout</author>
-      <description><![CDATA[jmerelnyc/gpt-nucleus — 从零实现最小化GPT训练与推理，代码精简，适合深入理解生成式模型原理。 | ⭐6 | C]]></description>
-      <content:encoded><![CDATA[<h2><a href="https://github.com/jmerelnyc/gpt-nucleus">jmerelnyc/gpt-nucleus</a></h2>
-<p>⭐ 6 · C · 2026-05-01</p>
-<blockquote>从零实现最小化GPT训练与推理，代码精简，适合深入理解生成式模型原理。</blockquote>
-<p><a href="https://github.com/jmerelnyc/gpt-nucleus">&#128279; 查看仓库</a></p>]]></content:encoded>
-      <pubDate>Fri, 01 May 2026 00:00:00 GMT</pubDate>
-      <guid isPermaLink="true">https://github.com/jmerelnyc/gpt-nucleus</guid>
-      <category>C</category>
-    </item>
-<item>
-      <title><![CDATA[Dev-moe-kyawaung/supreme-tachyon-ktor]]></title>
-      <link>https://github.com/Dev-moe-kyawaung/supreme-tachyon-ktor</link>
-      <author>GitHub Scout</author>
-      <description><![CDATA[Dev-moe-kyawaung/supreme-tachyon-ktor — 基于Kotlin与Ktor框架的现代后端示例，展示高效Web服务与API开发实践。 | ⭐6 | Kotlin]]></description>
-      <content:encoded><![CDATA[<h2><a href="https://github.com/Dev-moe-kyawaung/supreme-tachyon-ktor">Dev-moe-kyawaung/supreme-tachyon-ktor</a></h2>
-<p>⭐ 6 · Kotlin · 2026-04-29</p>
-<blockquote>基于Kotlin与Ktor框架的现代后端示例，展示高效Web服务与API开发实践。</blockquote>
-<p><a href="https://github.com/Dev-moe-kyawaung/supreme-tachyon-ktor">&#128279; 查看仓库</a></p>]]></content:encoded>
-      <pubDate>Wed, 29 Apr 2026 00:00:00 GMT</pubDate>
-      <guid isPermaLink="true">https://github.com/Dev-moe-kyawaung/supreme-tachyon-ktor</guid>
-      <category>Kotlin</category>
-    </item>
-<item>
-      <title><![CDATA[hamzerbug-wq/Animal-Crossing-New-Horizons-PC]]></title>
-      <link>https://github.com/hamzerbug-wq/Animal-Crossing-New-Horizons-PC</link>
-      <author>GitHub Scout</author>
-      <description><![CDATA[hamzerbug-wq/Animal-Crossing-New-Horizons-PC — 让《动物森友会》在PC上运行，2026年4月版提供最新补丁内容与模拟器支持。 | ⭐163 | C++]]></description>
-      <content:encoded><![CDATA[<h2><a href="https://github.com/hamzerbug-wq/Animal-Crossing-New-Horizons-PC">hamzerbug-wq/Animal-Crossing-New-Horizons-PC</a></h2>
-<p>⭐ 163 · C++ · 2026-04-30</p>
-<blockquote>让《动物森友会》在PC上运行，2026年4月版提供最新补丁内容与模拟器支持。</blockquote>
-<p><a href="https://github.com/hamzerbug-wq/Animal-Crossing-New-Horizons-PC">&#128279; 查看仓库</a></p>]]></content:encoded>
-      <pubDate>Thu, 30 Apr 2026 00:00:00 GMT</pubDate>
-      <guid isPermaLink="true">https://github.com/hamzerbug-wq/Animal-Crossing-New-Horizons-PC</guid>
-      <category>C++</category>
-    </item>
-<item>
-      <title><![CDATA[Edosaqw/Tomodachi-Life-Living-The-Dream-PC]]></title>
-      <link>https://github.com/Edosaqw/Tomodachi-Life-Living-The-Dream-PC</link>
-      <author>GitHub Scout</author>
-      <description><![CDATA[Edosaqw/Tomodachi-Life-Living-The-Dream-PC — 在PC上体验《朋友聚会》续作，2026年4月版支持Switch模拟，重温生活模拟乐趣。 | ⭐163 | C++]]></description>
-      <content:encoded><![CDATA[<h2><a href="https://github.com/Edosaqw/Tomodachi-Life-Living-The-Dream-PC">Edosaqw/Tomodachi-Life-Living-The-Dream-PC</a></h2>
-<p>⭐ 163 · C++ · 2026-04-30</p>
-<blockquote>在PC上体验《朋友聚会》续作，2026年4月版支持Switch模拟，重温生活模拟乐趣。</blockquote>
-<p><a href="https://github.com/Edosaqw/Tomodachi-Life-Living-The-Dream-PC">&#128279; 查看仓库</a></p>]]></content:encoded>
-      <pubDate>Thu, 30 Apr 2026 00:00:00 GMT</pubDate>
-      <guid isPermaLink="true">https://github.com/Edosaqw/Tomodachi-Life-Living-The-Dream-PC</guid>
-      <category>C++</category>
-    </item>
-<item>
-      <title><![CDATA[lucas831029/Heroes-of-Might-and-Magic-Olden-Era-Release]]></title>
-      <link>https://github.com/lucas831029/Heroes-of-Might-and-Magic-Olden-Era-Release</link>
-      <author>GitHub Scout</author>
-      <description><![CDATA[lucas831029/Heroes-of-Might-and-Magic-Olden-Era-Release — 经典《魔法门之英雄无敌》老年代版本，2026年4月30日抢先体验上线PC。 | ⭐162 | C++]]></description>
-      <content:encoded><![CDATA[<h2><a href="https://github.com/lucas831029/Heroes-of-Might-and-Magic-Olden-Era-Release">lucas831029/Heroes-of-Might-and-Magic-Olden-Era-Release</a></h2>
-<p>⭐ 162 · C++ · 2026-04-30</p>
-<blockquote>经典《魔法门之英雄无敌》老年代版本，2026年4月30日抢先体验上线PC。</blockquote>
-<p><a href="https://github.com/lucas831029/Heroes-of-Might-and-Magic-Olden-Era-Release">&#128279; 查看仓库</a></p>]]></content:encoded>
-      <pubDate>Thu, 30 Apr 2026 00:00:00 GMT</pubDate>
-      <guid isPermaLink="true">https://github.com/lucas831029/Heroes-of-Might-and-Magic-Olden-Era-Release</guid>
-      <category>C++</category>
-    </item>
-<item>
-      <title><![CDATA[theori-io/copy-fail-CVE-2026-31431]]></title>
-      <link>https://github.com/theori-io/copy-fail-CVE-2026-31431</link>
-      <author>GitHub Scout</author>
-      <description><![CDATA[theori-io/copy-fail-CVE-2026-31431 — 针对CVE-2026-31431漏洞的Python利用验证工具，为安全研究人员提供实战PoC参考。 | ⭐2629 | Python]]></description>
-      <content:encoded><![CDATA[<h2><a href="https://github.com/theori-io/copy-fail-CVE-2026-31431">theori-io/copy-fail-CVE-2026-31431</a></h2>
-<p>⭐ 2629 ·  540 · Python · 2026-04-29</p>
-<blockquote>针对CVE-2026-31431漏洞的Python利用验证工具，为安全研究人员提供实战PoC参考。</blockquote>
-<p><a href="https://github.com/theori-io/copy-fail-CVE-2026-31431">&#128279; 查看仓库</a></p>]]></content:encoded>
-      <pubDate>Wed, 29 Apr 2026 00:00:00 GMT</pubDate>
-      <guid isPermaLink="true">https://github.com/theori-io/copy-fail-CVE-2026-31431</guid>
-      <category>Python</category>
-    </item>
-<item>
-      <title><![CDATA[willchen96/mike]]></title>
-      <link>https://github.com/willchen96/mike</link>
-      <author>GitHub Scout</author>
-      <description><![CDATA[willchen96/mike — 开源AI法律平台，利用大语言模型简化法律文档处理与合规咨询，降低法律服务门槛。 | ⭐1158 | TypeScript]]></description>
-      <content:encoded><![CDATA[<h2><a href="https://github.com/willchen96/mike">willchen96/mike</a></h2>
-<p>⭐ 1158 ·  292 · TypeScript · 2026-04-29</p>
-<blockquote>开源AI法律平台，利用大语言模型简化法律文档处理与合规咨询，降低法律服务门槛。</blockquote>
-<p><a href="https://github.com/willchen96/mike">&#128279; 查看仓库</a></p>]]></content:encoded>
-      <pubDate>Wed, 29 Apr 2026 00:00:00 GMT</pubDate>
-      <guid isPermaLink="true">https://github.com/willchen96/mike</guid>
-      <category>TypeScript</category>
-    </item>
-<item>
-      <title><![CDATA[t8y2/dbx]]></title>
-      <link>https://github.com/t8y2/dbx</link>
-      <author>GitHub Scout</author>
-      <description><![CDATA[t8y2/dbx — 轻量级跨平台数据库客户端，支持MySQL、PostgreSQL等多种数据库，界面简洁易于操作。 | ⭐637 | Vue]]></description>
-      <content:encoded><![CDATA[<h2><a href="https://github.com/t8y2/dbx">t8y2/dbx</a></h2>
-<p>⭐ 637 ·  31 · Vue · 2026-04-29</p>
-<blockquote>轻量级跨平台数据库客户端，支持MySQL、PostgreSQL等多种数据库，界面简洁易于操作。</blockquote>
-<p><a href="https://github.com/t8y2/dbx">&#128279; 查看仓库</a></p>]]></content:encoded>
-      <pubDate>Wed, 29 Apr 2026 00:00:00 GMT</pubDate>
-      <guid isPermaLink="true">https://github.com/t8y2/dbx</guid>
-      <category>Vue</category>
-    </item>
+<title><![CDATA[2026-05-02 每日精选]]></title>
+<link>https://2538514844.github.io/2026-05-02/</link>
+<description><![CDATA[2026-05-02 每日精选 — 6 个仓库: openclaw/crabbox, therichardngai-code/gpt-image-2-pro-max, AKYMYK/FileToolkit, assetnote/cpanel2shell-scanner, electricant/adblock-rust-manager, betta-tech/ejemplo-harness-subagentes]]></description>
+<content:encoded><![CDATA[# 2025-04-02 GitHub 开源项目精选
+
+## 概览
+本期精选项目规模不大，但覆盖了AI图像生成、安全漏洞检测、浏览器广告管理、测试工具等多个实用方向，适合开发者探索轻量化开源方案。
+
+## AI工具
+- **[therichardngai-code/gpt-image-2-pro-max](https://github.com/therichardngai-code/gpt-image-2-pro-max)** ⭐ 66 — 提供高级图像生成能力，可能是基于GPT的图片生成增强方案。
+- **[betta-tech/ejemplo-harness-subagentes](https://github.com/betta-tech/ejemplo-harness-subagentes)** ⭐ 47 — 子代理测试框架示例，帮助开发者快速搭建与验证多智能体协同工作流。
+
+## 安全工具
+- **[assetnote/cpanel2shell-scanner](https://github.com/assetnote/cpanel2shell-scanner)** ⭐ 50 — 高精度扫描器，专门检测CVE-2026-41940（cPanel与WHM认证绕过漏洞），帮助管理员快速发现潜在入侵点。
+
+## 开发与效率工具
+- **[openclaw/crabbox](https://github.com/openclaw/crabbox)** ⭐ 67 — 轻量级测试工具，支持预热测试环境、同步差异文件并运行测试套件，简化持续集成流程。
+- **[AKYMYK/FileToolkit](https://github.com/AKYMYK/FileToolkit)** ⭐ 51 — 集合多种文件处理功能的Python工具包，解决日常文件批量操作与格式转换需求。
+- **[electricant/adblock-rust-manager](https://github.com/electricant/adblock-rust-manager)** ⭐ 48 — Firefox浏览器扩展，用于启用和管理Firefox内置的adblock-rust引擎，提升广告拦截性能与自定义控制能力。
+
+## 更多值得关注
+本期所有精选项目已在上文列出，无额外推荐。]]></content:encoded>
+<guid isPermaLink="false">https://2538514844.github.io/2026-05-02/</guid>
+<pubDate>Sat, 02 May 2026 08:13:39 GMT</pubDate>
+</item>
   </channel>
 </rss>
