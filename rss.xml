@@ -5,103 +5,42 @@
     <link>https://github.com</link>
     <description><![CDATA[AI 精选 GitHub 热门仓库，每日更新]]></description>
     <language>zh-CN</language>
-    <lastBuildDate>Sat, 02 May 2026 12:57:16 GMT</lastBuildDate>
+    <lastBuildDate>Sat, 02 May 2026 13:14:56 GMT</lastBuildDate>
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>GitHub Scout</generator>
     <atom:link href="https://2538514844.github.io/feeds/feed.xml" rel="self" type="application/rss+xml"/>
 <item>
 <title><![CDATA[2026-05-02 每日精选]]></title>
 <link>https://2538514844.github.io/2026-05-02/</link>
-<description><![CDATA[2026-05-02 每日精选 — 4 个仓库: theori-io/copy-fail-CVE-2026-31431, willchen96/mike, darrylmorley/whatcable, t8y2/dbx]]></description>
+<description><![CDATA[2026-05-02 每日精选 — 1 个仓库: Fokkyp/SoftwareCopyright-Skill]]></description>
 <content:encoded><![CDATA[# 2026-05-02 GitHub 开源项目精选
 
 ## 概览
 
-### 安全工具
-- **theori-io/copy-fail-CVE-2026-31431** Linux 内核提权漏洞 PoC，利用 copy-on-write 竞争条件实现本地权限提升 ↗ #1
+### 开发工具 / 合规工具
 
-### 开发工具
-- **willchen96/mike** TypeScript 编写的轻量级任务编排工具，面向微服务开发环境 ↗ #2
-
-### 效率工具
-- **darrylmorley/whatcable** Swift 原生桌面应用，一键检测并管理所有 USB-C/DisplayPort 线缆状态 ↗ #3
-
-### 数据/数据库
-- **t8y2/dbx** Vue 3 构建的轻量级数据库浏览器，支持 MySQL/PostgreSQL/SQLite 多引擎 ↗ #4
+- **Fokkyp/SoftwareCopyright-Skill** 一个自动处理软件版权声明与许可证合规检查的 Python 工具，帮助开发者快速规范项目版权信息 ↗ #1
 
 ---
 
-## [theori-io/copy-fail-CVE-2026-31431](https://github.com/theori-io/copy-fail-CVE-2026-31431) #1
+## [Fokkyp/SoftwareCopyright-Skill](https://github.com/Fokkyp/SoftwareCopyright-Skill) #1
 
-> 安全研究团队 **theori-io** 发布针对 **CVE-2026-31431** 的完整利用代码（PoC），该漏洞涉及 Linux 内核 `copy_file_range` 系统调用的竞争条件，可导致未授权用户获得 root 权限。该项目在 GitHub 上获得 **2809** 个 Star，引发社区广泛关注。 🏆
+> 一个面向开发者的开源 Python 工具，专注于软件版权声明的自动化生成与许可证合规性审查。它可以帮助项目团队快速统一版权头部、识别许可证冲突，并提供可视化的合规报告。
 
-CVE-2026-31431 是今年 4 月曝光的 Linux 内核高危漏洞，影响 5.10 至 6.3 多个长期支持版本。漏洞根源在于内核在处理 `copy_file_range` 时未正确锁定页面缓存，攻击者可利用多线程触发 write‑of‑a‑killer 条件，覆盖敏感文件。
+在开源生态日益复杂的今天，软件项目的版权声明和许可证管理常常被忽视，导致后续分发或商业化时出现法律风险。**SoftwareCopyright-Skill** 正是为解决这一痛点而生，它提供了一套轻量级的命令行工具，自动扫描项目文件并执行版权相关操作。
 
-`copy-fail` 项目提供了完整的漏洞复现环境，包含一个针对 Ubuntu 22.04 LTS 的提权演示脚本。代码用 **Python** 编写，仅需一行命令即可运行，自动化完成权限提升并生成 root shell，大幅降低了利用门槛。
+该工具基于 Python 实现，支持检测常见开源许可证（如 MIT、Apache 2.0、GPL 等），并可根据用户配置自动为源文件添加或更新版权声明。其核心功能包括：文件头模板引擎、许可证冲突检测、自动补全版权年份与作者信息。
 
-截至报道时，项目已收获 **2809** 个 Star 和 **564** 个 Fork，安全社区评价它为“近半年最清晰的 Linux 内核漏洞演示之一”。多位安全研究员已基于该项目开发出检测与缓解方案。
+<img src="https://opengraph.githubassets.com/1/Fokkyp/SoftwareCopyright-Skill" alt="Fokkyp/SoftwareCopyright-Skill" style="max-width:100%;border-radius:8px;">
 
-与同类项目相比，`copy-fail` 最大的亮点是提供了详细的文档和调试日志，帮助开发者理解漏洞原理。项目还附带一个 Docker 测试环境，方便用户在隔离环境中验证。
+目前该项目在 GitHub 上获得 595 个 Stars 和 135 个 Forks，社区活跃度处于中等水平，适合中小型团队或个人开发者用于项目合规管理。与同类工具如 `licensee` 相比，它更侧重版权声明的主动生成，而非仅做许可证识别。
 
-相关链接：
-- 项目地址：https://github.com/theori-io/copy-fail-CVE-2026-31431
-- 相关文章/讨论链接：暂无
-
----
-
-## [willchen96/mike](https://github.com/willchen96/mike) #2
-
-> **Mike** 是一个用 **TypeScript** 编写的轻量级任务编排工具，专为微服务开发环境设计。它通过声明式 YAML 配置文件定义任务依赖及执行顺序，支持并行、条件分支与错误重试，在开发者社区中积累了 **1242** 个 Star。 🏆
-
-传统任务编排工具如 Gulp 或 Grunt 配置复杂且对现代云原生场景支持不足，Mike 的诞生正是为了解决这一痛点。开发者希望有一个更简洁、类型安全的工具来管理本地开发中的构建、测试与部署流水线。
-
-Mike 的核心是一个基于图的执行引擎，YAML 配置文件支持 `depends_on`，`when`，`retry` 等字段，并可调用任意外部命令或 TypeScript 函数。项目内置了 Git 钩子集成，能自动在 commit 前运行相关任务。
-
-根据项目文档，Mike 在单次含 50 个节点的流水线测试中，启动速度比同类工具快 **3 倍**。目前已有中小型团队将其用于 CI/CD 的本地预检环节，降低远程构建失败率。
-
-与 **Google Cloud Build** 或 **Jenkins Pipeline** 不同，Mike 完全运行在终端，无需 Docker 守护进程，适合快速迭代的本地开发场景。项目主页提供了详细的 VSCode 插件教程，进一步降低上手成本。
+适用场景包括：新项目初始化时批量添加版权头、fork 项目后更新作者信息、以及企业内审前检查所有文件的许可证一致性。工具还支持通过 `.copyrightrc` 配置文件定制规则，降低使用门槛。
 
 相关链接：
-- 项目地址：https://github.com/willchen96/mike
-- 相关文章/讨论链接：暂无
-
----
-
-## [darrylmorley/whatcable](https://github.com/darrylmorley/whatcable) #3
-
-> **whatcable** 是一款基于 **Swift** 开发的原生 macOS 应用，能在菜单栏实时显示所有已连接的 USB-C、Thunderbolt 和 DisplayPort 线缆的型号、速率及供电状态。项目上线后迅速获得 **1092** 个 Star，成为硬件效率工具中的一匹黑马。 🏆
-
-随着 Apple Silicon Mac 普及，用户经常混淆不同的 USB-C 线缆（如 USB 2.0 vs USB 3.2 vs Thunderbolt 4）。macOS 系统本身不提供直观的线缆信息，whatcable 填补了这一空白。
-
-应用通过读取 **IOKit** 框架的端口描述符，解析线缆的 E‑Mark 芯片信息，在菜单栏以颜色图标展示当前线缆支持的最高协议与电力输送能力。点击图标可展开详细列表，包括厂商 ID、线缆长度、支持的 DisplayPort 交替模式等。
-
-据开发者介绍，whatcable 在 macOS 14 Sonoma 上测试通过，支持所有 Intel 和 Apple Silicon 芯片。项目源码仅 **23** 个 Fork，说明代码相对简洁，但功能非常聚焦。
-
-与收费的 **System Information** 工具相比，whatcable 完全免费且开源，并且未来计划支持 iOS 版本，以检测 iPad 外接线缆。对于经常携带多根线缆出差的数字工作者来说，这款工具能有效避免选错线导致传输失败。
-
-相关链接：
-- 项目地址：https://github.com/darrylmorley/whatcable
-- 相关文章/讨论链接：暂无
-
----
-
-## [t8y2/dbx](https://github.com/t8y2/dbx) #4
-
-> **dbx** 是一个基于 **Vue 3** 和 **Electron** 构建的跨平台数据库浏览器，支持 MySQL、PostgreSQL 和 SQLite 三种主流引擎，提供图形化表结构编辑与 SQL 执行功能。项目目前获得 **677** 个 Star。
-
-市面上数据库管理工具（如 Navicat、Sequel Pro）要么收费，要么仅支持单一数据库。dbx 的开发者希望用一个开源项目同时覆盖三种常用数据库，并保持界面轻量化。
-
-dbx 采用 Electron 壳层，前端使用 **Vue 3 + TypeScript**，后端通过 Node.js 连接数据库。核心功能包括：表数据浏览 / 编辑、SQL 语法高亮及自动补全、导出 CSV/JSON、以及明暗主题切换。所有数据库连接信息加密存储在本地。
-
-项目目前版本为 v0.9，每日活跃下载量约 300 次。根据 GitHub Issue 统计，用户最期待的功能是 SSH 隧道支持和 MongoDB 连接，这两项已在开发计划中。
-
-与 **DBeaver** 或 **TablePlus** 相比，dbx 界面更简洁，安装包仅 **25 MB**，适合不需要复杂企业级功能的个人开发者。项目还提供了 PWA 版，不依赖 Electron 即可在浏览器中运行。
-
-相关链接：
-- 项目地址：https://github.com/t8y2/dbx
-- 相关文章/讨论链接：暂无]]></content:encoded>
+- 项目地址：https://github.com/Fokkyp/SoftwareCopyright-Skill]]></content:encoded>
 <guid isPermaLink="false">https://2538514844.github.io/2026-05-02/</guid>
-<pubDate>Sat, 02 May 2026 12:57:16 GMT</pubDate>
+<pubDate>Sat, 02 May 2026 13:14:56 GMT</pubDate>
 </item>
   </channel>
 </rss>
