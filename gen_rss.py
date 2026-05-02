@@ -5,6 +5,7 @@ import re
 from collections import OrderedDict
 from datetime import datetime
 
+import markdown
 from feedgen.feed import FeedGenerator
 
 BACKUP_DIR = "BACKUP"
@@ -103,7 +104,8 @@ def main():
 
         if article_file:
             filepath = os.path.join(BACKUP_DIR, article_file)
-            article_html = read_file_content(filepath)
+            article_md = read_file_content(filepath)
+            article_html = markdown.markdown(article_md, extensions=['extra'])  # Markdown → HTML
 
             desc = f"{date} 每日精选 — {len(repo_files)} 个仓库"
             names = []
