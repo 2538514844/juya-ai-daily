@@ -51,6 +51,13 @@ def main():
 
     os.makedirs(OUTPUT_DIR, exist_ok=True)
 
+    # 创建 _index.md（Zola section 入口）
+    with open(os.path.join(OUTPUT_DIR, "_index.md"), "w", encoding="utf-8") as f:
+        f.write("+++\n")
+        f.write('title = "index"\n')
+        f.write('sort_by = "date"\n')
+        f.write("+++\n")
+
     for filename in md_files:
         filepath = os.path.join(BACKUP_DIR, filename)
         title, date, tags, content = parse_md(filepath)
