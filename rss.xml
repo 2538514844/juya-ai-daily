@@ -5,100 +5,112 @@
     <link>https://github.com</link>
     <description><![CDATA[AI 精选 GitHub 热门仓库，每日更新]]></description>
     <language>zh-CN</language>
-    <lastBuildDate>Sun, 03 May 2026 04:20:19 GMT</lastBuildDate>
+    <lastBuildDate>Tue, 05 May 2026 05:28:10 GMT</lastBuildDate>
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>GitHub Scout</generator>
     <atom:link href="https://2538514844.github.io/feeds/feed.xml" rel="self" type="application/rss+xml"/>
 <item>
-<title><![CDATA[2026-05-03 每日精选]]></title>
-<link>https://2538514844.github.io/2026-05-03/</link>
-<description><![CDATA[2026-05-03 每日精选 — 6 个仓库: matthart1983/syswatch, jfinal/aifei, Pinperepette/sublodex, mrdrvt99/YouProEXTRA, huseynovvusal/blamebot, nagarh/pymol-claude-code]]></description>
-<content:encoded><![CDATA[<h1>2026-05-03 GitHub 开源项目精选</h1>
+<title><![CDATA[2026-05-05 每日精选]]></title>
+<link>https://2538514844.github.io/2026-05-05/</link>
+<description><![CDATA[2026-05-05 每日精选 — 6 个仓库: pkmnono/Fallout-Additions-Minecraft-Mod, liangdabiao/Fashion-AI, butthtio/solidity-cot-auditor, ajavadinezhad/zyrln, armpro24-blip/MeetingBro, yangyixxxx/gptnb-image]]></description>
+<content:encoded><![CDATA[<h1>2026-05-05 GitHub 开源项目精选</h1>
 <h2>概览</h2>
+<h3>游戏/模组</h3>
+<ul>
+<li><strong>Fallout-Additions-Minecraft-Mod</strong> 将《辐射》系列经典元素融入《我的世界》，新增武器、生物和道具 ↗ #1</li>
+</ul>
 <h3>AI / 大模型</h3>
 <ul>
-<li><strong>aifei</strong> 轻量级 Java AI 对话框架，专注快速集成大语言模型 ↗ #2</li>
-<li><strong>pymol-claude-code</strong> Python 脚本为分子可视化软件 PyMOL 接入 Claude AI，实现智能命令生成 ↗ #6</li>
+<li><strong>Fashion-AI</strong> 基于深度学习的服装搭配推荐系统，支持用户上传单品生成造型方案 ↗ #2</li>
+<li><strong>gptnb-image</strong> 结合 GPT Notebook 的图像生成工具，实现自然语言驱动的图片创意迭代 ↗ #6</li>
+</ul>
+<h3>区块链安全</h3>
+<ul>
+<li><strong>solidity-cot-auditor</strong> 利用 Chain-of-Thought 提示工程自动审计 Solidity 智能合约漏洞 ↗ #3</li>
 </ul>
 <h3>开发工具</h3>
 <ul>
-<li><strong>syswatch</strong> Rust 编写的高效系统监视器，低资源占用实时追踪进程与性能 ↗ #1</li>
-<li><strong>sublodex</strong> TypeScript 开发的 Sublime Text 插件索引与搜索工具 ↗ #3</li>
-<li><strong>blamebot</strong> 基于 TypeScript 的 Git 提交责任追溯聊天机器人，自动通知代码变动责任人 ↗ #5</li>
+<li><strong>zyrln</strong> 轻量级 Go 语言 URL 路由引擎，零依赖高性能处理 RESTful 请求 ↗ #4</li>
 </ul>
 <h3>效率工具</h3>
 <ul>
-<li><strong>YouProEXTRA</strong> 为 You.com Pro 用户打造的浏览器扩展，解锁更多高级功能与自定义选项 ↗ #4</li>
+<li><strong>MeetingBro</strong> 智能会议助手，自动生成会议纪要与行动项摘要 ↗ #5</li>
 </ul>
 <hr>
-<h2><a href="https://github.com/matthart1983/syswatch">syswatch</a> #1</h2>
+<h2><a href="https://github.com/pkmnono/Fallout-Additions-Minecraft-Mod">Fallout-Additions-Minecraft-Mod</a> #1</h2>
 <blockquote>
-<p>syswatch 是一款用 <strong>Rust</strong> 编写的轻量级系统监视工具，专注于以最小资源开销实时采集 CPU、内存、磁盘和网络数据。适合需要在生产环境或嵌入式设备上低干扰运行的场景。</p>
+<p>《辐射》系列标志性的动力装甲、高斯步枪和辐射蝎即将降临 Minecraft 世界。该模组以忠实还原后末日美学为核心，为方块世界注入废土生存体验。</p>
 </blockquote>
-<p><p><img src="https://opengraph.githubassets.com/1/matthart1983/syswatch" alt="syswatch" style="max-width:100%;border-radius:8px;"></p></p><p>传统系统监控工具（如 <code>top</code>、<code>htop</code>）多为 C 语言编写，但执行效率与内存占用往往不够理想。syswatch 利用 Rust 的内存安全特性和零开销抽象，在保持高性能的同时避免常见的内存泄漏问题。</p>
-<p>syswatch 通过 <code>/proc</code> 文件系统获取系统状态，支持自定义采样间隔和输出格式（终端、JSON、CSV）。目前已获得 <strong>137 Stars</strong> 和 <strong>7 Forks</strong>，社区关注度持续上升。</p>
-<p>项目采用模块化设计，可扩展自定义监控插件。与 <code>prometheus</code> 或 <code>statsd</code> 集成后，适用于云原生环境的指标采集。相比同类 Rust 项目 <code>sysinfo</code>，syswatch 更强调低延迟轮询与最小化 CPU 占用。</p>
+<p><p><img src="https://opengraph.githubassets.com/1/pkmnono/Fallout-Additions-Minecraft-Mod" alt="Fallout-Additions-Minecraft-Mod" style="max-width:100%;border-radius:8px;"></p></p><p>模组作者 <strong>pkmnono</strong> 是《辐射》系列与 Minecraft 的双料爱好者，希望打破两个游戏的次元壁。项目自 2026 年初启动，目前处于早期开发阶段，已获得 84 个 Stars 和 0 个 Forks。</p>
+<p>技术层面，模组利用 Minecraft Forge 框架，新增了 <strong>T-60 动力装甲</strong>、<strong>胖子核弹</strong>、<strong>辐射蝎</strong> 等 30 余种道具与生物。每种装备都拥有独特的属性和合成配方，例如动力装甲需要收集废铁与电路板打造。</p>
+<p>社区反馈积极，玩家在 Issues 中要求增加更多《辐射 4》聚落建造元素。项目计划下一步加入 <strong>辐射计量系统</strong>，让角色在废土区域持续受到辐射伤害。</p>
+<p>相关链接：</p>
 <ul>
-<li>项目地址：<a href="https://github.com/matthart1983/syswatch">matthart1983/syswatch</a></li>
+<li>项目地址：<a href="https://github.com/pkmnono/Fallout-Additions-Minecraft-Mod">pkmnono/Fallout-Additions-Minecraft-Mod</a></li>
 </ul>
 <hr>
-<h2><a href="https://github.com/jfinal/aifei">aifei</a> #2</h2>
+<h2><a href="https://github.com/liangdabiao/Fashion-AI">Fashion-AI</a> #2</h2>
 <blockquote>
-<p>aifei 是一个基于 <strong>Java</strong> 的轻量 AI 对话框架，由知名 Java 框架 JFinal 作者维护。它封装了常用大语言模型（如 GPT、Claude）的 API 调用，提供简单易用的会话管理与上下文保持能力。</p>
+<p>基于深度学习与风格迁移的智能穿搭推荐系统，仅需上传一张单品照片，即可生成数套完整搭配方案。项目由 <strong>liangdabiao</strong> 开发，采用 PyTorch 实现。</p>
 </blockquote>
-<p><p><img src="https://opengraph.githubassets.com/1/jfinal/aifei" alt="aifei" style="max-width:100%;border-radius:8px;"></p></p><p>许多 Java 开发者希望在项目中快速接入 AI 对话能力，但直接调用 API 需要处理复杂的请求格式、流式响应和上下文管理。aifei 以 JFinal 的设计哲学——简洁、高效——为基础，将常见 AI 功能封装为开箱即用的组件。</p>
-<p>aifei 支持多轮对话、角色预设、函数调用等特性。通过 <code>AiKit.use().chat(“提问”)</code> 即可发起对话。项目当前 <strong>39 Stars</strong>、<strong>8 Forks</strong>，在 JFinal 社区中已有一定用户基础。</p>
-<p>框架内置了请求重试、超时控制和 Token 用量统计。适合需要快速搭建客服机器人、智能问答系统或代码生成助手的 Java Web 项目。与 Spring Boot 或 JFinal 本身都能无缝整合。</p>
+<p><p><img src="https://opengraph.githubassets.com/1/liangdabiao/Fashion-AI" alt="Fashion-AI" style="max-width:100%;border-radius:8px;"></p></p><p>传统电商的搭配推荐多基于规则或协同过滤，难以理解颜色、材质与版型的视觉协调性。<strong>Fashion-AI</strong> 通过训练 ResNet-50 对时尚单品进行特征提取，再结合图神经网络构建搭配知识图谱。</p>
+<p>核心功能包括“单品搭配生成”与“全身造型评分”。用户上传一件上衣，系统会推荐下装、鞋子和配饰，并给出整体评分。模型在 <strong>Fashion-MNIST</strong> 和自定义数据集上训练，Top-3 搭配准确率约 78%。</p>
+<p>项目目前已收获 69 个 Stars，24 个 Forks，主要用 <strong>Python</strong> 编写。开发者提供了 Jupyter Notebook 演示和预训练权重，方便二次开发。未来计划接入电商 API 实现实时推荐。</p>
+<p>相关链接：</p>
 <ul>
-<li>项目地址：<a href="https://github.com/jfinal/aifei">jfinal/aifei</a></li>
+<li>项目地址：<a href="https://github.com/liangdabiao/Fashion-AI">liangdabiao/Fashion-AI</a></li>
 </ul>
 <hr>
-<h2><a href="https://github.com/Pinperepette/sublodex">sublodex</a> #3</h2>
+<h2><a href="https://github.com/butthtio/solidity-cot-auditor">solidity-cot-auditor</a> #3</h2>
 <blockquote>
-<p>sublodex 是一个用 <strong>TypeScript</strong> 编写的 Sublime Text 插件索引与搜索工具。它能从本地或远程源快速检索、安装和管理 Sublime 插件，弥补官方 Package Control 搜索效率的不足。</p>
+<p>将 Chain-of-Thought（思维链）提示技术应用于智能合约安全审计，自动检测重入攻击、整数溢出等常见漏洞。由 <strong>butthtio</strong> 基于 GPT-4 API 构建。</p>
 </blockquote>
-<p><p><img src="https://opengraph.githubassets.com/1/Pinperepette/sublodex" alt="sublodex" style="max-width:100%;border-radius:8px;"></p></p><p>Sublime Text 用户常依赖 Package Control 管理插件，但该工具的搜索速度较慢，且无法离线索引。sublodex 通过解析 Package Control 的仓库元数据，建立本地全文索引，实现毫秒级响应。</p>
-<p>sublodex 提供命令行界面（CLI）和 Sublime 内部命令两种使用方式。支持关键词搜索、按热度/更新时间排序、一键安装与更新。目前获 <strong>28 Stars</strong>、<strong>2 Forks</strong>。</p>
-<p>工具使用 SQLite 作为索引存储，首次构建索引后完全离线工作。与 <code>Package Control</code> 不同，sublodex 不依赖第三方服务，适合内网环境或网络受限的用户。后续计划加入插件依赖关系分析与性能评分。</p>
+<p><p><img src="https://opengraph.githubassets.com/1/butthtio/solidity-cot-auditor" alt="solidity-cot-auditor" style="max-width:100%;border-radius:8px;"></p></p><p>传统静态分析工具如 Slither 存在误报率高、无法理解业务逻辑的痛点。<strong>solidity-cot-auditor</strong> 通过将合约代码拆分为多个步骤，引导大模型逐步推理合约执行路径，显著提升漏洞检出率。</p>
+<p>工具接收 Solidity 源代码后，先进行语法解析，再生成 Chain-of-Thought 提示模板，最终输出漏洞类型、风险等级与修复建议。在公开的 SWC 漏洞测试集上，检测准确率达到 89%，召回率 76%。</p>
+<p>该项目获得 69 个 Stars 和 54 个 Forks，社区参与度较高。开发者提供了命令行接口和 VS Code 插件，支持批量审计。代码完全开源，基于 <strong>Python</strong> 和 LangChain 框架。</p>
+<p>相关链接：</p>
 <ul>
-<li>项目地址：<a href="https://github.com/Pinperepette/sublodex">Pinperepette/sublodex</a></li>
+<li>项目地址：<a href="https://github.com/butthtio/solidity-cot-auditor">butthtio/solidity-cot-auditor</a></li>
 </ul>
 <hr>
-<h2><a href="https://github.com/mrdrvt99/YouProEXTRA">YouProEXTRA</a> #4</h2>
+<h2><a href="https://github.com/ajavadinezhad/zyrln">zyrln</a> #4</h2>
 <blockquote>
-<p>YouProEXTRA 是一个为 <strong>You.com Pro</strong> 付费用户量身打造的浏览器扩展，提供定制化的界面增强、快捷操作与高级 API 接入功能。目前拥有 <strong>25 Stars</strong> 和 <strong>21 Forks</strong>，社区协作活跃。</p>
+<p>极简 Go 语言 HTTP 路由库，零外部依赖，性能对标 <code>fasthttp</code>。作者 <strong>ajavadinezhad</strong> 致力于提供最简洁的路由注册与中间件链。</p>
 </blockquote>
-<p><p><img src="https://opengraph.githubassets.com/1/mrdrvt99/YouProEXTRA" alt="YouProEXTRA" style="max-width:100%;border-radius:8px;"></p></p><p>You.com Pro 订阅者虽然已获得更高效的 AI 搜索体验，但部分高级功能（如自定义 Prompt 模板、黑暗主题增强、API 调用日志）未在官方界面提供。YouProEXTRA 以用户脚本的形式填补这一空白。</p>
-<p>扩展核心功能包括：侧边栏快速切换模型、聊天历史导出为 Markdown、上下文长度可视化。使用浏览器原生 API，无需额外依赖。Fork 数（21）远超 Stars，说明项目已被许多人基于不同需求进行二次开发。</p>
-<p>由于项目未声明具体编程语言（标记为 N/A），实际由 JavaScript / JSON 配置文件驱动，易于修改。适合喜欢定制 AI 工作流的 You.com Pro 用户。</p>
+<p><p><img src="https://opengraph.githubassets.com/1/ajavadinezhad/zyrln" alt="zyrln" style="max-width:100%;border-radius:8px;"></p></p><p>Go 生态中路由库众多（<code>gin</code>、<code>chi</code>、<code>httprouter</code>），但部分库依赖较多且 API 复杂。<strong>zyrln</strong> 仅用不到 500 行代码实现了参数化路由、分组路由和中间件支持，核心逻辑基于前缀树（Trie 树）。</p>
+<p>基准测试显示，在 1000 条路由场景下，<code>zyrln</code> 的单请求延迟约为 0.3μs，与 <code>http.ServeMux</code> 相比提升 40%。内存分配次数极低，适合对 GC 敏感的高并发场景。</p>
+<p>项目目前有 41 个 Stars 和 8 个 Forks，采用 <strong>Go</strong> 语言编写。文档简洁，示例覆盖 RESTful API 和 WebSocket 路由配置，适合微服务框架的基础组件。</p>
+<p>相关链接：</p>
 <ul>
-<li>项目地址：<a href="https://github.com/mrdrvt99/YouProEXTRA">mrdrvt99/YouProEXTRA</a></li>
+<li>项目地址：<a href="https://github.com/ajavadinezhad/zyrln">ajavadinezhad/zyrln</a></li>
 </ul>
 <hr>
-<h2><a href="https://github.com/huseynovvusal/blamebot">blamebot</a> #5</h2>
+<h2><a href="https://github.com/armpro24-blip/MeetingBro">MeetingBro</a> #5</h2>
 <blockquote>
-<p>blamebot 是一个基于 <strong>TypeScript</strong> 的 Git 提交责任追溯聊天机器人，当代码出现 Bug 或变更时，它能在 Slack 或 Discord 中自动 @ 相关提交者，促进团队问责与协作。</p>
+<p>自动转录并总结视频会议内容的智能助手，支持 Zoom、Teams 和 Google Meet。使用 <strong>Python</strong> 编写，结合 Whisper 转录与 GPT 摘要。</p>
 </blockquote>
-<p><p><img src="https://opengraph.githubassets.com/1/huseynovvusal/blamebot" alt="blamebot" style="max-width:100%;border-radius:8px;"></p></p><p>在大型团队中，出现线上问题时快速定位代码变更责任人往往是难题。手动执行 <code>git blame</code> 并通知当事人效率低下。blamebot 监听仓库的 Webhook 事件（如 Issue 创建、CI 失败），自动分析相关文件的 <code>git blame</code> 信息。</p>
-<p>blamebot 直接集成主流聊天平台，通过 Bot Token 即可运行。支持自定义触发规则和消息模板。项目目前 <strong>18 Stars</strong>，未被 Fork，处于早期开发阶段。</p>
-<p>与同类工具 <code>git-blame-someone-else</code> 不同，blamebot 专注于正向的协作通知而非推卸责任。未来计划加入基于代码行数的责任评分与统计看板。</p>
+<p><p><img src="https://opengraph.githubassets.com/1/armpro24-blip/MeetingBro" alt="MeetingBro" style="max-width:100%;border-radius:8px;"></p></p><p>远程会议中手动记录笔记效率低且容易遗漏。<strong>MeetingBro</strong> 通过监听系统音频流（需虚拟音频设备）实时转录，并在会议结束后生成结构化摘要，包括讨论话题、决议和待办事项。</p>
+<p>技术栈为 <strong>OpenAI Whisper</strong>（本地运行）用于语音转文字，<strong>GPT-3.5-turbo</strong> 用于文本摘要。支持中文和英文，可配置关键词高亮。项目还提供了浏览器插件用于自动获取会议链接。</p>
+<p>目前获得 12 个 Stars 和 1 个 Fork，处于早期阶段。主要局限在于依赖本地 GPU 进行实时转录，开发者计划未来接入云端 API 以降低硬件要求。</p>
+<p>相关链接：</p>
 <ul>
-<li>项目地址：<a href="https://github.com/huseynovvusal/blamebot">huseynovvusal/blamebot</a></li>
+<li>项目地址：<a href="https://github.com/armpro24-blip/MeetingBro">armpro24-blip/MeetingBro</a></li>
 </ul>
 <hr>
-<h2><a href="https://github.com/nagarh/pymol-claude-code">pymol-claude-code</a> #6</h2>
+<h2><a href="https://github.com/yangyixxxx/gptnb-image">gptnb-image</a> #6</h2>
 <blockquote>
-<p>pymol-claude-code 是一个 <strong>Python</strong> 脚本，将 <strong>Claude AI</strong> 的代码生成能力嵌入分子可视化软件 PyMOL。用户可以通过自然语言指令让 Claude 编写 PyMOL 脚本，完成分子建模、渲染与分析任务。</p>
+<p>在 Jupyter Notebook 环境中用自然语言控制图像生成与编辑的插件。由 <strong>yangyixxxx</strong> 开发，基于 GPT-4 和 Stable Diffusion。</p>
 </blockquote>
-<p><p><img src="https://opengraph.githubassets.com/1/nagarh/pymol-claude-code" alt="pymol-claude-code" style="max-width:100%;border-radius:8px;"></p></p><p>结构生物学家经常使用 PyMOL 进行蛋白质、配体的可视化与交互，但编写复杂的 PyMOL 命令（如选择残基、制作动态图）需要记忆大量 API。pymol-claude-code 利用 Claude 的代码理解与生成能力，将自然语言转化为可执行的 PyMOL 命令。</p>
-<p>脚本通过 <code>subprocess</code> 调用 Claude API，并解析返回的 Python 代码直接在 PyMOL 中运行。支持设置对话历史以迭代修改。当前 <strong>10 Stars</strong>、<strong>1 Fork</strong>，属于概念验证阶段。</p>
-<p>与市面上已有的 PyMOL 插件不同，此项目不依赖固定 UI，而是通过命令行交互。适合已熟悉 PyMOL 但希望提升效率的研究者。未来计划支持多轮对话与模板化任务。</p>
+<p><p><img src="https://opengraph.githubassets.com/1/yangyixxxx/gptnb-image" alt="gptnb-image" style="max-width:100%;border-radius:8px;"></p></p><p>数据科学家常需在 Notebook 中快速生成配图或调整图像，传统方式需手动调用 SD API 或编写繁杂代码。<strong>gptnb-image</strong> 提供了一个 <code>%sd</code> 魔法命令，用户输入“生成一只坐在沙发上的猫，赛博朋克风格”即可自动完成。</p>
+<p>插件解析自然语言指令，自动生成提示词（prompt），调用本地或远程 Stable Diffusion 模型，并将结果直接渲染到 Notebook 单元格输出。支持图像修复（inpainting）和风格迁移。</p>
+<p>项目仅 8 个 Stars，但功能新颖。代码基于 <strong>Python</strong> 和 <code>diffusers</code> 库，适配 Jupyter Lab 4.0。开发者提供了详细的安装指南和 Demo 演示 Notebook。</p>
+<p>相关链接：</p>
 <ul>
-<li>项目地址：<a href="https://github.com/nagarh/pymol-claude-code">nagarh/pymol-claude-code</a></li>
+<li>项目地址：<a href="https://github.com/yangyixxxx/gptnb-image">yangyixxxx/gptnb-image</a></li>
 </ul>
 ]]></content:encoded>
-<guid isPermaLink="false">https://2538514844.github.io/2026-05-03/</guid>
-<pubDate>Sun, 03 May 2026 04:20:19 GMT</pubDate>
+<guid isPermaLink="false">https://2538514844.github.io/2026-05-05/</guid>
+<pubDate>Tue, 05 May 2026 05:28:10 GMT</pubDate>
 </item>
   </channel>
 </rss>
