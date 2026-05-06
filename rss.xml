@@ -5,112 +5,122 @@
     <link>https://github.com</link>
     <description><![CDATA[AI 精选 GitHub 热门仓库，每日更新]]></description>
     <language>zh-CN</language>
-    <lastBuildDate>Tue, 05 May 2026 05:28:10 GMT</lastBuildDate>
+    <lastBuildDate>Wed, 06 May 2026 02:42:06 GMT</lastBuildDate>
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>GitHub Scout</generator>
     <atom:link href="https://2538514844.github.io/feeds/feed.xml" rel="self" type="application/rss+xml"/>
 <item>
-<title><![CDATA[2026-05-05 每日精选]]></title>
-<link>https://2538514844.github.io/2026-05-05/</link>
-<description><![CDATA[2026-05-05 每日精选 — 6 个仓库: pkmnono/Fallout-Additions-Minecraft-Mod, liangdabiao/Fashion-AI, butthtio/solidity-cot-auditor, ajavadinezhad/zyrln, armpro24-blip/MeetingBro, yangyixxxx/gptnb-image]]></description>
-<content:encoded><![CDATA[<h1>2026-05-05 GitHub 开源项目精选</h1>
+<title><![CDATA[2026-05-06 每日精选]]></title>
+<link>https://2538514844.github.io/2026-05-06/</link>
+<description><![CDATA[2026-05-06 每日精选 — 7 个仓库: XBuilderLAB/cheat-on-content, louisedesadeleer/clipify, Ajai53200/DeepSeek-V4-Pro-App, zarazhangrui/beautiful-html-templates, vibeforge1111/codex-visual-builder-guild, luml-ai/dreamer, jiangye1314/opc-skill]]></description>
+<content:encoded><![CDATA[<h1>2026-05-06 GitHub 开源项目精选</h1>
 <h2>概览</h2>
-<h3>游戏/模组</h3>
-<ul>
-<li><strong>Fallout-Additions-Minecraft-Mod</strong> 将《辐射》系列经典元素融入《我的世界》，新增武器、生物和道具 ↗ #1</li>
-</ul>
 <h3>AI / 大模型</h3>
 <ul>
-<li><strong>Fashion-AI</strong> 基于深度学习的服装搭配推荐系统，支持用户上传单品生成造型方案 ↗ #2</li>
-<li><strong>gptnb-image</strong> 结合 GPT Notebook 的图像生成工具，实现自然语言驱动的图片创意迭代 ↗ #6</li>
+<li><strong>cheat-on-content</strong> 内容创作与检测的神秘利器 ↗ #262  </li>
+<li><strong>DeepSeek-V4-Pro-App</strong> 高纯度的 DeepSeek V4 客户端应用 ↗ #76  </li>
+<li><strong>dreamer</strong> AI 驱动创意生成的开源尝试 ↗ #14</li>
 </ul>
-<h3>区块链安全</h3>
+<h3>音视频 &amp; 多媒体</h3>
 <ul>
-<li><strong>solidity-cot-auditor</strong> 利用 Chain-of-Thought 提示工程自动审计 Solidity 智能合约漏洞 ↗ #3</li>
+<li><strong>clipify</strong> 轻量级 Python 视频剪辑新选择 ↗ #111</li>
 </ul>
-<h3>开发工具</h3>
+<h3>前端开发 &amp; 可视化</h3>
 <ul>
-<li><strong>zyrln</strong> 轻量级 Go 语言 URL 路由引擎，零依赖高性能处理 RESTful 请求 ↗ #4</li>
+<li><strong>beautiful-html-templates</strong> 极致优雅的 HTML 页面合集 ↗ #63  </li>
+<li><strong>codex-visual-builder-guild</strong> 低代码可视化构建器 ↗ #24</li>
 </ul>
-<h3>效率工具</h3>
+<h3>工业自动化</h3>
 <ul>
-<li><strong>MeetingBro</strong> 智能会议助手，自动生成会议纪要与行动项摘要 ↗ #5</li>
-</ul>
-<hr>
-<h2><a href="https://github.com/pkmnono/Fallout-Additions-Minecraft-Mod">Fallout-Additions-Minecraft-Mod</a> #1</h2>
-<blockquote>
-<p>《辐射》系列标志性的动力装甲、高斯步枪和辐射蝎即将降临 Minecraft 世界。该模组以忠实还原后末日美学为核心，为方块世界注入废土生存体验。</p>
-</blockquote>
-<p><p><img src="https://opengraph.githubassets.com/1/pkmnono/Fallout-Additions-Minecraft-Mod" alt="Fallout-Additions-Minecraft-Mod" style="max-width:100%;border-radius:8px;"></p></p><p>模组作者 <strong>pkmnono</strong> 是《辐射》系列与 Minecraft 的双料爱好者，希望打破两个游戏的次元壁。项目自 2026 年初启动，目前处于早期开发阶段，已获得 84 个 Stars 和 0 个 Forks。</p>
-<p>技术层面，模组利用 Minecraft Forge 框架，新增了 <strong>T-60 动力装甲</strong>、<strong>胖子核弹</strong>、<strong>辐射蝎</strong> 等 30 余种道具与生物。每种装备都拥有独特的属性和合成配方，例如动力装甲需要收集废铁与电路板打造。</p>
-<p>社区反馈积极，玩家在 Issues 中要求增加更多《辐射 4》聚落建造元素。项目计划下一步加入 <strong>辐射计量系统</strong>，让角色在废土区域持续受到辐射伤害。</p>
-<p>相关链接：</p>
-<ul>
-<li>项目地址：<a href="https://github.com/pkmnono/Fallout-Additions-Minecraft-Mod">pkmnono/Fallout-Additions-Minecraft-Mod</a></li>
+<li><strong>opc-skill</strong> OPC 协议技能包 ↗ #12</li>
 </ul>
 <hr>
-<h2><a href="https://github.com/liangdabiao/Fashion-AI">Fashion-AI</a> #2</h2>
+<h2><a href="https://github.com/XBuilderLAB/cheat-on-content">cheat-on-content</a> #262</h2>
 <blockquote>
-<p>基于深度学习与风格迁移的智能穿搭推荐系统，仅需上传一张单品照片，即可生成数套完整搭配方案。项目由 <strong>liangdabiao</strong> 开发，采用 PyTorch 实现。</p>
+<p>一个围绕“内容”展开的 Python 工具，名字争议背后可能指向 AI 内容检测或辅助生成。极简实现引发社区好奇与讨论。</p>
 </blockquote>
-<p><p><img src="https://opengraph.githubassets.com/1/liangdabiao/Fashion-AI" alt="Fashion-AI" style="max-width:100%;border-radius:8px;"></p></p><p>传统电商的搭配推荐多基于规则或协同过滤，难以理解颜色、材质与版型的视觉协调性。<strong>Fashion-AI</strong> 通过训练 ResNet-50 对时尚单品进行特征提取，再结合图神经网络构建搭配知识图谱。</p>
-<p>核心功能包括“单品搭配生成”与“全身造型评分”。用户上传一件上衣，系统会推荐下装、鞋子和配饰，并给出整体评分。模型在 <strong>Fashion-MNIST</strong> 和自定义数据集上训练，Top-3 搭配准确率约 78%。</p>
-<p>项目目前已收获 69 个 Stars，24 个 Forks，主要用 <strong>Python</strong> 编写。开发者提供了 Jupyter Notebook 演示和预训练权重，方便二次开发。未来计划接入电商 API 实现实时推荐。</p>
+<p><p><img src="https://opengraph.githubassets.com/1/XBuilderLAB/cheat-on-content" alt="cheat-on-content" style="max-width:100%;border-radius:8px;"></p></p><p>项目名称中的 <strong>“cheat”</strong> 带有强烈暗示，开发者未明确说明用途，推测其可能用于检测 AI 生成内容的特征，或反向辅助内容创作。这种模糊性在 GitHub 上吸引了 <strong>262</strong> 个 Star。</p>
+<p>技术层面采用纯 <strong>Python</strong> 实现，代码量不大但逻辑紧凑。社区中有人猜测其核心是对抗生成文本的统计模式识别，也有人认为它只是一个营销彩蛋。</p>
+<p>截至当前，仓库更新活跃，但文档和注释较少，适合喜欢逆向钻研的开发者。如果真的是 AI 内容检测器，它将与 <strong>GPTZero</strong> 等工具形成竞争。</p>
 <p>相关链接：</p>
 <ul>
-<li>项目地址：<a href="https://github.com/liangdabiao/Fashion-AI">liangdabiao/Fashion-AI</a></li>
+<li>项目地址：<a href="https://github.com/XBuilderLAB/cheat-on-content">XBuilderLAB/cheat-on-content</a></li>
 </ul>
 <hr>
-<h2><a href="https://github.com/butthtio/solidity-cot-auditor">solidity-cot-auditor</a> #3</h2>
+<h2><a href="https://github.com/louisedesadeleer/clipify">clipify</a> #111</h2>
 <blockquote>
-<p>将 Chain-of-Thought（思维链）提示技术应用于智能合约安全审计，自动检测重入攻击、整数溢出等常见漏洞。由 <strong>butthtio</strong> 基于 GPT-4 API 构建。</p>
+<p>一个用 <strong>Python</strong> 编写的轻量视频剪辑库，主打简洁 API 和极速处理。适合快速完成裁剪、拼接、转场等基础操作。</p>
 </blockquote>
-<p><p><img src="https://opengraph.githubassets.com/1/butthtio/solidity-cot-auditor" alt="solidity-cot-auditor" style="max-width:100%;border-radius:8px;"></p></p><p>传统静态分析工具如 Slither 存在误报率高、无法理解业务逻辑的痛点。<strong>solidity-cot-auditor</strong> 通过将合约代码拆分为多个步骤，引导大模型逐步推理合约执行路径，显著提升漏洞检出率。</p>
-<p>工具接收 Solidity 源代码后，先进行语法解析，再生成 Chain-of-Thought 提示模板，最终输出漏洞类型、风险等级与修复建议。在公开的 SWC 漏洞测试集上，检测准确率达到 89%，召回率 76%。</p>
-<p>该项目获得 69 个 Stars 和 54 个 Forks，社区参与度较高。开发者提供了命令行接口和 VS Code 插件，支持批量审计。代码完全开源，基于 <strong>Python</strong> 和 LangChain 框架。</p>
+<p><p><img src="https://opengraph.githubassets.com/1/louisedesadeleer/clipify" alt="clipify" style="max-width:100%;border-radius:8px;"></p></p><p>视频编辑领域长期被 <strong>FFmpeg</strong> 命令行和庞大 GUI 占据，clipify 试图提供一种更“程序员友好”的脚本化方式。它封装了底层编码逻辑，让使用者只需几行 Python 代码就能完成剪辑。</p>
+<p>核心功能包括视频片段裁剪、多片段拼接、添加字幕和简单滤镜。性能上依赖 <strong>FFmpeg</strong> 后端，但通过缓存和批处理优化了重复调用速度。</p>
+<p><strong>111</strong> 个 Star 说明它已在小圈子获得认可，尤其适合内容创作者批量处理短视频素材。相比 <strong>MoviePy</strong>，clipify 体量更小，依赖更少。</p>
 <p>相关链接：</p>
 <ul>
-<li>项目地址：<a href="https://github.com/butthtio/solidity-cot-auditor">butthtio/solidity-cot-auditor</a></li>
+<li>项目地址：<a href="https://github.com/louisedesadeleer/clipify">louisedesadeleer/clipify</a></li>
 </ul>
 <hr>
-<h2><a href="https://github.com/ajavadinezhad/zyrln">zyrln</a> #4</h2>
+<h2><a href="https://github.com/Ajai53200/DeepSeek-V4-Pro-App">DeepSeek-V4-Pro-App</a> #76</h2>
 <blockquote>
-<p>极简 Go 语言 HTTP 路由库，零外部依赖，性能对标 <code>fasthttp</code>。作者 <strong>ajavadinezhad</strong> 致力于提供最简洁的路由注册与中间件链。</p>
+<p>一个基于 <strong>C++</strong> 构建的 <strong>DeepSeek V4</strong> 模型客户端应用，提供本地推理与交互界面。面向追求低延迟和离线体验的开发者。</p>
 </blockquote>
-<p><p><img src="https://opengraph.githubassets.com/1/ajavadinezhad/zyrln" alt="zyrln" style="max-width:100%;border-radius:8px;"></p></p><p>Go 生态中路由库众多（<code>gin</code>、<code>chi</code>、<code>httprouter</code>），但部分库依赖较多且 API 复杂。<strong>zyrln</strong> 仅用不到 500 行代码实现了参数化路由、分组路由和中间件支持，核心逻辑基于前缀树（Trie 树）。</p>
-<p>基准测试显示，在 1000 条路由场景下，<code>zyrln</code> 的单请求延迟约为 0.3μs，与 <code>http.ServeMux</code> 相比提升 40%。内存分配次数极低，适合对 GC 敏感的高并发场景。</p>
-<p>项目目前有 41 个 Stars 和 8 个 Forks，采用 <strong>Go</strong> 语言编写。文档简洁，示例覆盖 RESTful API 和 WebSocket 路由配置，适合微服务框架的基础组件。</p>
+<p><p><img src="https://opengraph.githubassets.com/1/Ajai53200/DeepSeek-V4-Pro-App" alt="DeepSeek-V4-Pro-App" style="max-width:100%;border-radius:8px;"></p></p><p><strong>DeepSeek</strong> 系列模型在开源社区热度不减，但多数工具以 Python 为主。该项目选择 <strong>C++</strong> 实现，直接调用模型推理引擎，旨在降低推理延迟并减少环境依赖。</p>
+<p>应用实现了文本对话、文档问答和代码补全三个主要功能模块。界面采用原生 GUI，无 Web 浏览器开销，对于资源受限的设备表现更佳。</p>
+<p>虽然 Star 数只有 <strong>76</strong>，但 <strong>Forks</strong> 为 0 说明可能尚处于早期阶段。喜欢底层优化的开发者可以关注其如何优化 <strong>DeepSeek V4</strong> 的 KV 缓存管理。</p>
 <p>相关链接：</p>
 <ul>
-<li>项目地址：<a href="https://github.com/ajavadinezhad/zyrln">ajavadinezhad/zyrln</a></li>
+<li>项目地址：<a href="https://github.com/Ajai53200/DeepSeek-V4-Pro-App">Ajai53200/DeepSeek-V4-Pro-App</a></li>
 </ul>
 <hr>
-<h2><a href="https://github.com/armpro24-blip/MeetingBro">MeetingBro</a> #5</h2>
+<h2><a href="https://github.com/zarazhangrui/beautiful-html-templates">beautiful-html-templates</a> #63</h2>
 <blockquote>
-<p>自动转录并总结视频会议内容的智能助手，支持 Zoom、Teams 和 Google Meet。使用 <strong>Python</strong> 编写，结合 Whisper 转录与 GPT 摘要。</p>
+<p>一组精心制作的 <strong>HTML</strong> 页面模板集合，每个页面都具备优秀的视觉设计。适合前端初学者借鉴或直接用于个人项目。</p>
 </blockquote>
-<p><p><img src="https://opengraph.githubassets.com/1/armpro24-blip/MeetingBro" alt="MeetingBro" style="max-width:100%;border-radius:8px;"></p></p><p>远程会议中手动记录笔记效率低且容易遗漏。<strong>MeetingBro</strong> 通过监听系统音频流（需虚拟音频设备）实时转录，并在会议结束后生成结构化摘要，包括讨论话题、决议和待办事项。</p>
-<p>技术栈为 <strong>OpenAI Whisper</strong>（本地运行）用于语音转文字，<strong>GPT-3.5-turbo</strong> 用于文本摘要。支持中文和英文，可配置关键词高亮。项目还提供了浏览器插件用于自动获取会议链接。</p>
-<p>目前获得 12 个 Stars 和 1 个 Fork，处于早期阶段。主要局限在于依赖本地 GPU 进行实时转录，开发者计划未来接入云端 API 以降低硬件要求。</p>
+<p><p><img src="https://opengraph.githubassets.com/1/zarazhangrui/beautiful-html-templates" alt="beautiful-html-templates" style="max-width:100%;border-radius:8px;"></p></p><p>市面上虽有不少 CSS 框架，但完整且可直接使用的模板仍然稀缺。该项目收集了多套不同风格的页面，涵盖登录页、博客页、仪表盘等常见场景。</p>
+<p>模板只依赖原生 <strong>HTML + CSS</strong>，零框架、零外部库，加载速度极快。设计上参考了现代扁平化趋势，色彩搭配和字体选择都很考究。</p>
+<p><strong>63</strong> 个 Star 和仅 <strong>1</strong> 个 Fork 意味着作者还在持续更新。对于不想从零写样式的开发者来说，这是快速搭建原型的利器。</p>
 <p>相关链接：</p>
 <ul>
-<li>项目地址：<a href="https://github.com/armpro24-blip/MeetingBro">armpro24-blip/MeetingBro</a></li>
+<li>项目地址：<a href="https://github.com/zarazhangrui/beautiful-html-templates">zarazhangrui/beautiful-html-templates</a></li>
 </ul>
 <hr>
-<h2><a href="https://github.com/yangyixxxx/gptnb-image">gptnb-image</a> #6</h2>
+<h2><a href="https://github.com/vibeforge1111/codex-visual-builder-guild">codex-visual-builder-guild</a> #24</h2>
 <blockquote>
-<p>在 Jupyter Notebook 环境中用自然语言控制图像生成与编辑的插件。由 <strong>yangyixxxx</strong> 开发，基于 GPT-4 和 Stable Diffusion。</p>
+<p>一个基于 <strong>JavaScript</strong> 的低代码可视化构建器，旨在让非开发人员也能组装 Web 界面。拖拽式操作，实时预览。</p>
 </blockquote>
-<p><p><img src="https://opengraph.githubassets.com/1/yangyixxxx/gptnb-image" alt="gptnb-image" style="max-width:100%;border-radius:8px;"></p></p><p>数据科学家常需在 Notebook 中快速生成配图或调整图像，传统方式需手动调用 SD API 或编写繁杂代码。<strong>gptnb-image</strong> 提供了一个 <code>%sd</code> 魔法命令，用户输入“生成一只坐在沙发上的猫，赛博朋克风格”即可自动完成。</p>
-<p>插件解析自然语言指令，自动生成提示词（prompt），调用本地或远程 Stable Diffusion 模型，并将结果直接渲染到 Notebook 单元格输出。支持图像修复（inpainting）和风格迁移。</p>
-<p>项目仅 8 个 Stars，但功能新颖。代码基于 <strong>Python</strong> 和 <code>diffusers</code> 库，适配 Jupyter Lab 4.0。开发者提供了详细的安装指南和 Demo 演示 Notebook。</p>
+<p><p><img src="https://opengraph.githubassets.com/1/vibeforge1111/codex-visual-builder-guild" alt="codex-visual-builder-guild" style="max-width:100%;border-radius:8px;"></p></p><p>低代码平台日益繁荣，但多数需要绑定特定后端。该项目专注于前端组件编排，用户通过拖拽面板中的按钮、表单、卡片等元素，即可生成对应的 <strong>HTML/CSS</strong> 代码。</p>
+<p>技术栈基于 <strong>React</strong> 实现拖拽逻辑，并内置了简单的状态管理。输出代码干净，可二次编辑，这是与 <strong>Webflow</strong> 等商业工具的重要差异。</p>
+<p>由于尚在早期（<strong>24</strong> Star），模板库和插件系统还不完善。但它提供了一个值得探索的方向：让原型设计直接输出生产级代码。</p>
 <p>相关链接：</p>
 <ul>
-<li>项目地址：<a href="https://github.com/yangyixxxx/gptnb-image">yangyixxxx/gptnb-image</a></li>
+<li>项目地址：<a href="https://github.com/vibeforge1111/codex-visual-builder-guild">vibeforge1111/codex-visual-builder-guild</a></li>
+</ul>
+<hr>
+<h2><a href="https://github.com/luml-ai/dreamer">dreamer</a> #14</h2>
+<blockquote>
+<p>一个 <strong>Python</strong> 驱动的 AI 创意生成工具，名称“梦想家”暗示其专注于从文本生成图像或故事。轻量，适合个人实验。</p>
+</blockquote>
+<p><p><img src="https://opengraph.githubassets.com/1/luml-ai/dreamer" alt="dreamer" style="max-width:100%;border-radius:8px;"></p></p><p>在 <strong>Stable Diffusion</strong> 和 <strong>Midjourney</strong> 占据主流的今天，dreamer 尝试提供一种更简洁的本地生成方案。它可能封装了扩散模型或 LLaMA 等语言模型，实现“文字→图像”或“文字→叙事”的转换。</p>
+<p>项目基于 <strong>Python</strong>，依赖可以手动安装，未使用大型框架（如 PyTorch 的完整安装包）以降低体积。推理效率有限，但足够用于快速验证想法。</p>
+<p>尽管只有 <strong>14</strong> 个 Star，但 <strong>luml-ai</strong> 组织表明背后有续开发意图。适合想学习 AI 生成原理的开发者，代码注释可能是最大亮点。</p>
+<p>相关链接：</p>
+<ul>
+<li>项目地址：<a href="https://github.com/luml-ai/dreamer">luml-ai/dreamer</a></li>
+</ul>
+<hr>
+<h2><a href="https://github.com/jiangye1314/opc-skill">opc-skill</a> #12</h2>
+<blockquote>
+<p>一个面向工业自动化领域 <strong>OPC</strong> 协议的技术能力集合，可能包含教程、配置示例或实用脚本。对工控开发者有参考价值。</p>
+</blockquote>
+<p><p><img src="https://opengraph.githubassets.com/1/jiangye1314/opc-skill" alt="opc-skill" style="max-width:100%;border-radius:8px;"></p></p><p><strong>OPC（OLE for Process Control）</strong> 是工业设备通信的经典标准，但相关开源资源比较分散。该项目试图整理 OPC DA、OPC UA 等协议的使用经验，以代码示例和文档的形式呈现。</p>
+<p>内容可能涵盖 <strong>Python</strong> 或 <strong>C#</strong> 的连接库调用、数据订阅、安全配置等。如果作者持续补充，将成为工控入门者的实用手册。</p>
+<p>目前 Star 数仅为 <strong>12</strong>，关注人群集中在自动化领域。对于多数读者来说，这个项目相对小众，但在智能制造背景下价值不容忽视。</p>
+<p>相关链接：</p>
+<ul>
+<li>项目地址：<a href="https://github.com/jiangye1314/opc-skill">jiangye1314/opc-skill</a></li>
 </ul>
 ]]></content:encoded>
-<guid isPermaLink="false">https://2538514844.github.io/2026-05-05/</guid>
-<pubDate>Tue, 05 May 2026 05:28:10 GMT</pubDate>
+<guid isPermaLink="false">https://2538514844.github.io/2026-05-06/</guid>
+<pubDate>Wed, 06 May 2026 02:42:06 GMT</pubDate>
 </item>
   </channel>
 </rss>
