@@ -5,122 +5,118 @@
     <link>https://github.com</link>
     <description><![CDATA[AI 精选 GitHub 热门仓库，每日更新]]></description>
     <language>zh-CN</language>
-    <lastBuildDate>Wed, 06 May 2026 02:42:06 GMT</lastBuildDate>
+    <lastBuildDate>Thu, 07 May 2026 01:57:45 GMT</lastBuildDate>
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>GitHub Scout</generator>
     <atom:link href="https://2538514844.github.io/feeds/feed.xml" rel="self" type="application/rss+xml"/>
 <item>
-<title><![CDATA[2026-05-06 每日精选]]></title>
-<link>https://2538514844.github.io/2026-05-06/</link>
-<description><![CDATA[2026-05-06 每日精选 — 7 个仓库: XBuilderLAB/cheat-on-content, louisedesadeleer/clipify, Ajai53200/DeepSeek-V4-Pro-App, zarazhangrui/beautiful-html-templates, vibeforge1111/codex-visual-builder-guild, luml-ai/dreamer, jiangye1314/opc-skill]]></description>
-<content:encoded><![CDATA[<h1>2026-05-06 GitHub 开源项目精选</h1>
+<title><![CDATA[2026-05-07 每日精选]]></title>
+<link>https://2538514844.github.io/2026-05-07/</link>
+<description><![CDATA[2026-05-07 每日精选 — 6 个仓库: WeritoP/BetterNitroDiscord, lightseekorg/tokenspeed, cv-cat/XHS_ALL_IN_ONE, LuisAlexisSalazar/Zelda-Minish-Cap-PC, TheGreatAzizi/AzuDL-GC2GD, hexianWeb/tsl-scifi-earth]]></description>
+<content:encoded><![CDATA[<h1>2026-05-07 GitHub 开源项目精选</h1>
 <h2>概览</h2>
-<h3>AI / 大模型</h3>
+<h3>社交媒体与通讯工具</h3>
 <ul>
-<li><strong>cheat-on-content</strong> 内容创作与检测的神秘利器 ↗ #262  </li>
-<li><strong>DeepSeek-V4-Pro-App</strong> 高纯度的 DeepSeek V4 客户端应用 ↗ #76  </li>
-<li><strong>dreamer</strong> AI 驱动创意生成的开源尝试 ↗ #14</li>
+<li><strong>BetterNitroDiscord</strong> Discord Nitro 功能模拟，绕过付费墙 ↗ #1</li>
+<li><strong>XHS_ALL_IN_ONE</strong> 小红书全链路工具集，采集+发布一站式 ↗ #3</li>
 </ul>
-<h3>音视频 &amp; 多媒体</h3>
+<h3>AI/大模型</h3>
 <ul>
-<li><strong>clipify</strong> 轻量级 Python 视频剪辑新选择 ↗ #111</li>
+<li><strong>tokenspeed</strong> 轻量级 LLM 令牌生成速度基准测试工具 ↗ #2</li>
 </ul>
-<h3>前端开发 &amp; 可视化</h3>
+<h3>游戏</h3>
 <ul>
-<li><strong>beautiful-html-templates</strong> 极致优雅的 HTML 页面合集 ↗ #63  </li>
-<li><strong>codex-visual-builder-guild</strong> 低代码可视化构建器 ↗ #24</li>
+<li><strong>Zelda-Minish-Cap-PC</strong> 《塞尔达传说 缩小帽》纯 C++ PC 原生移植 ↗ #4</li>
 </ul>
-<h3>工业自动化</h3>
+<h3>下载与效率工具</h3>
 <ul>
-<li><strong>opc-skill</strong> OPC 协议技能包 ↗ #12</li>
+<li><strong>AzuDL-GC2GD</strong> 从 Google Colab 直传文件到 Google Drive 的 Python 脚本 ↗ #5</li>
 </ul>
-<hr>
-<h2><a href="https://github.com/XBuilderLAB/cheat-on-content">cheat-on-content</a> #262</h2>
-<blockquote>
-<p>一个围绕“内容”展开的 Python 工具，名字争议背后可能指向 AI 内容检测或辅助生成。极简实现引发社区好奇与讨论。</p>
-</blockquote>
-<p><p><img src="https://opengraph.githubassets.com/1/XBuilderLAB/cheat-on-content" alt="cheat-on-content" style="max-width:100%;border-radius:8px;"></p></p><p>项目名称中的 <strong>“cheat”</strong> 带有强烈暗示，开发者未明确说明用途，推测其可能用于检测 AI 生成内容的特征，或反向辅助内容创作。这种模糊性在 GitHub 上吸引了 <strong>262</strong> 个 Star。</p>
-<p>技术层面采用纯 <strong>Python</strong> 实现，代码量不大但逻辑紧凑。社区中有人猜测其核心是对抗生成文本的统计模式识别，也有人认为它只是一个营销彩蛋。</p>
-<p>截至当前，仓库更新活跃，但文档和注释较少，适合喜欢逆向钻研的开发者。如果真的是 AI 内容检测器，它将与 <strong>GPTZero</strong> 等工具形成竞争。</p>
-<p>相关链接：</p>
+<h3>3D 可视化</h3>
 <ul>
-<li>项目地址：<a href="https://github.com/XBuilderLAB/cheat-on-content">XBuilderLAB/cheat-on-content</a></li>
+<li><strong>tsl-scifi-earth</strong> Three.js 科幻风格交互地球，动态特效醒目 ↗ #6</li>
 </ul>
 <hr>
-<h2><a href="https://github.com/louisedesadeleer/clipify">clipify</a> #111</h2>
+<h2><a href="https://github.com/WeritoP/BetterNitroDiscord">BetterNitroDiscord</a> #1</h2>
 <blockquote>
-<p>一个用 <strong>Python</strong> 编写的轻量视频剪辑库，主打简洁 API 和极速处理。适合快速完成裁剪、拼接、转场等基础操作。</p>
+<p>一个模拟 <strong>Discord Nitro</strong> 功能的客户端增强脚本，让免费用户也能使用自定义表情、贴纸、高质量上传等付费特性。社区关注度较高，已获 <strong>463 Stars</strong> 和 <strong>91 Forks</strong>。</p>
 </blockquote>
-<p><p><img src="https://opengraph.githubassets.com/1/louisedesadeleer/clipify" alt="clipify" style="max-width:100%;border-radius:8px;"></p></p><p>视频编辑领域长期被 <strong>FFmpeg</strong> 命令行和庞大 GUI 占据，clipify 试图提供一种更“程序员友好”的脚本化方式。它封装了底层编码逻辑，让使用者只需几行 Python 代码就能完成剪辑。</p>
-<p>核心功能包括视频片段裁剪、多片段拼接、添加字幕和简单滤镜。性能上依赖 <strong>FFmpeg</strong> 后端，但通过缓存和批处理优化了重复调用速度。</p>
-<p><strong>111</strong> 个 Star 说明它已在小圈子获得认可，尤其适合内容创作者批量处理短视频素材。相比 <strong>MoviePy</strong>，clipify 体量更小，依赖更少。</p>
-<p>相关链接：</p>
+<p>许多 Discord 用户希望享受 Nitro 带来的便利，但月费门槛限制了部分人群。<strong>BetterNitroDiscord</strong> 通过注入自定义样式和脚本，绕过客户端限制，模拟了 Nitro 的核心体验。</p>
+<p><p><img src="https://opengraph.githubassets.com/1/WeritoP/BetterNitroDiscord" alt="BetterNitroDiscord" style="max-width:100%;border-radius:8px;"></p></p><p>该项目主要利用 <strong>BetterDiscord</strong> 框架进行插件开发，核心逻辑包括替换表情资源 URL、修改文件上传限制以及解锁贴纸库。用户只需将脚本放入 BetterDiscord 插件目录即可生效。</p>
+<p>据社区反馈，该工具在 <strong>468 Stars</strong> 的加持下已成为同类项目中的热门选择。不过需要留意，模拟付费功能可能违反 Discord 服务条款，使用时需自行承担风险。</p>
+<p>对于频繁使用自定义表情和高质量媒体分享的用户来说，<strong>BetterNitroDiscord</strong> 提供了一个性价比极高的临时方案。它与同类工具的区别在于持续更新维护，兼容最新版 Discord 客户端。</p>
+<p><strong>相关链接</strong></p>
 <ul>
-<li>项目地址：<a href="https://github.com/louisedesadeleer/clipify">louisedesadeleer/clipify</a></li>
+<li>项目地址：<a href="https://github.com/WeritoP/BetterNitroDiscord">WeritoP/BetterNitroDiscord</a></li>
 </ul>
 <hr>
-<h2><a href="https://github.com/Ajai53200/DeepSeek-V4-Pro-App">DeepSeek-V4-Pro-App</a> #76</h2>
+<h2><a href="https://github.com/lightseekorg/tokenspeed">tokenspeed</a> #2</h2>
 <blockquote>
-<p>一个基于 <strong>C++</strong> 构建的 <strong>DeepSeek V4</strong> 模型客户端应用，提供本地推理与交互界面。面向追求低延迟和离线体验的开发者。</p>
+<p>一个 <strong>Python</strong> 编写的命令行工具，用于测量大语言模型推理时的 <strong>Token 生成速度</strong>，支持 <code>vLLM</code>、<code>llama.cpp</code>、<code>TGI</code> 等多种后端。轻量、可重复，适合开发者横向对比模型性能。</p>
 </blockquote>
-<p><p><img src="https://opengraph.githubassets.com/1/Ajai53200/DeepSeek-V4-Pro-App" alt="DeepSeek-V4-Pro-App" style="max-width:100%;border-radius:8px;"></p></p><p><strong>DeepSeek</strong> 系列模型在开源社区热度不减，但多数工具以 Python 为主。该项目选择 <strong>C++</strong> 实现，直接调用模型推理引擎，旨在降低推理延迟并减少环境依赖。</p>
-<p>应用实现了文本对话、文档问答和代码补全三个主要功能模块。界面采用原生 GUI，无 Web 浏览器开销，对于资源受限的设备表现更佳。</p>
-<p>虽然 Star 数只有 <strong>76</strong>，但 <strong>Forks</strong> 为 0 说明可能尚处于早期阶段。喜欢底层优化的开发者可以关注其如何优化 <strong>DeepSeek V4</strong> 的 KV 缓存管理。</p>
-<p>相关链接：</p>
+<p>大模型部署时，<strong>每秒生成令牌数</strong> 是衡量推理效率的核心指标。<strong>tokenspeed</strong> 由 <strong>LightSeek</strong> 组织开发，旨在提供标准化的基准测试流程，消除不同框架间的测量偏差。</p>
+<p><p><img src="https://opengraph.githubassets.com/1/lightseekorg/tokenspeed" alt="tokenspeed" style="max-width:100%;border-radius:8px;"></p></p><p>工具采用 <strong>异步请求</strong> 模式，支持自定义 prompt 长度、并发数和输出长度。运行后直接输出平均 TPS（Tokens Per Second）以及首个令牌延迟，数据以表格形式呈现，便于对比。</p>
+<p>目前 <strong>tokenspeed</strong> 在 GitHub 上获得 <strong>240 Stars</strong>，社区关注度在稳步上升。相比 <strong>lm-eval</strong> 等大型评测框架，它更聚焦于延迟和吞吐量，配置简单，适合快速定位推理瓶颈。</p>
+<p>开发者可以利用它优化模型量化策略或选择更合适的推理引擎。对于生产环境的 <strong>RAG</strong> 或 <strong>聊天应用</strong>，该工具的测试结果能直接指导部署决策。</p>
+<p><strong>相关链接</strong></p>
 <ul>
-<li>项目地址：<a href="https://github.com/Ajai53200/DeepSeek-V4-Pro-App">Ajai53200/DeepSeek-V4-Pro-App</a></li>
+<li>项目地址：<a href="https://github.com/lightseekorg/tokenspeed">lightseekorg/tokenspeed</a></li>
 </ul>
 <hr>
-<h2><a href="https://github.com/zarazhangrui/beautiful-html-templates">beautiful-html-templates</a> #63</h2>
+<h2><a href="https://github.com/cv-cat/XHS_ALL_IN_ONE">XHS_ALL_IN_ONE</a> #3</h2>
 <blockquote>
-<p>一组精心制作的 <strong>HTML</strong> 页面模板集合，每个页面都具备优秀的视觉设计。适合前端初学者借鉴或直接用于个人项目。</p>
+<p>一款基于 <strong>JavaScript</strong> 的小红书全合一工具，集成了内容爬取、笔记批量发布、数据分析与账号管理功能，覆盖社媒运营的完整链条。</p>
 </blockquote>
-<p><p><img src="https://opengraph.githubassets.com/1/zarazhangrui/beautiful-html-templates" alt="beautiful-html-templates" style="max-width:100%;border-radius:8px;"></p></p><p>市面上虽有不少 CSS 框架，但完整且可直接使用的模板仍然稀缺。该项目收集了多套不同风格的页面，涵盖登录页、博客页、仪表盘等常见场景。</p>
-<p>模板只依赖原生 <strong>HTML + CSS</strong>，零框架、零外部库，加载速度极快。设计上参考了现代扁平化趋势，色彩搭配和字体选择都很考究。</p>
-<p><strong>63</strong> 个 Star 和仅 <strong>1</strong> 个 Fork 意味着作者还在持续更新。对于不想从零写样式的开发者来说，这是快速搭建原型的利器。</p>
-<p>相关链接：</p>
+<p>小红书已成为品牌和内容创作者的重要阵地，但官方 API 限制严格，手动运营效率低下。<strong>XHS_ALL_IN_ONE</strong> 通过模拟网页端请求，将采集、发布和分析整合到一个工具中。</p>
+<p><p><img src="https://opengraph.githubassets.com/1/cv-cat/XHS_ALL_IN_ONE" alt="XHS_ALL_IN_ONE" style="max-width:100%;border-radius:8px;"></p></p><p>项目核心包括：关键词搜索抓取、笔记详情提取、自动登录发布、以及互动数据统计。全部通过 <strong>Node.js</strong> 运行，配置文件采用 JSON 格式，可定制定时任务。</p>
+<p>该项目自发布以来已收获 <strong>131 Stars</strong> 和 <strong>74 Forks</strong>，说明运营社群对此类工具需求旺盛。不过需要留意，批量操作可能触发平台反爬机制，建议合理控制频率。</p>
+<p>对于中小型团队或独立博主，<strong>XHS_ALL_IN_ONE</strong> 提供了一个低成本的运营自动化入口。与同类工具相比，它覆盖面更全，但稳定性依赖于小红书前端接口的变动。</p>
+<p><strong>相关链接</strong></p>
 <ul>
-<li>项目地址：<a href="https://github.com/zarazhangrui/beautiful-html-templates">zarazhangrui/beautiful-html-templates</a></li>
+<li>项目地址：<a href="https://github.com/cv-cat/XHS_ALL_IN_ONE">cv-cat/XHS_ALL_IN_ONE</a></li>
 </ul>
 <hr>
-<h2><a href="https://github.com/vibeforge1111/codex-visual-builder-guild">codex-visual-builder-guild</a> #24</h2>
+<h2><a href="https://github.com/LuisAlexisSalazar/Zelda-Minish-Cap-PC">Zelda-Minish-Cap-PC</a> #4</h2>
 <blockquote>
-<p>一个基于 <strong>JavaScript</strong> 的低代码可视化构建器，旨在让非开发人员也能组装 Web 界面。拖拽式操作，实时预览。</p>
+<p>经典 GBA 游戏《塞尔达传说 缩小帽》的 <strong>PC 原生移植</strong>版，使用 <strong>C++</strong> 完全重写，不依赖模拟器，支持现代操作系统。</p>
 </blockquote>
-<p><p><img src="https://opengraph.githubassets.com/1/vibeforge1111/codex-visual-builder-guild" alt="codex-visual-builder-guild" style="max-width:100%;border-radius:8px;"></p></p><p>低代码平台日益繁荣，但多数需要绑定特定后端。该项目专注于前端组件编排，用户通过拖拽面板中的按钮、表单、卡片等元素，即可生成对应的 <strong>HTML/CSS</strong> 代码。</p>
-<p>技术栈基于 <strong>React</strong> 实现拖拽逻辑，并内置了简单的状态管理。输出代码干净，可二次编辑，这是与 <strong>Webflow</strong> 等商业工具的重要差异。</p>
-<p>由于尚在早期（<strong>24</strong> Star），模板库和插件系统还不完善。但它提供了一个值得探索的方向：让原型设计直接输出生产级代码。</p>
-<p>相关链接：</p>
+<p>任天堂并未官方发布该作的 PC 版本，但爱好者 <strong>LuisAlexisSalazar</strong> 通过反编译和代码重写，将原 GBA 逻辑迁移到桌面平台，保留原汁原味的像素画风与玩法。</p>
+<p><p><img src="https://opengraph.githubassets.com/1/LuisAlexisSalazar/Zelda-Minish-Cap-PC" alt="Zelda-Minish-Cap-PC" style="max-width:100%;border-radius:8px;"></p></p><p>项目基于 <strong>SDL2</strong> 和 <strong>OpenGL</strong> 实现图形渲染与输入，支持窗口缩放、自定义按键和存档读档。目前虽然只有 <strong>41 Stars</strong>，但对于怀旧游戏社区意义重大，移植质量较高。</p>
+<p>由于是爱好者项目，游戏逻辑可能存在细微差异，且需要用户自行提供原版 GBA ROM 中的资源文件。最终编译产物仅约 <strong>10 MB</strong>，运行流畅。</p>
+<p>那些无法忍受模拟器延迟或希望获得原生体验的玩家，可以通过该项目直接在 <strong>Windows / Linux</strong> 上重温这款经典。它也为其它 GBA 游戏的 PC 移植提供了技术参考。</p>
+<p><strong>相关链接</strong></p>
 <ul>
-<li>项目地址：<a href="https://github.com/vibeforge1111/codex-visual-builder-guild">vibeforge1111/codex-visual-builder-guild</a></li>
+<li>项目地址：<a href="https://github.com/LuisAlexisSalazar/Zelda-Minish-Cap-PC">LuisAlexisSalazar/Zelda-Minish-Cap-PC</a></li>
 </ul>
 <hr>
-<h2><a href="https://github.com/luml-ai/dreamer">dreamer</a> #14</h2>
+<h2><a href="https://github.com/TheGreatAzizi/AzuDL-GC2GD">AzuDL-GC2GD</a> #5</h2>
 <blockquote>
-<p>一个 <strong>Python</strong> 驱动的 AI 创意生成工具，名称“梦想家”暗示其专注于从文本生成图像或故事。轻量，适合个人实验。</p>
+<p>一个 <strong>Python</strong> 实用脚本，用于将 <strong>Google Colab</strong> 环境中的文件直接传输到 <strong>Google Drive</strong>，解决 Colab 会话结束后文件丢失的问题。</p>
 </blockquote>
-<p><p><img src="https://opengraph.githubassets.com/1/luml-ai/dreamer" alt="dreamer" style="max-width:100%;border-radius:8px;"></p></p><p>在 <strong>Stable Diffusion</strong> 和 <strong>Midjourney</strong> 占据主流的今天，dreamer 尝试提供一种更简洁的本地生成方案。它可能封装了扩散模型或 LLaMA 等语言模型，实现“文字→图像”或“文字→叙事”的转换。</p>
-<p>项目基于 <strong>Python</strong>，依赖可以手动安装，未使用大型框架（如 PyTorch 的完整安装包）以降低体积。推理效率有限，但足够用于快速验证想法。</p>
-<p>尽管只有 <strong>14</strong> 个 Star，但 <strong>luml-ai</strong> 组织表明背后有续开发意图。适合想学习 AI 生成原理的开发者，代码注释可能是最大亮点。</p>
-<p>相关链接：</p>
+<p>Google Colab 的临时实例在断开后会自动清除所有文件，用户需要手动挂载 Drive 并复制。<strong>AzuDL-GC2GD</strong> 将这一过程自动化，支持断点续传和目录结构保留。</p>
+<p><p><img src="https://opengraph.githubassets.com/1/TheGreatAzizi/AzuDL-GC2GD" alt="AzuDL-GC2GD" style="max-width:100%;border-radius:8px;"></p></p><p>工具通过 <strong>PyDrive2</strong> 库操作 Google Drive API，核心功能只需一行命令 <code>python azudl.py --source /content/output --destination &quot;MyFolder&quot;</code>。同时支持限速和进度条显示。</p>
+<p>该项目目前获得 <strong>41 Stars</strong>，虽然体量小，但解决的是数据科学家的高频痛点。对于训练模型、处理数据集后需要持久化的用户来说，这是一个省力的工具。</p>
+<p>脚本还预留了扩展接口，允许用户自定义传输后的清理操作。与 Colab 内置的 <code>cp</code> 指令相比，<strong>AzuDL-GC2GD</strong> 提供了更友好的错误处理和重试机制。</p>
+<p><strong>相关链接</strong></p>
 <ul>
-<li>项目地址：<a href="https://github.com/luml-ai/dreamer">luml-ai/dreamer</a></li>
+<li>项目地址：<a href="https://github.com/TheGreatAzizi/AzuDL-GC2GD">TheGreatAzizi/AzuDL-GC2GD</a></li>
 </ul>
 <hr>
-<h2><a href="https://github.com/jiangye1314/opc-skill">opc-skill</a> #12</h2>
+<h2><a href="https://github.com/hexianWeb/tsl-scifi-earth">tsl-scifi-earth</a> #6</h2>
 <blockquote>
-<p>一个面向工业自动化领域 <strong>OPC</strong> 协议的技术能力集合，可能包含教程、配置示例或实用脚本。对工控开发者有参考价值。</p>
+<p>基于 <strong>Three.js</strong> 构建的科幻风格 3D 地球可视化项目，带有动态粒子光环、发光轮廓和星空背景，适合作为数据大屏或游戏背景。</p>
 </blockquote>
-<p><p><img src="https://opengraph.githubassets.com/1/jiangye1314/opc-skill" alt="opc-skill" style="max-width:100%;border-radius:8px;"></p></p><p><strong>OPC（OLE for Process Control）</strong> 是工业设备通信的经典标准，但相关开源资源比较分散。该项目试图整理 OPC DA、OPC UA 等协议的使用经验，以代码示例和文档的形式呈现。</p>
-<p>内容可能涵盖 <strong>Python</strong> 或 <strong>C#</strong> 的连接库调用、数据订阅、安全配置等。如果作者持续补充，将成为工控入门者的实用手册。</p>
-<p>目前 Star 数仅为 <strong>12</strong>，关注人群集中在自动化领域。对于多数读者来说，这个项目相对小众，但在智能制造背景下价值不容忽视。</p>
-<p>相关链接：</p>
+<p>传统 Web 地球可视化往往偏重地理数据展示，而 <strong>tsl-scifi-earth</strong> 更强调视觉冲击力。作者 <strong>hexianWeb</strong> 利用 Shader 与后处理特效，打造了一个赛博朋克风格的地球模型。</p>
+<p><p><img src="https://opengraph.githubassets.com/1/hexianWeb/tsl-scifi-earth" alt="tsl-scifi-earth" style="max-width:100%;border-radius:8px;"></p></p><p>项目使用 <strong>JavaScript</strong> 编写，核心代码不到 300 行，通过 <code>OrbitControls</code> 实现鼠标拖拽旋转。支持自定义颜色主题和粒子密度，可嵌入任何网页。</p>
+<p>尽管 <strong>Stars</strong> 仅 16，但该项目的视觉效果在社交平台上获得不少分享。对于前端开发者或数字艺术爱好者来说，它提供了一个可直接运行的学习范例。</p>
+<p>与功能复杂的 <strong>Cesium</strong> 或 <strong>Mapbox</strong> 不同，<strong>tsl-scifi-earth</strong> 专注于风格化渲染，适合非专业地图用途的演示。未来可能加入动画过渡和数据接入能力。</p>
+<p><strong>相关链接</strong></p>
 <ul>
-<li>项目地址：<a href="https://github.com/jiangye1314/opc-skill">jiangye1314/opc-skill</a></li>
+<li>项目地址：<a href="https://github.com/hexianWeb/tsl-scifi-earth">hexianWeb/tsl-scifi-earth</a></li>
 </ul>
 ]]></content:encoded>
-<guid isPermaLink="false">https://2538514844.github.io/2026-05-06/</guid>
-<pubDate>Wed, 06 May 2026 02:42:06 GMT</pubDate>
+<guid isPermaLink="false">https://2538514844.github.io/2026-05-07/</guid>
+<pubDate>Thu, 07 May 2026 01:57:45 GMT</pubDate>
 </item>
   </channel>
 </rss>
