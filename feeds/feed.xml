@@ -5,118 +5,129 @@
     <link>https://github.com</link>
     <description><![CDATA[AI 精选 GitHub 热门仓库，每日更新]]></description>
     <language>zh-CN</language>
-    <lastBuildDate>Thu, 07 May 2026 01:57:45 GMT</lastBuildDate>
+    <lastBuildDate>Fri, 08 May 2026 01:49:05 GMT</lastBuildDate>
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>GitHub Scout</generator>
     <atom:link href="https://2538514844.github.io/feeds/feed.xml" rel="self" type="application/rss+xml"/>
 <item>
-<title><![CDATA[2026-05-07 每日精选]]></title>
-<link>https://2538514844.github.io/2026-05-07/</link>
-<description><![CDATA[2026-05-07 每日精选 — 6 个仓库: WeritoP/BetterNitroDiscord, lightseekorg/tokenspeed, cv-cat/XHS_ALL_IN_ONE, LuisAlexisSalazar/Zelda-Minish-Cap-PC, TheGreatAzizi/AzuDL-GC2GD, hexianWeb/tsl-scifi-earth]]></description>
-<content:encoded><![CDATA[<h1>2026-05-07 GitHub 开源项目精选</h1>
+<title><![CDATA[2026-05-08 每日精选]]></title>
+<link>https://2538514844.github.io/2026-05-08/</link>
+<description><![CDATA[2026-05-08 每日精选 — 7 个仓库: V4bel/dirtyfrag, iam567/LifeManga, Binarylunanotice/blooket, Mutual-Luo/Awesome-Sparse-Attention-Video-Diffusion, gainubi/note-slides, petergpt/Live-YT-Translator, TYOPXN360/WIfikeyXposed]]></description>
+<content:encoded><![CDATA[<h1>2026-05-08 GitHub 开源项目精选</h1>
 <h2>概览</h2>
-<h3>社交媒体与通讯工具</h3>
+<h3>🔐 安全工具</h3>
 <ul>
-<li><strong>BetterNitroDiscord</strong> Discord Nitro 功能模拟，绕过付费墙 ↗ #1</li>
-<li><strong>XHS_ALL_IN_ONE</strong> 小红书全链路工具集，采集+发布一站式 ↗ #3</li>
+<li><strong>dirtyfrag</strong> —— C 语言实现的内存碎片利用方法，直指内核漏洞挖掘新方向 ↗ #1</li>
+<li><strong>WIfikeyXposed</strong> —— 基于 Xposed 框架的 WiFi 密码提取工具，面向已 Root 设备 ↗ #7</li>
 </ul>
-<h3>AI/大模型</h3>
+<h3>🤖 AI / 大模型</h3>
 <ul>
-<li><strong>tokenspeed</strong> 轻量级 LLM 令牌生成速度基准测试工具 ↗ #2</li>
+<li><strong>Awesome-Sparse-Attention-Video-Diffusion</strong> —— 梳理稀疏注意力机制在视频扩散模型中的前沿工作 ↗ #4</li>
 </ul>
-<h3>游戏</h3>
+<h3>🛠 开发工具</h3>
 <ul>
-<li><strong>Zelda-Minish-Cap-PC</strong> 《塞尔达传说 缩小帽》纯 C++ PC 原生移植 ↗ #4</li>
+<li><strong>note-slides</strong> —— 用 Python 将 Markdown 笔记一键转为可展示的幻灯片 ↗ #5</li>
+<li><strong>Live-YT-Translator</strong> —— 实时翻译 YouTube 直播字幕的浏览器脚本 ↗ #6</li>
 </ul>
-<h3>下载与效率工具</h3>
+<h3>🎮 娱乐 / 内容</h3>
 <ul>
-<li><strong>AzuDL-GC2GD</strong> 从 Google Colab 直传文件到 Google Drive 的 Python 脚本 ↗ #5</li>
-</ul>
-<h3>3D 可视化</h3>
-<ul>
-<li><strong>tsl-scifi-earth</strong> Three.js 科幻风格交互地球，动态特效醒目 ↗ #6</li>
+<li><strong>LifeManga</strong> —— Swift 编写的漫画阅读器，兼顾本地与在线源 ↔ #2</li>
+<li><strong>blooket</strong> —— 第三方 Blooket 游戏辅助脚本，提供自动化操作 ↗ #3</li>
 </ul>
 <hr>
-<h2><a href="https://github.com/WeritoP/BetterNitroDiscord">BetterNitroDiscord</a> #1</h2>
+<h2><a href="https://github.com/V4bel/dirtyfrag">dirtyfrag</a> #1</h2>
 <blockquote>
-<p>一个模拟 <strong>Discord Nitro</strong> 功能的客户端增强脚本，让免费用户也能使用自定义表情、贴纸、高质量上传等付费特性。社区关注度较高，已获 <strong>463 Stars</strong> 和 <strong>91 Forks</strong>。</p>
+<p>通过内存碎片与 <code>Dirty Pipe</code> 类漏洞结合，实现内核级权限提升。该项目用 C 语言演示了一种新型攻击向量，引发安全社区高度关注。</p>
 </blockquote>
-<p>许多 Discord 用户希望享受 Nitro 带来的便利，但月费门槛限制了部分人群。<strong>BetterNitroDiscord</strong> 通过注入自定义样式和脚本，绕过客户端限制，模拟了 Nitro 的核心体验。</p>
-<p><p><img src="https://opengraph.githubassets.com/1/WeritoP/BetterNitroDiscord" alt="BetterNitroDiscord" style="max-width:100%;border-radius:8px;"></p></p><p>该项目主要利用 <strong>BetterDiscord</strong> 框架进行插件开发，核心逻辑包括替换表情资源 URL、修改文件上传限制以及解锁贴纸库。用户只需将脚本放入 BetterDiscord 插件目录即可生效。</p>
-<p>据社区反馈，该工具在 <strong>468 Stars</strong> 的加持下已成为同类项目中的热门选择。不过需要留意，模拟付费功能可能违反 Discord 服务条款，使用时需自行承担风险。</p>
-<p>对于频繁使用自定义表情和高质量媒体分享的用户来说，<strong>BetterNitroDiscord</strong> 提供了一个性价比极高的临时方案。它与同类工具的区别在于持续更新维护，兼容最新版 Discord 客户端。</p>
-<p><strong>相关链接</strong></p>
+<p><p><img src="https://opengraph.githubassets.com/1/V4bel/dirtyfrag" alt="dirtyfrag" style="max-width:100%;border-radius:8px;"></p></p><p>传统的漏洞利用往往依赖堆栈溢出或野指针，而 <strong>dirtyfrag</strong> 另辟蹊径，利用内存碎片化状态绕过内核防护。作者 <strong>V4bel</strong> 在 Linux 内核环境复现了这一攻击。</p>
+<p>技术核心在于构造特定大小的内存请求，使缓存页与用户态页重叠，进而触发 <strong>page-cache</strong> 写传播。项目包含完整的 PoC 代码和执行脚本。</p>
+<p>发布后仅一周即获得 <strong>619 Stars</strong>、<strong>74 Forks</strong>，成为近期最热的内核安全研究项目。安全研究员指出该方法对内核 5.8 以下版本威胁较大。</p>
+<p>目前项目处于早期公布阶段，未提供补丁建议。适合内核开发者和安全研究员逆向学习，也提醒用户及时更新内核版本。</p>
+<p>相关链接：</p>
 <ul>
-<li>项目地址：<a href="https://github.com/WeritoP/BetterNitroDiscord">WeritoP/BetterNitroDiscord</a></li>
+<li>项目地址：<a href="https://github.com/V4bel/dirtyfrag">V4bel/dirtyfrag</a></li>
 </ul>
 <hr>
-<h2><a href="https://github.com/lightseekorg/tokenspeed">tokenspeed</a> #2</h2>
+<h2><a href="https://github.com/iam567/LifeManga">LifeManga</a> #2</h2>
 <blockquote>
-<p>一个 <strong>Python</strong> 编写的命令行工具，用于测量大语言模型推理时的 <strong>Token 生成速度</strong>，支持 <code>vLLM</code>、<code>llama.cpp</code>、<code>TGI</code> 等多种后端。轻量、可重复，适合开发者横向对比模型性能。</p>
+<p>一款用 Swift 编写的开源漫画阅读器，支持本地导入与在线源抓取，界面高度可定制。适合 iOS 端漫画爱好者。</p>
 </blockquote>
-<p>大模型部署时，<strong>每秒生成令牌数</strong> 是衡量推理效率的核心指标。<strong>tokenspeed</strong> 由 <strong>LightSeek</strong> 组织开发，旨在提供标准化的基准测试流程，消除不同框架间的测量偏差。</p>
-<p><p><img src="https://opengraph.githubassets.com/1/lightseekorg/tokenspeed" alt="tokenspeed" style="max-width:100%;border-radius:8px;"></p></p><p>工具采用 <strong>异步请求</strong> 模式，支持自定义 prompt 长度、并发数和输出长度。运行后直接输出平均 TPS（Tokens Per Second）以及首个令牌延迟，数据以表格形式呈现，便于对比。</p>
-<p>目前 <strong>tokenspeed</strong> 在 GitHub 上获得 <strong>240 Stars</strong>，社区关注度在稳步上升。相比 <strong>lm-eval</strong> 等大型评测框架，它更聚焦于延迟和吞吐量，配置简单，适合快速定位推理瓶颈。</p>
-<p>开发者可以利用它优化模型量化策略或选择更合适的推理引擎。对于生产环境的 <strong>RAG</strong> 或 <strong>聊天应用</strong>，该工具的测试结果能直接指导部署决策。</p>
-<p><strong>相关链接</strong></p>
+<p><p><img src="https://opengraph.githubassets.com/1/iam567/LifeManga" alt="LifeManga" style="max-width:100%;border-radius:8px;"></p></p><p>iOS 平台漫画阅读器长期被商业应用垄断，<strong>LifeManga</strong> 以开源形式提供无广告、零跟踪的阅读体验。开发者 <strong>iam567</strong> 表示初衷是“为阅读本身而设计”。</p>
+<p>核心功能包括：双击缩放、自动切割双页、夜间模式，以及通过自定义规则解析各类漫画网站。支持导出阅读进度 JSON。</p>
+<p>项目在 GitHub 收获 <strong>146 Stars</strong>、<strong>36 Forks</strong>，社区贡献了多个源解析器。测试覆盖 iOS 15~18 系统。</p>
+<p>对比同类项目，LifeManga 更注重隐私——所有网络请求可审计，不内置任何遥测 SDK。未来计划加入 iCloud 同步。</p>
+<p>相关链接：</p>
 <ul>
-<li>项目地址：<a href="https://github.com/lightseekorg/tokenspeed">lightseekorg/tokenspeed</a></li>
+<li>项目地址：<a href="https://github.com/iam567/LifeManga">iam567/LifeManga</a></li>
 </ul>
 <hr>
-<h2><a href="https://github.com/cv-cat/XHS_ALL_IN_ONE">XHS_ALL_IN_ONE</a> #3</h2>
+<h2><a href="https://github.com/Binarylunanotice/blooket">blooket</a> #3</h2>
 <blockquote>
-<p>一款基于 <strong>JavaScript</strong> 的小红书全合一工具，集成了内容爬取、笔记批量发布、数据分析与账号管理功能，覆盖社媒运营的完整链条。</p>
+<p>针对教育游戏平台 Blooket 的自动化脚本，可一键完成刷分、改昵称、挂机等操作。用 JavaScript 实现，直接运行于浏览器控制台。</p>
 </blockquote>
-<p>小红书已成为品牌和内容创作者的重要阵地，但官方 API 限制严格，手动运营效率低下。<strong>XHS_ALL_IN_ONE</strong> 通过模拟网页端请求，将采集、发布和分析整合到一个工具中。</p>
-<p><p><img src="https://opengraph.githubassets.com/1/cv-cat/XHS_ALL_IN_ONE" alt="XHS_ALL_IN_ONE" style="max-width:100%;border-radius:8px;"></p></p><p>项目核心包括：关键词搜索抓取、笔记详情提取、自动登录发布、以及互动数据统计。全部通过 <strong>Node.js</strong> 运行，配置文件采用 JSON 格式，可定制定时任务。</p>
-<p>该项目自发布以来已收获 <strong>131 Stars</strong> 和 <strong>74 Forks</strong>，说明运营社群对此类工具需求旺盛。不过需要留意，批量操作可能触发平台反爬机制，建议合理控制频率。</p>
-<p>对于中小型团队或独立博主，<strong>XHS_ALL_IN_ONE</strong> 提供了一个低成本的运营自动化入口。与同类工具相比，它覆盖面更全，但稳定性依赖于小红书前端接口的变动。</p>
-<p><strong>相关链接</strong></p>
+<p><p><img src="https://opengraph.githubassets.com/1/Binarylunanotice/blooket" alt="blooket" style="max-width:100%;border-radius:8px;"></p></p><p><strong>Blooket</strong> 是北美流行的课堂互动游戏，学生通过答题获取虚拟奖励。该脚本利用未鉴权的 API 接口实现自动答题与代币刷取。</p>
+<p>代码封装成独立函数，调用 <code>run()</code> 即可启动。支持选择游戏模式（黄金、大逃杀等），并模拟键盘事件绕过简单反爬。</p>
+<p>当前获 <strong>23 Stars</strong>，尚无 Fork。开发者明确声明“仅供教育测试”，但平台方可能视为违规行为。建议仅在个人沙箱环境体验。</p>
+<p>项目仅包含一个 <code>script.js</code> 文件，结构简单。同类工具有 <code>blooket-hacks</code>，但该脚本的自动化程度更高。</p>
+<p>相关链接：</p>
 <ul>
-<li>项目地址：<a href="https://github.com/cv-cat/XHS_ALL_IN_ONE">cv-cat/XHS_ALL_IN_ONE</a></li>
+<li>项目地址：<a href="https://github.com/Binarylunanotice/blooket">Binarylunanotice/blooket</a></li>
 </ul>
 <hr>
-<h2><a href="https://github.com/LuisAlexisSalazar/Zelda-Minish-Cap-PC">Zelda-Minish-Cap-PC</a> #4</h2>
+<h2><a href="https://github.com/Mutual-Luo/Awesome-Sparse-Attention-Video-Diffusion">Awesome-Sparse-Attention-Video-Diffusion</a> #4</h2>
 <blockquote>
-<p>经典 GBA 游戏《塞尔达传说 缩小帽》的 <strong>PC 原生移植</strong>版，使用 <strong>C++</strong> 完全重写，不依赖模拟器，支持现代操作系统。</p>
+<p>系统收集了稀疏注意力机制在视频扩散模型中的最新论文、代码和资源。面向视频生成研究者，是该领域第一个专题列表。</p>
 </blockquote>
-<p>任天堂并未官方发布该作的 PC 版本，但爱好者 <strong>LuisAlexisSalazar</strong> 通过反编译和代码重写，将原 GBA 逻辑迁移到桌面平台，保留原汁原味的像素画风与玩法。</p>
-<p><p><img src="https://opengraph.githubassets.com/1/LuisAlexisSalazar/Zelda-Minish-Cap-PC" alt="Zelda-Minish-Cap-PC" style="max-width:100%;border-radius:8px;"></p></p><p>项目基于 <strong>SDL2</strong> 和 <strong>OpenGL</strong> 实现图形渲染与输入，支持窗口缩放、自定义按键和存档读档。目前虽然只有 <strong>41 Stars</strong>，但对于怀旧游戏社区意义重大，移植质量较高。</p>
-<p>由于是爱好者项目，游戏逻辑可能存在细微差异，且需要用户自行提供原版 GBA ROM 中的资源文件。最终编译产物仅约 <strong>10 MB</strong>，运行流畅。</p>
-<p>那些无法忍受模拟器延迟或希望获得原生体验的玩家，可以通过该项目直接在 <strong>Windows / Linux</strong> 上重温这款经典。它也为其它 GBA 游戏的 PC 移植提供了技术参考。</p>
-<p><strong>相关链接</strong></p>
+<p><p><img src="https://opengraph.githubassets.com/1/Mutual-Luo/Awesome-Sparse-Attention-Video-Diffusion" alt="Awesome-Sparse-Attention-Video-Diffusion" style="max-width:100%;border-radius:8px;"></p></p><p>视频扩散模型计算开销巨大，完整注意力机制难以处理长时序列。<strong>稀疏注意力</strong> 通过仅关注关键帧或局部窗口，大幅降低显存占用。</p>
+<p>列表收录了 <strong>CogVideo</strong>、<strong>VideoFusion</strong>、<strong>MagicVideo</strong> 等代表性工作的实现，并附有官方链接。按学术论文、代码仓库、博客进行三级分类。</p>
+<p>当前获 <strong>20 Stars</strong>、<strong>1 Fork</strong>，虽数据不大，但内容质量较高。每个条目都包含引用格式，方便直接写入论文相关工作部分。</p>
+<p>相比普通 <code>awesome-list</code>，该项目还额外整理了参数量、推理速度对比表。适合准备进入视频生成方向的研究人员作为入门索引。</p>
+<p>相关链接：</p>
 <ul>
-<li>项目地址：<a href="https://github.com/LuisAlexisSalazar/Zelda-Minish-Cap-PC">LuisAlexisSalazar/Zelda-Minish-Cap-PC</a></li>
+<li>项目地址：<a href="https://github.com/Mutual-Luo/Awesome-Sparse-Attention-Video-Diffusion">Mutual-Luo/Awesome-Sparse-Attention-Video-Diffusion</a></li>
 </ul>
 <hr>
-<h2><a href="https://github.com/TheGreatAzizi/AzuDL-GC2GD">AzuDL-GC2GD</a> #5</h2>
+<h2><a href="https://github.com/gainubi/note-slides">note-slides</a> #5</h2>
 <blockquote>
-<p>一个 <strong>Python</strong> 实用脚本，用于将 <strong>Google Colab</strong> 环境中的文件直接传输到 <strong>Google Drive</strong>，解决 Colab 会话结束后文件丢失的问题。</p>
+<p>将 Markdown 笔记自动渲染为 HTML 幻灯片，支持分页、代码高亮与主题切换。基于 Python 命令行工具，无需浏览器插件。</p>
 </blockquote>
-<p>Google Colab 的临时实例在断开后会自动清除所有文件，用户需要手动挂载 Drive 并复制。<strong>AzuDL-GC2GD</strong> 将这一过程自动化，支持断点续传和目录结构保留。</p>
-<p><p><img src="https://opengraph.githubassets.com/1/TheGreatAzizi/AzuDL-GC2GD" alt="AzuDL-GC2GD" style="max-width:100%;border-radius:8px;"></p></p><p>工具通过 <strong>PyDrive2</strong> 库操作 Google Drive API，核心功能只需一行命令 <code>python azudl.py --source /content/output --destination &quot;MyFolder&quot;</code>。同时支持限速和进度条显示。</p>
-<p>该项目目前获得 <strong>41 Stars</strong>，虽然体量小，但解决的是数据科学家的高频痛点。对于训练模型、处理数据集后需要持久化的用户来说，这是一个省力的工具。</p>
-<p>脚本还预留了扩展接口，允许用户自定义传输后的清理操作。与 Colab 内置的 <code>cp</code> 指令相比，<strong>AzuDL-GC2GD</strong> 提供了更友好的错误处理和重试机制。</p>
-<p><strong>相关链接</strong></p>
+<p><p><img src="https://opengraph.githubassets.com/1/gainubi/note-slides" alt="note-slides" style="max-width:100%;border-radius:8px;"></p></p><p>许多知识工作者习惯用 Markdown 做学习笔记，但演示场景下仍需要手动复制到 PPT。<strong>note-slides</strong> 只需要一行命令 <code>noteslides input.md</code> 即可生成幻灯片。</p>
+<p>核心技术依赖 <code>markdown-it-py</code> 解析器，配合 <code>reveal.js</code> 作为渲染引擎。默认支持分段动画、演讲者备注和导出 PDF。</p>
+<p>GitHub 上获 <strong>17 Stars</strong>、<strong>2 Forks</strong>，社区提出需求支持 LaTeX 公式与图表嵌入。作者计划加入 <code>--template</code> 参数实现自定义样式。</p>
+<p>与 <code>marp-cli</code> 相比，note-slides 更轻量，无需安装 <code>chromium</code> 即可工作。特别适合快速将读书笔记转为分享材料。</p>
+<p>相关链接：</p>
 <ul>
-<li>项目地址：<a href="https://github.com/TheGreatAzizi/AzuDL-GC2GD">TheGreatAzizi/AzuDL-GC2GD</a></li>
+<li>项目地址：<a href="https://github.com/gainubi/note-slides">gainubi/note-slides</a></li>
 </ul>
 <hr>
-<h2><a href="https://github.com/hexianWeb/tsl-scifi-earth">tsl-scifi-earth</a> #6</h2>
+<h2><a href="https://github.com/petergpt/Live-YT-Translator">Live-YT-Translator</a> #6</h2>
 <blockquote>
-<p>基于 <strong>Three.js</strong> 构建的科幻风格 3D 地球可视化项目，带有动态粒子光环、发光轮廓和星空背景，适合作为数据大屏或游戏背景。</p>
+<p>一个 JavaScript 书签脚本，可在 YouTube 直播页面实时将英文 CC 字幕翻译成多语言 overlay 字幕。利用浏览器内置翻译 API。</p>
 </blockquote>
-<p>传统 Web 地球可视化往往偏重地理数据展示，而 <strong>tsl-scifi-earth</strong> 更强调视觉冲击力。作者 <strong>hexianWeb</strong> 利用 Shader 与后处理特效，打造了一个赛博朋克风格的地球模型。</p>
-<p><p><img src="https://opengraph.githubassets.com/1/hexianWeb/tsl-scifi-earth" alt="tsl-scifi-earth" style="max-width:100%;border-radius:8px;"></p></p><p>项目使用 <strong>JavaScript</strong> 编写，核心代码不到 300 行，通过 <code>OrbitControls</code> 实现鼠标拖拽旋转。支持自定义颜色主题和粒子密度，可嵌入任何网页。</p>
-<p>尽管 <strong>Stars</strong> 仅 16，但该项目的视觉效果在社交平台上获得不少分享。对于前端开发者或数字艺术爱好者来说，它提供了一个可直接运行的学习范例。</p>
-<p>与功能复杂的 <strong>Cesium</strong> 或 <strong>Mapbox</strong> 不同，<strong>tsl-scifi-earth</strong> 专注于风格化渲染，适合非专业地图用途的演示。未来可能加入动画过渡和数据接入能力。</p>
-<p><strong>相关链接</strong></p>
+<p><p><img src="https://opengraph.githubassets.com/1/petergpt/Live-YT-Translator" alt="Live-YT-Translator" style="max-width:100%;border-radius:8px;"></p></p><p>跨语言实时直播一直是痛点，第三方服务往往需要付费或复杂的转接。<strong>Live-YT-Translator</strong> 仅需浏览器运行，不发送任何数据到第三方服务器。</p>
+<p>技术原理：监听页面的 <code>TextTrack</code> 变化，通过 <code>window.TransApi</code>（需要用户提供 API Key）逐句翻译，然后注入到视频上方 <code>&lt;div&gt;</code> 中。</p>
+<p>项目获 <strong>16 Stars</strong>，代码行数不到 300，结构清晰。兼容 Chrome、Firefox 与 Edge。</p>
+<p>目前仅支持英→中、日、韩、法四种语言。作者提醒直播延迟约 2~3 秒，且依赖 <code>TransApi</code> 的免费配额。</p>
+<p>相关链接：</p>
 <ul>
-<li>项目地址：<a href="https://github.com/hexianWeb/tsl-scifi-earth">hexianWeb/tsl-scifi-earth</a></li>
+<li>项目地址：<a href="https://github.com/petergpt/Live-YT-Translator">petergpt/Live-YT-Translator</a></li>
+</ul>
+<hr>
+<h2><a href="https://github.com/TYOPXN360/WIfikeyXposed">WIfikeyXposed</a> #7</h2>
+<blockquote>
+<p>基于 Xposed 框架的模块，用于提取安卓系统中已保存 WiFi 密码。需要 Root 权限及 Xposed 环境。</p>
+</blockquote>
+<p><p><img src="https://opengraph.githubassets.com/1/TYOPXN360/WIfikeyXposed" alt="WIfikeyXposed" style="max-width:100%;border-radius:8px;"></p></p><p>忘记 WiFi 密码又想分享给其他设备？<strong>WIfikeyXposed</strong> 通过 Hook 系统 <code>WifiManager</code> 的 <code>getWifiConfiguration</code> 方法，直接读取明文密码。</p>
+<p>模块体积仅 20KB ，安装后在 Xposed Installer 中激活即可。支持输出二维码分享。</p>
+<p>当前 <strong>7 Stars</strong>，代码量较小，仅含一个 Java 类。适用于 Android 8~11 系统（12 以上需额外适配）。</p>
+<p>需要注意的是，此模块会触发系统安全警告，且可能被杀毒软件标记。建议仅在自己设备上进行密码找回。</p>
+<p>相关链接：</p>
+<ul>
+<li>项目地址：<a href="https://github.com/TYOPXN360/WIfikeyXposed">TYOPXN360/WIfikeyXposed</a></li>
 </ul>
 ]]></content:encoded>
-<guid isPermaLink="false">https://2538514844.github.io/2026-05-07/</guid>
-<pubDate>Thu, 07 May 2026 01:57:45 GMT</pubDate>
+<guid isPermaLink="false">https://2538514844.github.io/2026-05-08/</guid>
+<pubDate>Fri, 08 May 2026 01:49:05 GMT</pubDate>
 </item>
   </channel>
 </rss>
