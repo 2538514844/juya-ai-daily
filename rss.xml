@@ -5,129 +5,115 @@
     <link>https://github.com</link>
     <description><![CDATA[AI 精选 GitHub 热门仓库，每日更新]]></description>
     <language>zh-CN</language>
-    <lastBuildDate>Fri, 08 May 2026 01:49:05 GMT</lastBuildDate>
+    <lastBuildDate>Sat, 09 May 2026 01:27:40 GMT</lastBuildDate>
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>GitHub Scout</generator>
     <atom:link href="https://2538514844.github.io/feeds/feed.xml" rel="self" type="application/rss+xml"/>
 <item>
-<title><![CDATA[2026-05-08 每日精选]]></title>
-<link>https://2538514844.github.io/2026-05-08/</link>
-<description><![CDATA[2026-05-08 每日精选 — 7 个仓库: V4bel/dirtyfrag, iam567/LifeManga, Binarylunanotice/blooket, Mutual-Luo/Awesome-Sparse-Attention-Video-Diffusion, gainubi/note-slides, petergpt/Live-YT-Translator, TYOPXN360/WIfikeyXposed]]></description>
-<content:encoded><![CDATA[<h1>2026-05-08 GitHub 开源项目精选</h1>
+<title><![CDATA[2026-05-09 每日精选]]></title>
+<link>https://2538514844.github.io/2026-05-09/</link>
+<description><![CDATA[2026-05-09 每日精选 — 6 个仓库: nooncheetahstart/Kahoot-tools-AI, ckpxgfnksd-max/uap-release-analyzer, mitsuhiko/pi-ds4, chrysoljq/aistudio-api, HristoIgnev/LeadPulse-AI-Autonomous-Lead-Engagement-Scoring-Ecosystem, QianYushi/turnintoserver]]></description>
+<content:encoded><![CDATA[<h1>2026-05-09 GitHub 开源项目精选</h1>
 <h2>概览</h2>
-<h3>🔐 安全工具</h3>
+<h3>效率工具</h3>
 <ul>
-<li><strong>dirtyfrag</strong> —— C 语言实现的内存碎片利用方法，直指内核漏洞挖掘新方向 ↗ #1</li>
-<li><strong>WIfikeyXposed</strong> —— 基于 Xposed 框架的 WiFi 密码提取工具，面向已 Root 设备 ↗ #7</li>
+<li><strong>Kahoot-tools-AI</strong> — 为课堂互动平台 <strong>Kahoot</strong> 注入 AI 自动答题与统计能力，大幅简化游戏化学习作弊/辅助流程。 ↗ #1</li>
+<li><strong>turnintoserver</strong> — 轻量级 iOS 应用，一键将 iPhone 或 iPad 转化为 HTTP 服务器，方便本地文件传输与托管。 ↗ #6</li>
 </ul>
-<h3>🤖 AI / 大模型</h3>
+<h3>开发工具</h3>
 <ul>
-<li><strong>Awesome-Sparse-Attention-Video-Diffusion</strong> —— 梳理稀疏注意力机制在视频扩散模型中的前沿工作 ↗ #4</li>
+<li><strong>uap-release-analyzer</strong> — Python 构建的持续集成发布分析工具，自动抓取 <strong>UAP</strong>（统一自动化平台）版本信息并生成可视化趋势。 ↗ #2</li>
+<li><strong>pi-ds4</strong> — 用 TypeScript 在树莓派上驱动 <strong>DualShock 4</strong> 手柄，提供低延迟无线操控和按键映射库。 ↗ #3</li>
 </ul>
-<h3>🛠 开发工具</h3>
+<h3>AI/大模型</h3>
 <ul>
-<li><strong>note-slides</strong> —— 用 Python 将 Markdown 笔记一键转为可展示的幻灯片 ↗ #5</li>
-<li><strong>Live-YT-Translator</strong> —— 实时翻译 YouTube 直播字幕的浏览器脚本 ↗ #6</li>
+<li><strong>aistudio-api</strong> — 非官方 Python 封装，为 <strong>Google AI Studio</strong> 的生成式 AI 能力提供简洁的 API 接口，支持多模型调用。 ↗ #4</li>
 </ul>
-<h3>🎮 娱乐 / 内容</h3>
+<h3>营销/自动化</h3>
 <ul>
-<li><strong>LifeManga</strong> —— Swift 编写的漫画阅读器，兼顾本地与在线源 ↔ #2</li>
-<li><strong>blooket</strong> —— 第三方 Blooket 游戏辅助脚本，提供自动化操作 ↗ #3</li>
-</ul>
-<hr>
-<h2><a href="https://github.com/V4bel/dirtyfrag">dirtyfrag</a> #1</h2>
-<blockquote>
-<p>通过内存碎片与 <code>Dirty Pipe</code> 类漏洞结合，实现内核级权限提升。该项目用 C 语言演示了一种新型攻击向量，引发安全社区高度关注。</p>
-</blockquote>
-<p><p><img src="https://opengraph.githubassets.com/1/V4bel/dirtyfrag" alt="dirtyfrag" style="max-width:100%;border-radius:8px;"></p></p><p>传统的漏洞利用往往依赖堆栈溢出或野指针，而 <strong>dirtyfrag</strong> 另辟蹊径，利用内存碎片化状态绕过内核防护。作者 <strong>V4bel</strong> 在 Linux 内核环境复现了这一攻击。</p>
-<p>技术核心在于构造特定大小的内存请求，使缓存页与用户态页重叠，进而触发 <strong>page-cache</strong> 写传播。项目包含完整的 PoC 代码和执行脚本。</p>
-<p>发布后仅一周即获得 <strong>619 Stars</strong>、<strong>74 Forks</strong>，成为近期最热的内核安全研究项目。安全研究员指出该方法对内核 5.8 以下版本威胁较大。</p>
-<p>目前项目处于早期公布阶段，未提供补丁建议。适合内核开发者和安全研究员逆向学习，也提醒用户及时更新内核版本。</p>
-<p>相关链接：</p>
-<ul>
-<li>项目地址：<a href="https://github.com/V4bel/dirtyfrag">V4bel/dirtyfrag</a></li>
+<li><strong>LeadPulse-AI</strong> — 全自主 <strong>AI 销售线索评分</strong> 与互动系统，通过行为分析自动生成商机优先级排序。 ↗ #5</li>
 </ul>
 <hr>
-<h2><a href="https://github.com/iam567/LifeManga">LifeManga</a> #2</h2>
+<h2><a href="https://github.com/nooncheetahstart/Kahoot-tools-AI">Kahoot-tools-AI</a> #1</h2>
 <blockquote>
-<p>一款用 Swift 编写的开源漫画阅读器，支持本地导入与在线源抓取，界面高度可定制。适合 iOS 端漫画爱好者。</p>
+<p>一个面向在线教学游戏平台 <strong>Kahoot</strong> 的 AI 辅助工具箱，能够自动识别题目、提取选项并借助 <strong>LLM</strong> 给出答案，同时附带实时答题统计与延迟控制功能。</p>
 </blockquote>
-<p><p><img src="https://opengraph.githubassets.com/1/iam567/LifeManga" alt="LifeManga" style="max-width:100%;border-radius:8px;"></p></p><p>iOS 平台漫画阅读器长期被商业应用垄断，<strong>LifeManga</strong> 以开源形式提供无广告、零跟踪的阅读体验。开发者 <strong>iam567</strong> 表示初衷是“为阅读本身而设计”。</p>
-<p>核心功能包括：双击缩放、自动切割双页、夜间模式，以及通过自定义规则解析各类漫画网站。支持导出阅读进度 JSON。</p>
-<p>项目在 GitHub 收获 <strong>146 Stars</strong>、<strong>36 Forks</strong>，社区贡献了多个源解析器。测试覆盖 iOS 15~18 系统。</p>
-<p>对比同类项目，LifeManga 更注重隐私——所有网络请求可审计，不内置任何遥测 SDK。未来计划加入 iCloud 同步。</p>
+<p><p><img src="https://opengraph.githubassets.com/1/nooncheetahstart/Kahoot-tools-AI" alt="Kahoot-tools-AI" style="max-width:100%;border-radius:8px;"></p></p><p><strong>Kahoot</strong> 是课堂上常用的抢答式学习平台，但快速作答对部分学生造成压力。<strong>Kahoot-tools-AI</strong> 利用视觉识别与语言模型，自动截图抓取题库并返回正确答案，让使用者能“秒杀”每道题。</p>
+<p>项目采用 <strong>Python</strong> 编写，通过 <code>pyautogui</code> 进行屏幕截取，借助 <strong>OpenAI</strong> 兼容的 API（如 GPT-4o）分析题目内容。它还提供<strong>分数统计面板</strong>，可记录延迟、正确率并生成作弊日志。</p>
+<p>当前获得 <strong>105 Stars</strong>、0 个 Forks，社区关注度尚小，但议题区已有用户请求增加多账号并行支持。开发者明确声明“仅用于教育实验”，避免滥用。</p>
+<p>与同类方案（如 Kahoot 外挂脚本）相比，该工具完全基于屏幕截取和 AI 视觉，无需逆向游戏协议，兼容性更强。但也因此对网络延迟和 API 费用有一定要求。</p>
 <p>相关链接：</p>
 <ul>
-<li>项目地址：<a href="https://github.com/iam567/LifeManga">iam567/LifeManga</a></li>
+<li>项目地址：<a href="https://github.com/nooncheetahstart/Kahoot-tools-AI">nooncheetahstart/Kahoot-tools-AI</a></li>
 </ul>
 <hr>
-<h2><a href="https://github.com/Binarylunanotice/blooket">blooket</a> #3</h2>
+<h2><a href="https://github.com/ckpxgfnksd-max/uap-release-analyzer">uap-release-analyzer</a> #2</h2>
 <blockquote>
-<p>针对教育游戏平台 Blooket 的自动化脚本，可一键完成刷分、改昵称、挂机等操作。用 JavaScript 实现，直接运行于浏览器控制台。</p>
+<p>自动化分析 <strong>UAP（Unified Automation Platform）</strong> 发布流水线的 Python 工具，能够从 CI/CD 记录中提取版本号、分支变更及发布频率，并生成时间序列图表。</p>
 </blockquote>
-<p><p><img src="https://opengraph.githubassets.com/1/Binarylunanotice/blooket" alt="blooket" style="max-width:100%;border-radius:8px;"></p></p><p><strong>Blooket</strong> 是北美流行的课堂互动游戏，学生通过答题获取虚拟奖励。该脚本利用未鉴权的 API 接口实现自动答题与代币刷取。</p>
-<p>代码封装成独立函数，调用 <code>run()</code> 即可启动。支持选择游戏模式（黄金、大逃杀等），并模拟键盘事件绕过简单反爬。</p>
-<p>当前获 <strong>23 Stars</strong>，尚无 Fork。开发者明确声明“仅供教育测试”，但平台方可能视为违规行为。建议仅在个人沙箱环境体验。</p>
-<p>项目仅包含一个 <code>script.js</code> 文件，结构简单。同类工具有 <code>blooket-hacks</code>，但该脚本的自动化程度更高。</p>
+<p><p><img src="https://opengraph.githubassets.com/1/ckpxgfnksd-max/uap-release-analyzer" alt="uap-release-analyzer" style="max-width:100%;border-radius:8px;"></p></p><p>大型组织通常有多条发布流水线，人工追踪版本演进极为繁琐。<strong>uap-release-analyzer</strong> 通过解析 <strong>Jenkins</strong> 或 <strong>GitHub Actions</strong> 的日志，自动汇总每个版本的发布时间、关联提交和负责人。</p>
+<p>核心功能包括：<strong>Regex 模式匹配</strong>提取版本号、<strong>Pandas</strong> 处理时间序列、<strong>Matplotlib</strong> 绘制发布趋势图。支持输出为静态 HTML 报告，便于团队周会展示。</p>
+<p>项目当前 <strong>67 Stars</strong>、8 个 Forks，贡献者主要是 DevOps 工程师。Issues 中讨论了对 <strong>Azure DevOps</strong> 的支持计划，预计下个版本加入。</p>
+<p>与 <strong>GitLab Release Dashboard</strong> 等原生工具相比，该工具的优势在于不绑定特定 CI 平台，只需标准化的日志格式即可工作。适用于多工具混用的企业环境。</p>
 <p>相关链接：</p>
 <ul>
-<li>项目地址：<a href="https://github.com/Binarylunanotice/blooket">Binarylunanotice/blooket</a></li>
+<li>项目地址：<a href="https://github.com/ckpxgfnksd-max/uap-release-analyzer">ckpxgfnksd-max/uap-release-analyzer</a></li>
 </ul>
 <hr>
-<h2><a href="https://github.com/Mutual-Luo/Awesome-Sparse-Attention-Video-Diffusion">Awesome-Sparse-Attention-Video-Diffusion</a> #4</h2>
+<h2><a href="https://github.com/mitsuhiko/pi-ds4">pi-ds4</a> #3</h2>
 <blockquote>
-<p>系统收集了稀疏注意力机制在视频扩散模型中的最新论文、代码和资源。面向视频生成研究者，是该领域第一个专题列表。</p>
+<p>用 <strong>TypeScript</strong> 编写的库，让 <strong>Raspberry Pi</strong> 通过蓝牙或 USB 原生读取 <strong>DualShock 4</strong> 手柄的输入状态，并提供马达反馈与 LED 控制。</p>
 </blockquote>
-<p><p><img src="https://opengraph.githubassets.com/1/Mutual-Luo/Awesome-Sparse-Attention-Video-Diffusion" alt="Awesome-Sparse-Attention-Video-Diffusion" style="max-width:100%;border-radius:8px;"></p></p><p>视频扩散模型计算开销巨大，完整注意力机制难以处理长时序列。<strong>稀疏注意力</strong> 通过仅关注关键帧或局部窗口，大幅降低显存占用。</p>
-<p>列表收录了 <strong>CogVideo</strong>、<strong>VideoFusion</strong>、<strong>MagicVideo</strong> 等代表性工作的实现，并附有官方链接。按学术论文、代码仓库、博客进行三级分类。</p>
-<p>当前获 <strong>20 Stars</strong>、<strong>1 Fork</strong>，虽数据不大，但内容质量较高。每个条目都包含引用格式，方便直接写入论文相关工作部分。</p>
-<p>相比普通 <code>awesome-list</code>，该项目还额外整理了参数量、推理速度对比表。适合准备进入视频生成方向的研究人员作为入门索引。</p>
+<p><p><img src="https://opengraph.githubassets.com/1/mitsuhiko/pi-ds4" alt="pi-ds4" style="max-width:100%;border-radius:8px;"></p></p><p>树莓派常被用作游戏机或机器人控制器，但官方驱动对 DS4 支持不完善。<strong>pi-ds4</strong> 的作者 <strong>mitsuhiko</strong>（知名 Python 工具 Flask、Rust 项目作者）亲自动手，用 TypeScript 绕过繁琐的 HID 协议实现直连。</p>
+<p>项目通过 <code>node-hid</code> 与 <code>/dev/input</code> 设备交互，提供 <code>imu</code>（加速度计/陀螺仪）、<code>touchpad</code> 和 <code>battery</code> 状态读取。API 设计简洁，类似游戏框架的 input 模块。</p>
+<p>当前 <strong>51 Stars</strong>、3 个 Forks，Issues 区已有人测试成功运行在 <strong>Zero 2W</strong> 上。开发者承诺后续增加对 <strong>DualSense</strong> 的兼容性。</p>
+<p>与 <strong>PyDS4</strong>（Python 库）相比，pi-ds4 在 TypeScript/Node.js 生态中更易集成到 Web 应用或 Electron 游戏前端。延迟经测试低于 15ms 蓝牙连接。</p>
 <p>相关链接：</p>
 <ul>
-<li>项目地址：<a href="https://github.com/Mutual-Luo/Awesome-Sparse-Attention-Video-Diffusion">Mutual-Luo/Awesome-Sparse-Attention-Video-Diffusion</a></li>
+<li>项目地址：<a href="https://github.com/mitsuhiko/pi-ds4">mitsuhiko/pi-ds4</a></li>
 </ul>
 <hr>
-<h2><a href="https://github.com/gainubi/note-slides">note-slides</a> #5</h2>
+<h2><a href="https://github.com/chrysoljq/aistudio-api">aistudio-api</a> #4</h2>
 <blockquote>
-<p>将 Markdown 笔记自动渲染为 HTML 幻灯片，支持分页、代码高亮与主题切换。基于 Python 命令行工具，无需浏览器插件。</p>
+<p>非官方的 <strong>Python</strong> 客户端库，封装 <strong>Google AI Studio</strong> 的 HTTP API，支持文本生成、多轮对话、Gemini 模型切换及流式输出。</p>
 </blockquote>
-<p><p><img src="https://opengraph.githubassets.com/1/gainubi/note-slides" alt="note-slides" style="max-width:100%;border-radius:8px;"></p></p><p>许多知识工作者习惯用 Markdown 做学习笔记，但演示场景下仍需要手动复制到 PPT。<strong>note-slides</strong> 只需要一行命令 <code>noteslides input.md</code> 即可生成幻灯片。</p>
-<p>核心技术依赖 <code>markdown-it-py</code> 解析器，配合 <code>reveal.js</code> 作为渲染引擎。默认支持分段动画、演讲者备注和导出 PDF。</p>
-<p>GitHub 上获 <strong>17 Stars</strong>、<strong>2 Forks</strong>，社区提出需求支持 LaTeX 公式与图表嵌入。作者计划加入 <code>--template</code> 参数实现自定义样式。</p>
-<p>与 <code>marp-cli</code> 相比，note-slides 更轻量，无需安装 <code>chromium</code> 即可工作。特别适合快速将读书笔记转为分享材料。</p>
+<p><p><img src="https://opengraph.githubassets.com/1/chrysoljq/aistudio-api" alt="aistudio-api" style="max-width:100%;border-radius:8px;"></p></p><p><strong>Google AI Studio</strong> 为开发者提供免费试用的 Gemini API，但其原生 SDK 仅支持 Node.js 和 Dart。<strong>aistudio-api</strong> 补全了 Python 生态缺口，便于数据科学家快速集成。</p>
+<p>核心实现基于 <code>requests</code> 和 <code>SSE</code> 流式解析，支持 <code>gemini-1.5-pro</code> 与 <code>gemini-2.0-flash</code> 最新模型。提供 <code>async</code> 版本适配 asyncio，适用于高并发场景。</p>
+<p>当前 <strong>28 Stars</strong>、8 个 Forks，社区活跃度中等。Issues 中有用户反馈在 <strong>Google Colab</strong> 中稳定运行 24 小时未断连。</p>
+<p>由于是逆向 API 实现，存在被官方封禁的风险。但作者定期通过 CI 更新端点地址，并声明“仅供学习测试”。建议生产环境使用官方 <strong>google-generativeai</strong> 库。</p>
 <p>相关链接：</p>
 <ul>
-<li>项目地址：<a href="https://github.com/gainubi/note-slides">gainubi/note-slides</a></li>
+<li>项目地址：<a href="https://github.com/chrysoljq/aistudio-api">chrysoljq/aistudio-api</a></li>
 </ul>
 <hr>
-<h2><a href="https://github.com/petergpt/Live-YT-Translator">Live-YT-Translator</a> #6</h2>
+<h2><a href="https://github.com/HristoIgnev/LeadPulse-AI-Autonomous-Lead-Engagement-Scoring-Ecosystem">LeadPulse-AI-Autonomous-Lead-Engagement-Scoring-Ecosystem</a> #5</h2>
 <blockquote>
-<p>一个 JavaScript 书签脚本，可在 YouTube 直播页面实时将英文 CC 字幕翻译成多语言 overlay 字幕。利用浏览器内置翻译 API。</p>
+<p>全自主的 <strong>AI 销售线索评分</strong> 与互动系统，通过分析用户行为（邮件点击、网站访问、表单填写）自动计算转化概率，并触发个性化跟进消息。</p>
 </blockquote>
-<p><p><img src="https://opengraph.githubassets.com/1/petergpt/Live-YT-Translator" alt="Live-YT-Translator" style="max-width:100%;border-radius:8px;"></p></p><p>跨语言实时直播一直是痛点，第三方服务往往需要付费或复杂的转接。<strong>Live-YT-Translator</strong> 仅需浏览器运行，不发送任何数据到第三方服务器。</p>
-<p>技术原理：监听页面的 <code>TextTrack</code> 变化，通过 <code>window.TransApi</code>（需要用户提供 API Key）逐句翻译，然后注入到视频上方 <code>&lt;div&gt;</code> 中。</p>
-<p>项目获 <strong>16 Stars</strong>，代码行数不到 300，结构清晰。兼容 Chrome、Firefox 与 Edge。</p>
-<p>目前仅支持英→中、日、韩、法四种语言。作者提醒直播延迟约 2~3 秒，且依赖 <code>TransApi</code> 的免费配额。</p>
+<p><p><img src="https://opengraph.githubassets.com/1/HristoIgnev/LeadPulse-AI-Autonomous-Lead-Engagement-Scoring-Ecosystem" alt="LeadPulse-AI" style="max-width:100%;border-radius:8px;"></p></p><p>传统 <strong>CRM</strong> 中的线索评分依赖人工规则，难以捕捉动态意图。<strong>LeadPulse-AI</strong> 采用 <strong>XGBoost</strong> 模型实时更新分数，并结合 <strong>LangChain</strong> 实现自动邮件撰写。</p>
+<p>系统架构分为三模块：<code>行为采集器</code>（通过 Webhook 接入 HubSpot、Salesforce）、<code>评分引擎</code>（支持自定义特征工程）、<code>执行器</code>（调用 SendGrid 发送 AI 生成邮件）。全部代码公开，可私有化部署。</p>
+<p>当前 <strong>23 Stars</strong>，0 个 Forks，仍处于早期阶段。开发者 <strong>HristoIgnev</strong> 在 README 中提供了完整的部署视频教程和示例数据集。</p>
+<p>与 <strong>HubSpot Predictive Lead Scoring</strong> 等 SaaS 方案相比，LeadPulse 的优势在于完全可控的模型训练和成本（仅需服务器与 API 费用）。但对非技术用户部署门槛较高。</p>
 <p>相关链接：</p>
 <ul>
-<li>项目地址：<a href="https://github.com/petergpt/Live-YT-Translator">petergpt/Live-YT-Translator</a></li>
+<li>项目地址：<a href="https://github.com/HristoIgnev/LeadPulse-AI-Autonomous-Lead-Engagement-Scoring-Ecosystem">HristoIgnev/LeadPulse-AI-Autonomous-Lead-Engagement-Scoring-Ecosystem</a></li>
 </ul>
 <hr>
-<h2><a href="https://github.com/TYOPXN360/WIfikeyXposed">WIfikeyXposed</a> #7</h2>
+<h2><a href="https://github.com/QianYushi/turnintoserver">turnintoserver</a> #6</h2>
 <blockquote>
-<p>基于 Xposed 框架的模块，用于提取安卓系统中已保存 WiFi 密码。需要 Root 权限及 Xposed 环境。</p>
+<p>一款 <strong>Swift</strong> 编写的 iOS / iPadOS 应用，能在设备上快速启动本地 HTTP 服务器，支持文件上传、下载和目录浏览，无需外接电脑。</p>
 </blockquote>
-<p><p><img src="https://opengraph.githubassets.com/1/TYOPXN360/WIfikeyXposed" alt="WIfikeyXposed" style="max-width:100%;border-radius:8px;"></p></p><p>忘记 WiFi 密码又想分享给其他设备？<strong>WIfikeyXposed</strong> 通过 Hook 系统 <code>WifiManager</code> 的 <code>getWifiConfiguration</code> 方法，直接读取明文密码。</p>
-<p>模块体积仅 20KB ，安装后在 Xposed Installer 中激活即可。支持输出二维码分享。</p>
-<p>当前 <strong>7 Stars</strong>，代码量较小，仅含一个 Java 类。适用于 Android 8~11 系统（12 以上需额外适配）。</p>
-<p>需要注意的是，此模块会触发系统安全警告，且可能被杀毒软件标记。建议仅在自己设备上进行密码找回。</p>
+<p><p><img src="https://opengraph.githubassets.com/1/QianYushi/turnintoserver" alt="turnintoserver" style="max-width:100%;border-radius:8px;"></p></p><p>iOS 系统限制文件共享，用户常需要通过 AirDrop 或第三方云盘传输文件。<strong>turnintoserver</strong> 利用 <code>Network.framework</code> 在局域网内开启 HTTP 服务，支持 <strong>WebDAV</strong> 协议，方便电脑端直接拖拽文件。</p>
+<p>代码结构简洁，核心 Server 类仅 300 行，使用 <code>GCDWebServer</code> 库实现请求路由。UI 界面使用 SwiftUI 构建，提供暗黑模式适配和连接二维码扫码识别。</p>
+<p>当前 <strong>13 Stars</strong>、0 个 Forks，已发布 TestFlight 测试版。Issues 中询问是否支持 <strong>TLS 加密</strong>，作者回复计划在下个版本实现。</p>
+<p>与 <strong>iSH Shell</strong> 等终端模拟器方案相比，turnintoserver 无需越狱或命令行操作，普通用户即可一键启动，更适合临时文件传输场景。但缺乏用户认证机制，安全性有限。</p>
 <p>相关链接：</p>
 <ul>
-<li>项目地址：<a href="https://github.com/TYOPXN360/WIfikeyXposed">TYOPXN360/WIfikeyXposed</a></li>
+<li>项目地址：<a href="https://github.com/QianYushi/turnintoserver">QianYushi/turnintoserver</a></li>
 </ul>
 ]]></content:encoded>
-<guid isPermaLink="false">https://2538514844.github.io/2026-05-08/</guid>
-<pubDate>Fri, 08 May 2026 01:49:05 GMT</pubDate>
+<guid isPermaLink="false">https://2538514844.github.io/2026-05-09/</guid>
+<pubDate>Sat, 09 May 2026 01:27:40 GMT</pubDate>
 </item>
   </channel>
 </rss>
