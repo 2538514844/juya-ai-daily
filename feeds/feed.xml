@@ -5,115 +5,125 @@
     <link>https://github.com</link>
     <description><![CDATA[AI 精选 GitHub 热门仓库，每日更新]]></description>
     <language>zh-CN</language>
-    <lastBuildDate>Sat, 09 May 2026 01:27:40 GMT</lastBuildDate>
+    <lastBuildDate>Sun, 10 May 2026 01:46:58 GMT</lastBuildDate>
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>GitHub Scout</generator>
     <atom:link href="https://2538514844.github.io/feeds/feed.xml" rel="self" type="application/rss+xml"/>
 <item>
-<title><![CDATA[2026-05-09 每日精选]]></title>
-<link>https://2538514844.github.io/2026-05-09/</link>
-<description><![CDATA[2026-05-09 每日精选 — 6 个仓库: nooncheetahstart/Kahoot-tools-AI, ckpxgfnksd-max/uap-release-analyzer, mitsuhiko/pi-ds4, chrysoljq/aistudio-api, HristoIgnev/LeadPulse-AI-Autonomous-Lead-Engagement-Scoring-Ecosystem, QianYushi/turnintoserver]]></description>
-<content:encoded><![CDATA[<h1>2026-05-09 GitHub 开源项目精选</h1>
+<title><![CDATA[2026-05-10 每日精选]]></title>
+<link>https://2538514844.github.io/2026-05-10/</link>
+<description><![CDATA[2026-05-10 每日精选 — 7 个仓库: nickvasilescu/hermes-desktop-os1, baydarerhan/Sora-2-App-No-Watermark, cosmicstack-labs/mercury-agent-skills, shengshu-ai/minWM, CAZAMA1/Codex-app-with-deepseek-perfectly, Poyeski/gitmap-v16, yayuvinagrawal-cloud/python]]></description>
+<content:encoded><![CDATA[<h1>2026-05-10 GitHub 开源项目精选</h1>
 <h2>概览</h2>
-<h3>效率工具</h3>
+<h3>操作系统 / 桌面</h3>
 <ul>
-<li><strong>Kahoot-tools-AI</strong> — 为课堂互动平台 <strong>Kahoot</strong> 注入 AI 自动答题与统计能力，大幅简化游戏化学习作弊/辅助流程。 ↗ #1</li>
-<li><strong>turnintoserver</strong> — 轻量级 iOS 应用，一键将 iPhone 或 iPad 转化为 HTTP 服务器，方便本地文件传输与托管。 ↗ #6</li>
+<li><strong>Hermes Desktop OS</strong>：基于 Swift 构建的轻量桌面操作系统，主打极简与模块化设计。↗ #1</li>
 </ul>
-<h3>开发工具</h3>
+<h3>AI / 大模型应用</h3>
 <ul>
-<li><strong>uap-release-analyzer</strong> — Python 构建的持续集成发布分析工具，自动抓取 <strong>UAP</strong>（统一自动化平台）版本信息并生成可视化趋势。 ↗ #2</li>
-<li><strong>pi-ds4</strong> — 用 TypeScript 在树莓派上驱动 <strong>DualShock 4</strong> 手柄，提供低延迟无线操控和按键映射库。 ↗ #3</li>
+<li><strong>Sora-2 App No Watermark</strong>：提供无水印的 Sora 视频生成体验，HTML 封装，无需安装。↗ #2</li>
 </ul>
-<h3>AI/大模型</h3>
+<h3>AI 智能体 / 技能库</h3>
 <ul>
-<li><strong>aistudio-api</strong> — 非官方 Python 封装，为 <strong>Google AI Studio</strong> 的生成式 AI 能力提供简洁的 API 接口，支持多模型调用。 ↗ #4</li>
+<li><strong>Mercury Agent Skills</strong>：面向多智能体系统的技能插件集合，让 AI Agent 快速获得新能力。↗ #3</li>
 </ul>
-<h3>营销/自动化</h3>
+<h3>开发工具 / 效率工具</h3>
 <ul>
-<li><strong>LeadPulse-AI</strong> — 全自主 <strong>AI 销售线索评分</strong> 与互动系统，通过行为分析自动生成商机优先级排序。 ↗ #5</li>
+<li><strong>minWM</strong>：极致精简的窗口管理器，主打内存占用低与响应快。↗ #4</li>
+<li><strong>Codex-app with DeepSeek</strong>：用 Rust 打造的 VS Code 扩展，无缝接入 DeepSeek 代码补全。↗ #5</li>
+<li><strong>GitMap v16</strong>：可视化 Git 提交历史图谱，支持分支拓扑与贡献热力展示。↗ #6</li>
 </ul>
-<hr>
-<h2><a href="https://github.com/nooncheetahstart/Kahoot-tools-AI">Kahoot-tools-AI</a> #1</h2>
-<blockquote>
-<p>一个面向在线教学游戏平台 <strong>Kahoot</strong> 的 AI 辅助工具箱，能够自动识别题目、提取选项并借助 <strong>LLM</strong> 给出答案，同时附带实时答题统计与延迟控制功能。</p>
-</blockquote>
-<p><p><img src="https://opengraph.githubassets.com/1/nooncheetahstart/Kahoot-tools-AI" alt="Kahoot-tools-AI" style="max-width:100%;border-radius:8px;"></p></p><p><strong>Kahoot</strong> 是课堂上常用的抢答式学习平台，但快速作答对部分学生造成压力。<strong>Kahoot-tools-AI</strong> 利用视觉识别与语言模型，自动截图抓取题库并返回正确答案，让使用者能“秒杀”每道题。</p>
-<p>项目采用 <strong>Python</strong> 编写，通过 <code>pyautogui</code> 进行屏幕截取，借助 <strong>OpenAI</strong> 兼容的 API（如 GPT-4o）分析题目内容。它还提供<strong>分数统计面板</strong>，可记录延迟、正确率并生成作弊日志。</p>
-<p>当前获得 <strong>105 Stars</strong>、0 个 Forks，社区关注度尚小，但议题区已有用户请求增加多账号并行支持。开发者明确声明“仅用于教育实验”，避免滥用。</p>
-<p>与同类方案（如 Kahoot 外挂脚本）相比，该工具完全基于屏幕截取和 AI 视觉，无需逆向游戏协议，兼容性更强。但也因此对网络延迟和 API 费用有一定要求。</p>
-<p>相关链接：</p>
+<h3>学习资源 / 工具</h3>
 <ul>
-<li>项目地址：<a href="https://github.com/nooncheetahstart/Kahoot-tools-AI">nooncheetahstart/Kahoot-tools-AI</a></li>
+<li><strong>Python 速查指南</strong>：面向初学者的 Python 概念速查表，结构清晰，示例直观。↗ #7</li>
 </ul>
 <hr>
-<h2><a href="https://github.com/ckpxgfnksd-max/uap-release-analyzer">uap-release-analyzer</a> #2</h2>
+<h2><a href="https://github.com/nickvasilescu/hermes-desktop-os1">Hermes Desktop OS</a> #1</h2>
 <blockquote>
-<p>自动化分析 <strong>UAP（Unified Automation Platform）</strong> 发布流水线的 Python 工具，能够从 CI/CD 记录中提取版本号、分支变更及发布频率，并生成时间序列图表。</p>
+<p><strong>Hermes Desktop OS</strong> 是一个用 <strong>Swift</strong> 编写的轻量级桌面操作系统核心，专注于极简架构和模块化设计。它尝试在低功耗硬件上提供流畅的桌面体验，目前处于早期开发阶段。</p>
 </blockquote>
-<p><p><img src="https://opengraph.githubassets.com/1/ckpxgfnksd-max/uap-release-analyzer" alt="uap-release-analyzer" style="max-width:100%;border-radius:8px;"></p></p><p>大型组织通常有多条发布流水线，人工追踪版本演进极为繁琐。<strong>uap-release-analyzer</strong> 通过解析 <strong>Jenkins</strong> 或 <strong>GitHub Actions</strong> 的日志，自动汇总每个版本的发布时间、关联提交和负责人。</p>
-<p>核心功能包括：<strong>Regex 模式匹配</strong>提取版本号、<strong>Pandas</strong> 处理时间序列、<strong>Matplotlib</strong> 绘制发布趋势图。支持输出为静态 HTML 报告，便于团队周会展示。</p>
-<p>项目当前 <strong>67 Stars</strong>、8 个 Forks，贡献者主要是 DevOps 工程师。Issues 中讨论了对 <strong>Azure DevOps</strong> 的支持计划，预计下个版本加入。</p>
-<p>与 <strong>GitLab Release Dashboard</strong> 等原生工具相比，该工具的优势在于不绑定特定 CI 平台，只需标准化的日志格式即可工作。适用于多工具混用的企业环境。</p>
-<p>相关链接：</p>
+<p><p><img src="https://opengraph.githubassets.com/1/nickvasilescu/hermes-desktop-os1" alt="Hermes Desktop OS" style="max-width:100%;border-radius:8px;"></p></p><p>该项目诞生于对现有桌面系统过于臃肿的不满。开发者希望用更现代的 <strong>Swift</strong> 语言重写操作系统核心，降低对系统资源的依赖。目前仅实现了基本的窗口管理、进程调度和输入处理。</p>
+<p>技术方案上，<strong>Hermes Desktop OS</strong> 采用微内核架构，将驱动、文件系统、网络栈作为用户态服务运行。这种设计提高了系统的稳定性与安全性，但也带来了进程间通信的性能挑战。</p>
+<p>截至 5 月 10 日，项目获得 <strong>226 个 Stars</strong> 和 <strong>39 个 Forks</strong>，在 GitHub 上引起了 Swift 和操作系统爱好者社区的关注。开发者计划每月发布一次 Alpha 版本。</p>
+<p>与 Linux 微内核项目（如 <strong>Minix</strong>）不同，<strong>Hermes Desktop OS</strong> 在用户界面层直接使用 <strong>SwiftUI</strong> 编写，预期能更快构建原生视觉效果。适合对操作系统设计感兴趣的开发者学习或贡献。</p>
 <ul>
-<li>项目地址：<a href="https://github.com/ckpxgfnksd-max/uap-release-analyzer">ckpxgfnksd-max/uap-release-analyzer</a></li>
+<li>项目地址：<a href="https://github.com/nickvasilescu/hermes-desktop-os1">nickvasilescu/hermes-desktop-os1</a></li>
 </ul>
 <hr>
-<h2><a href="https://github.com/mitsuhiko/pi-ds4">pi-ds4</a> #3</h2>
+<h2><a href="https://github.com/baydarerhan/Sora-2-App-No-Watermark">Sora-2 App No Watermark</a> #2</h2>
 <blockquote>
-<p>用 <strong>TypeScript</strong> 编写的库，让 <strong>Raspberry Pi</strong> 通过蓝牙或 USB 原生读取 <strong>DualShock 4</strong> 手柄的输入状态，并提供马达反馈与 LED 控制。</p>
+<p><strong>Sora-2 App No Watermark</strong> 是一个基于 <strong>HTML</strong> 的简易封装应用，让用户直接调用 <strong>OpenAI Sora</strong> 生成视频，并去除默认水印。无需安装本地客户端，打开网页即可使用。</p>
 </blockquote>
-<p><p><img src="https://opengraph.githubassets.com/1/mitsuhiko/pi-ds4" alt="pi-ds4" style="max-width:100%;border-radius:8px;"></p></p><p>树莓派常被用作游戏机或机器人控制器，但官方驱动对 DS4 支持不完善。<strong>pi-ds4</strong> 的作者 <strong>mitsuhiko</strong>（知名 Python 工具 Flask、Rust 项目作者）亲自动手，用 TypeScript 绕过繁琐的 HID 协议实现直连。</p>
-<p>项目通过 <code>node-hid</code> 与 <code>/dev/input</code> 设备交互，提供 <code>imu</code>（加速度计/陀螺仪）、<code>touchpad</code> 和 <code>battery</code> 状态读取。API 设计简洁，类似游戏框架的 input 模块。</p>
-<p>当前 <strong>51 Stars</strong>、3 个 Forks，Issues 区已有人测试成功运行在 <strong>Zero 2W</strong> 上。开发者承诺后续增加对 <strong>DualSense</strong> 的兼容性。</p>
-<p>与 <strong>PyDS4</strong>（Python 库）相比，pi-ds4 在 TypeScript/Node.js 生态中更易集成到 Web 应用或 Electron 游戏前端。延迟经测试低于 15ms 蓝牙连接。</p>
-<p>相关链接：</p>
+<p><p><img src="https://opengraph.githubassets.com/1/baydarerhan/Sora-2-App-No-Watermark" alt="Sora-2 App No Watermark" style="max-width:100%;border-radius:8px;"></p></p><p>OpenAI 的 <strong>Sora</strong> 视频生成模型发布后迅速火爆，但官方生成的视频均带有水印。这个项目提供了一个替代前端，通过代理方式调用 Sora API，并在输出前移除水印。开发者称其仅用于学习和研究目的。</p>
+<p>项目本质是一个单页 HTML 应用，包含简单的提示词输入框与生成结果展示区域。用户需要自备 Sora API Key。技术栈仅依赖浏览器，无需后端服务。</p>
+<p>该项目获得 <strong>115 个 Stars</strong>，没有 Fork。社区讨论集中在水印移除的合规性上。开发者在 README 中特别声明不鼓励滥用。</p>
+<p>与同类工具（如 <strong>Sora Web UI</strong>）相比，这个项目最大的特点是去水印功能，但稳定性取决于官方 API 的变动。适合希望在个人项目中避免水印的开发者试用。</p>
 <ul>
-<li>项目地址：<a href="https://github.com/mitsuhiko/pi-ds4">mitsuhiko/pi-ds4</a></li>
+<li>项目地址：<a href="https://github.com/baydarerhan/Sora-2-App-No-Watermark">baydarerhan/Sora-2-App-No-Watermark</a></li>
 </ul>
 <hr>
-<h2><a href="https://github.com/chrysoljq/aistudio-api">aistudio-api</a> #4</h2>
+<h2><a href="https://github.com/cosmicstack-labs/mercury-agent-skills">Mercury Agent Skills</a> #3</h2>
 <blockquote>
-<p>非官方的 <strong>Python</strong> 客户端库，封装 <strong>Google AI Studio</strong> 的 HTTP API，支持文本生成、多轮对话、Gemini 模型切换及流式输出。</p>
+<p><strong>Mercury Agent Skills</strong> 是一个面向 <strong>Mercury Agent 框架</strong> 的技能插件集合，允许开发者为 AI 智能体快速添加网页浏览、代码执行、文件操作等新能力。采用模块化设计，即插即用。</p>
 </blockquote>
-<p><p><img src="https://opengraph.githubassets.com/1/chrysoljq/aistudio-api" alt="aistudio-api" style="max-width:100%;border-radius:8px;"></p></p><p><strong>Google AI Studio</strong> 为开发者提供免费试用的 Gemini API，但其原生 SDK 仅支持 Node.js 和 Dart。<strong>aistudio-api</strong> 补全了 Python 生态缺口，便于数据科学家快速集成。</p>
-<p>核心实现基于 <code>requests</code> 和 <code>SSE</code> 流式解析，支持 <code>gemini-1.5-pro</code> 与 <code>gemini-2.0-flash</code> 最新模型。提供 <code>async</code> 版本适配 asyncio，适用于高并发场景。</p>
-<p>当前 <strong>28 Stars</strong>、8 个 Forks，社区活跃度中等。Issues 中有用户反馈在 <strong>Google Colab</strong> 中稳定运行 24 小时未断连。</p>
-<p>由于是逆向 API 实现，存在被官方封禁的风险。但作者定期通过 CI 更新端点地址，并声明“仅供学习测试”。建议生产环境使用官方 <strong>google-generativeai</strong> 库。</p>
-<p>相关链接：</p>
+<p><p><img src="https://opengraph.githubassets.com/1/cosmicstack-labs/mercury-agent-skills" alt="Mercury Agent Skills" style="max-width:100%;border-radius:8px;"></p></p><p>随着多智能体系统的兴起，开发者经常需要为 Agent 编写重复的功能代码。<strong>Mercury Agent Skills</strong> 旨在解决这个问题：它提供一组标准化的技能接口，只需简单配置就能让 Agent 拥有新技能。项目与 <strong>Mercury Agent</strong> 框架深度绑定。</p>
+<p>技能库目前包含 <strong>浏览器控制</strong>、<strong>Python 解释器</strong>、<strong>文件系统操作</strong>、<strong>HTTP 请求</strong> 等基础技能。每个技能以独立包的形式发布，遵循统一的生命周期规范。</p>
+<p>项目收获 <strong>53 个 Stars</strong> 和 <strong>7 个 Forks</strong>，社区贡献活跃。开发者计划后续加入数据库查询、邮件发送等企业级技能。</p>
+<p>与 <strong>LangChain</strong> 的 Tool 插件相比，<strong>Mercury Agent Skills</strong> 更强调与 Mercury 框架的紧密集成，配置方式更简洁。适合已采用 <strong>Mercury Agent</strong> 的团队直接使用。</p>
 <ul>
-<li>项目地址：<a href="https://github.com/chrysoljq/aistudio-api">chrysoljq/aistudio-api</a></li>
+<li>项目地址：<a href="https://github.com/cosmicstack-labs/mercury-agent-skills">cosmicstack-labs/mercury-agent-skills</a></li>
 </ul>
 <hr>
-<h2><a href="https://github.com/HristoIgnev/LeadPulse-AI-Autonomous-Lead-Engagement-Scoring-Ecosystem">LeadPulse-AI-Autonomous-Lead-Engagement-Scoring-Ecosystem</a> #5</h2>
+<h2><a href="https://github.com/shengshu-ai/minWM">minWM</a> #4</h2>
 <blockquote>
-<p>全自主的 <strong>AI 销售线索评分</strong> 与互动系统，通过分析用户行为（邮件点击、网站访问、表单填写）自动计算转化概率，并触发个性化跟进消息。</p>
+<p><strong>minWM</strong> 是一个极简窗口管理器实现，核心代码仅数百行，支持基础的多窗口平铺与堆叠。专为嵌入式设备和轻量桌面环境设计，内存占用低于 10 MB。</p>
 </blockquote>
-<p><p><img src="https://opengraph.githubassets.com/1/HristoIgnev/LeadPulse-AI-Autonomous-Lead-Engagement-Scoring-Ecosystem" alt="LeadPulse-AI" style="max-width:100%;border-radius:8px;"></p></p><p>传统 <strong>CRM</strong> 中的线索评分依赖人工规则，难以捕捉动态意图。<strong>LeadPulse-AI</strong> 采用 <strong>XGBoost</strong> 模型实时更新分数，并结合 <strong>LangChain</strong> 实现自动邮件撰写。</p>
-<p>系统架构分为三模块：<code>行为采集器</code>（通过 Webhook 接入 HubSpot、Salesforce）、<code>评分引擎</code>（支持自定义特征工程）、<code>执行器</code>（调用 SendGrid 发送 AI 生成邮件）。全部代码公开，可私有化部署。</p>
-<p>当前 <strong>23 Stars</strong>，0 个 Forks，仍处于早期阶段。开发者 <strong>HristoIgnev</strong> 在 README 中提供了完整的部署视频教程和示例数据集。</p>
-<p>与 <strong>HubSpot Predictive Lead Scoring</strong> 等 SaaS 方案相比，LeadPulse 的优势在于完全可控的模型训练和成本（仅需服务器与 API 费用）。但对非技术用户部署门槛较高。</p>
-<p>相关链接：</p>
+<p><p><img src="https://opengraph.githubassets.com/1/shengshu-ai/minWM" alt="minWM" style="max-width:100%;border-radius:8px;"></p></p><p>在桌面系统日趋复杂的今天，部分用户渴望回到纯粹、高效的窗口管理方式。<strong>minWM</strong> 由 <strong>Shengshu AI</strong> 团队开发，最初用于内部测试环境的轻量桌面，现在开源。</p>
+<p>技术核心非常简单：直接操作 <strong>X11</strong> 或 <strong>Wayland</strong> 协议，实现窗口的创建、移动、缩放与关闭。没有动画、没有特效，但响应速度极快。启动时间小于 100 ms。</p>
+<p>项目获得 <strong>30 个 Stars</strong>，尚未有 Fork。社区反馈中有人提到性能在树莓派上表现优秀。开发者正在考虑增加对 <strong>dmenu</strong> 和 <strong>rofi</strong> 的集成。</p>
+<p>与 <strong>DWM</strong>、<strong>i3</strong> 等经典窗口管理器相比，<strong>minWM</strong> 的代码量更小，适合用于教学或嵌入式场景。不过功能也大幅缩水，不适合日常主力使用。</p>
 <ul>
-<li>项目地址：<a href="https://github.com/HristoIgnev/LeadPulse-AI-Autonomous-Lead-Engagement-Scoring-Ecosystem">HristoIgnev/LeadPulse-AI-Autonomous-Lead-Engagement-Scoring-Ecosystem</a></li>
+<li>项目地址：<a href="https://github.com/shengshu-ai/minWM">shengshu-ai/minWM</a></li>
 </ul>
 <hr>
-<h2><a href="https://github.com/QianYushi/turnintoserver">turnintoserver</a> #6</h2>
+<h2><a href="https://github.com/CAZAMA1/Codex-app-with-deepseek-perfectly">Codex-app with DeepSeek</a> #5</h2>
 <blockquote>
-<p>一款 <strong>Swift</strong> 编写的 iOS / iPadOS 应用，能在设备上快速启动本地 HTTP 服务器，支持文件上传、下载和目录浏览，无需外接电脑。</p>
+<p><strong>Codex-app with DeepSeek</strong> 是用 <strong>Rust</strong> 编写的 VS Code 扩展，将 <strong>DeepSeek</strong> 代码补全模型集成到 IDE 中。支持流式补全、多行建议，延迟低于 200 ms。</p>
 </blockquote>
-<p><p><img src="https://opengraph.githubassets.com/1/QianYushi/turnintoserver" alt="turnintoserver" style="max-width:100%;border-radius:8px;"></p></p><p>iOS 系统限制文件共享，用户常需要通过 AirDrop 或第三方云盘传输文件。<strong>turnintoserver</strong> 利用 <code>Network.framework</code> 在局域网内开启 HTTP 服务，支持 <strong>WebDAV</strong> 协议，方便电脑端直接拖拽文件。</p>
-<p>代码结构简洁，核心 Server 类仅 300 行，使用 <code>GCDWebServer</code> 库实现请求路由。UI 界面使用 SwiftUI 构建，提供暗黑模式适配和连接二维码扫码识别。</p>
-<p>当前 <strong>13 Stars</strong>、0 个 Forks，已发布 TestFlight 测试版。Issues 中询问是否支持 <strong>TLS 加密</strong>，作者回复计划在下个版本实现。</p>
-<p>与 <strong>iSH Shell</strong> 等终端模拟器方案相比，turnintoserver 无需越狱或命令行操作，普通用户即可一键启动，更适合临时文件传输场景。但缺乏用户认证机制，安全性有限。</p>
-<p>相关链接：</p>
+<p><p><img src="https://opengraph.githubassets.com/1/CAZAMA1/Codex-app-with-deepseek-perfectly" alt="Codex-app with DeepSeek" style="max-width:100%;border-radius:8px;"></p></p><p><strong>DeepSeek</strong> 作为国产开源大模型，在代码生成任务上表现接近 <strong>GPT-4</strong>。但官方提供的 VS Code 插件体验一般。这个项目重新实现了客户端，使用 <strong>Rust</strong> 编写核心逻辑以提高性能。</p>
+<p>扩展的核心功能包括：触发补全时调用 DeepSeek API，在本地进行上下文缓存，支持自定义 prompt 模板。通过 <strong>Rust</strong> 的异步 IO 实现非阻塞补全。</p>
+<p>该仓库获得 <strong>26 个 Stars</strong> 和 <strong>3 个 Forks</strong>。开发者声称补全延迟比官方插件快 3 倍，但未给出具体基准数据。社区有人指出需要 DeepSeek API Key。</p>
+<p>与 <strong>Continue.dev</strong> 等通用代码 AI 扩展相比，<strong>Codex-app with DeepSeek</strong> 专为 DeepSeek 优化，配置更简单，但对其他模型不兼容。适合深度使用 DeepSeek 的开发者。</p>
 <ul>
-<li>项目地址：<a href="https://github.com/QianYushi/turnintoserver">QianYushi/turnintoserver</a></li>
+<li>项目地址：<a href="https://github.com/CAZAMA1/Codex-app-with-deepseek-perfectly">CAZAMA1/Codex-app-with-deepseek-perfectly</a></li>
+</ul>
+<hr>
+<h2><a href="https://github.com/Poyeski/gitmap-v16">GitMap v16</a> #6</h2>
+<blockquote>
+<p><strong>GitMap v16</strong> 是一个可视化 Git 仓库历史的工具，能以拓扑图形式展示分支结构、提交记录和贡献热度。支持交互式缩放与节点筛选。</p>
+</blockquote>
+<p><p><img src="https://opengraph.githubassets.com/1/Poyeski/gitmap-v16" alt="GitMap v16" style="max-width:100%;border-radius:8px;"></p></p><p>开发者日常工作离不开 Git，但命令行和 GUI 工具（如 <strong>Sourcetree</strong>）在大型仓库中可视化效果有限。<strong>GitMap</strong> 采用不同的思路：将整个提交历史渲染为一张可缩放的地图，分支像河流交汇。</p>
+<p>v16 版本新增了贡献热力环，用颜色深浅表示每位作者在某区域的活跃度。此外，支持导出为 SVG 和 PNG 格式。工具基于 <strong>Electron</strong> 构建，跨平台可用。</p>
+<p>项目获得 <strong>23 个 Stars</strong>，开发者正在 GitHub 上收集功能建议。据介绍，加载拥有 10000 以上 commit 的仓库依然流畅。</p>
+<p>与 <strong>gitg</strong>、<strong>gitk</strong> 等传统工具相比，<strong>GitMap</strong> 更注重视觉叙事，适合做技术分享或代码回顾时的演示工具。但实际代码审查场景中，功能还不够丰富。</p>
+<ul>
+<li>项目地址：<a href="https://github.com/Poyeski/gitmap-v16">Poyeski/gitmap-v16</a></li>
+</ul>
+<hr>
+<h2><a href="https://github.com/yayuvinagrawal-cloud/python">Python 速查指南</a> #7</h2>
+<blockquote>
+<p><strong>Python 速查指南</strong> 是一个面向编程初学者的 Python 语言速查表，涵盖基础语法、数据结构、函数、文件操作等核心知识点。采用 Markdown 编写，示例直观。</p>
+</blockquote>
+<p><p><img src="https://opengraph.githubassets.com/1/yayuvinagrawal-cloud/python" alt="Python 速查指南" style="max-width:100%;border-radius:8px;"></p></p><p>很多 Python 新手在忘记语法时需要反复搜索，传统教程又太长。这个项目将最常用的 Python 知识点浓缩成一份文档，每个知识点附带一个即用示例。</p>
+<p>内容涵盖：变量与类型、列表推导式、字典操作、异常处理、<code>lambda</code> 函数、模块导入等。文档以文件列表形式组织，可通过目录快速跳转。</p>
+<p>该项目获得 <strong>23 个 Stars</strong>，全部来自个人项目展示。虽然星数不高，但内容质量得到一些评论认可。适合放在浏览器书签中随时查阅。</p>
+<p>与 <strong>Python cheat sheet</strong>（如 <strong>Real Python</strong> 的版本）相比，此项目更精简，只包含最核心的部分。缺点是缺少 Python 3.11+ 的新特性，如 <code>match</code> 语句。</p>
+<ul>
+<li>项目地址：<a href="https://github.com/yayuvinagrawal-cloud/python">yayuvinagrawal-cloud/python</a></li>
 </ul>
 ]]></content:encoded>
-<guid isPermaLink="false">https://2538514844.github.io/2026-05-09/</guid>
-<pubDate>Sat, 09 May 2026 01:27:40 GMT</pubDate>
+<guid isPermaLink="false">https://2538514844.github.io/2026-05-10/</guid>
+<pubDate>Sun, 10 May 2026 01:46:58 GMT</pubDate>
 </item>
   </channel>
 </rss>
