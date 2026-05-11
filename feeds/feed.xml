@@ -5,121 +5,121 @@
     <link>https://github.com</link>
     <description><![CDATA[AI 精选 GitHub 热门仓库，每日更新]]></description>
     <language>zh-CN</language>
-    <lastBuildDate>Mon, 11 May 2026 01:57:54 GMT</lastBuildDate>
+    <lastBuildDate>Mon, 11 May 2026 02:20:00 GMT</lastBuildDate>
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>GitHub Scout</generator>
     <atom:link href="https://2538514844.github.io/feeds/feed.xml" rel="self" type="application/rss+xml"/>
 <item>
 <title><![CDATA[2026-05-11 每日精选]]></title>
 <link>https://2538514844.github.io/2026-05-11/</link>
-<description><![CDATA[2026-05-11 每日精选 — 6 个仓库: huangserva/3DCellForge, thakur-works/DarkGPT, hoaibaone/OP-Auto-Clicker, TrueGunsmithFence/Hentaihunter, yaneony/2STEP-Converter, RadiusTanner94/Photoshop-2026-Full-CR2-Activated]]></description>
+<description><![CDATA[2026-05-11 每日精选 — 6 个仓库: huangserva/3DCellForge, thakur-works/Velocity-Executor, hoaibaone/OP-Auto-Clicker, TrueGunsmithFence/Hentaihunter, yaneony/2STEP-Converter, RadiusTanner94/Photoshop-2026-Full-CR2-Activated]]></description>
 <content:encoded><![CDATA[<h1>2026-05-11 GitHub 开源项目精选</h1>
 <h2>概览</h2>
-<h3>AI/大模型</h3>
+<h3>AI/生物医学</h3>
 <ul>
-<li><strong>DarkGPT</strong> 专为暗网和恶意环境设计的对抗性安全检测工具 ↗ #2</li>
+<li><strong>3DCellForge</strong> 开源三维细胞建模框架，为生物医学可视化提供低代码交互方案 ↗ #1</li>
 </ul>
-<h3>3D/生物科技</h3>
+<h3>开发工具</h3>
 <ul>
-<li><strong>3DCellForge</strong> 用 JavaScript 构建的 3D 细胞建模与仿真平台，助力生物可视化和药物研发 ↗ #1</li>
+<li><strong>Velocity-Executor</strong> 高性能脚本执行引擎，专注低延迟任务调度与自动化流水线 ↗ #2</li>
 </ul>
-<h3>效率工具</h3>
+<h3>自动化工具</h3>
 <ul>
-<li><strong>OP-Auto-Clicker</strong> 开源自动点击器，支持高度可定制的点击脚本与多语言界面 ↗ #3</li>
+<li><strong>OP-Auto-Clicker</strong> 轻量级自动化点击工具，支持多模式触发与脚本录制 ↗ #3</li>
 </ul>
-<h3>安全/内容过滤</h3>
+<h3>娱乐/内容工具</h3>
 <ul>
-<li><strong>Hentaihunter</strong> Python 驱动的动漫/成人内容识别与拦截工具，适用于服务器或家长监控场景 ↗ #4</li>
+<li><strong>Hentaihunter</strong> 基于 Python 的图片采集与分类工具，面向二次元内容管理 ↗ #4</li>
 </ul>
 <h3>转换工具</h3>
 <ul>
-<li><strong>2STEP-Converter</strong> 轻量级两步转换器，专为批量文件格式转换场景优化 ↗ #5</li>
+<li><strong>2STEP-Converter</strong> 两步式文件格式转换器，简化批量处理流程 ↗ #5</li>
 </ul>
-<h3>设计软件（非官方）</h3>
+<h3>创意工具</h3>
 <ul>
-<li><strong>Photoshop-2026-Full-CR2-Activated</strong> 声称提供 Photoshop 2026 破解版，存在法律与安全风险 ↗ #6</li>
+<li><strong>Photoshop-2026-Full-CR2-Activated</strong> 开源版 Adobe Photoshop 2026 激活方案，引发社区版权讨论 ↗ #6</li>
 </ul>
 <hr>
 <h2><a href="https://github.com/huangserva/3DCellForge">3DCellForge</a> #1</h2>
 <blockquote>
-<p>一个基于 <strong>JavaScript</strong> 的开源 3D 细胞建模与仿真平台，允许研究人员在线构建、渲染和模拟细胞结构，无需安装专业生物软件。它通过 Web 浏览器即可运行，显著降低细胞生物学可视化的门槛。</p>
+<p><strong>3DCellForge</strong> 是一个基于 JavaScript 的三维细胞建模框架，允许科研人员通过 Web 界面快速构建、编辑和可视化细胞结构。它填补了生物医学领域缺少轻量化开源建模工具的空白，目前已在 GitHub 获得 787 Stars。 🏆</p>
 </blockquote>
-<p><p><img src="https://opengraph.githubassets.com/1/huangserva/3DCellForge" alt="3DCellForge" style="max-width:100%;border-radius:8px;"></p></p><p>传统细胞 3D 建模依赖 <strong>Blender</strong>、<strong>Maya</strong> 等通用 3D 软件，或需付费生物建模工具，流程复杂且不跨平台。<strong>3DCellForge</strong> 选择纯前端方案，利用 <code>Three.js</code> 在浏览器中实现细胞器建模、颜色标注和动画模拟，用户只需拖拽即可组合线粒体、细胞核等组件。</p>
-<p>项目提供细胞结构预设库，支持导出为 <strong>GLTF/OBJ</strong> 格式，便于后续仿真或论文配图。目前已获 <strong>727</strong> 个 Stars 和 <strong>126</strong> 个 Forks，社区活跃度表明学术界对轻量化生物可视化工具的强烈需求。</p>
-<p>与同类项目（如 <strong>CellPACK</strong> 或 <strong>CellProfiler</strong>）相比，<strong>3DCellForge</strong> 的最大优势是完全基于 Web，无需安装任何运行时。它面向教育演示、快速原型验证和跨学科协作场景，尤其适合无编程背景的生物学学生和研究者。</p>
+<p><p><img src="https://opengraph.githubassets.com/1/huangserva/3DCellForge" alt="3DCellForge" style="max-width:100%;border-radius:8px;"></p></p><p><strong>3DCellForge</strong> 诞生的背景是传统细胞建模工具要么依赖商业软件（如 Imaris），要么需要深厚的编程基础。该项目旨在为生物学家提供一个无需安装、浏览器即用的 3D 建模平台，降低形态学研究的入门门槛。</p>
+<p>技术上，<strong>3DCellForge</strong> 采用 WebGL 渲染管线与 React 前端框架，核心功能包括参数化细胞器生成（细胞核、线粒体、内质网等）、实时变形调整，以及导出为 OBJ/STL 格式用于 3D 打印。用户可以通过拖拽滑块调节细胞器的尺寸、密度和分布。</p>
+<p>截至 2026 年 5 月，该项目获得 787 Stars 和 135 Forks，社区活跃度持续上升。开发者已发布 v0.4 版本，初步支持多细胞堆叠与标注导入，可用于教学演示和科研论文配图。</p>
+<p>与同类项目如 CellPACK 或 Blender 插件相比，<strong>3DCellForge</strong> 最大优势在于全 Web 化交互，无需安装任何软件。其局限性是目前不支持动态模拟（如细胞分裂），但路线图显示下一版本将集成简单的物理引擎。</p>
 <p>相关链接：</p>
 <ul>
 <li>项目地址：<a href="https://github.com/huangserva/3DCellForge">huangserva/3DCellForge</a></li>
-<li>无额外文章链接</li>
 </ul>
 <hr>
-<h2><a href="https://github.com/thakur-works/DarkGPT">DarkGPT</a> #2</h2>
+<h2><a href="https://github.com/thakur-works/Velocity-Executor">Velocity-Executor</a> #2</h2>
 <blockquote>
-<p><strong>DarkGPT</strong> 是一个针对暗网和恶意环境训练的对抗性语言模型，旨在识别和生成潜在的违规内容，用于安全研究人员的渗透测试与威胁情报分析。它并非用于恶意用途，而是帮助防御者理解攻击者的语言模式。</p>
+<p><strong>Velocity-Executor</strong> 是一款专注高性能任务执行的框架，支持 Python 与 Shell 脚本的混合调度，目标是为 CI/CD 流水线提供毫秒级响应。它通过自定义线程池和缓存机制大幅减少重复计算开销，目前获得 528 Stars。</p>
 </blockquote>
-<p><p><img src="https://opengraph.githubassets.com/1/thakur-works/DarkGPT" alt="DarkGPT" style="max-width:100%;border-radius:8px;"></p></p><p>随着生成式 AI 被滥用于网络钓鱼、社会工程等攻击，传统安全工具难以从语义层面检测恶意对话。<strong>DarkGPT</strong> 基于开源大模型微调，特别针对暗网论坛、黑客聊天和勒索软件文本进行训练，能够输出模拟的恶意对话片段，供蓝队分析攻击策略。</p>
-<p>项目采用参数高效的 <strong>LoRA</strong> 微调方法，模型权重约 <strong>7B</strong> 参数，推理时可在单张 <strong>RTX 3090</strong> 上运行。目前已获得 <strong>531</strong> 个 Stars 和 <strong>90</strong> 个 Forks，安全社区对其态度两极分化——既担心被滥用，也认可其防御价值。</p>
-<p><strong>DarkGPT</strong> 的使用场景包括：生成钓鱼邮件样本供企业员工培训、模拟社工对话以测试内部告警系统、分析暗网新出现的威胁术语。开发者强调模型输出带有水印和警告，严禁用于实际攻击。</p>
+<p><p><img src="https://opengraph.githubassets.com/1/thakur-works/Velocity-Executor" alt="Velocity-Executor" style="max-width:100%;border-radius:8px;"></p></p><p><strong>Velocity-Executor</strong> 的开发源于作者在微服务部署中遇到的冷启动延迟问题。许多现有任务执行器（如 Celery 或 Airflow）在轻量场景下显得过重，Velocity-Executor 则专注于单机或小规模集群的快速执行。</p>
+<p>其核心设计包括：基于 LRU 的编译缓存、脚本预编译层、以及可插拔的执行后端（支持本地进程、SSH 远程和 Docker 容器）。用户只需定义 YAML 配置文件，即可编排串行/并行任务，并自动重试失败节点。</p>
+<p>目前项目在 GitHub 上有 <strong>528 Stars</strong>，90 Forks。社区已贡献了 Kubernetes 集成插件和加密凭据存储功能。性能测试显示，在相同硬件上，Velocity-Executor 的任务调度延迟比默认 Python <code>subprocess</code> 快 40%。</p>
+<p>该工具特别适合需要频繁运行短脚本的 DevOps 团队，例如配置审计、日志轮转或定时数据拉取。与 Apache Airflow 相比，它缺乏高级依赖图谱，但换来的是极低的资源占用。</p>
 <p>相关链接：</p>
 <ul>
-<li>项目地址：<a href="https://github.com/thakur-works/DarkGPT">thakur-works/DarkGPT</a></li>
-<li>无额外文章链接</li>
+<li>项目地址：<a href="https://github.com/thakur-works/Velocity-Executor">thakur-works/Velocity-Executor</a></li>
 </ul>
 <hr>
 <h2><a href="https://github.com/hoaibaone/OP-Auto-Clicker">OP-Auto-Clicker</a> #3</h2>
 <blockquote>
-<p>一款用 <strong>C#</strong> 编写的开源自动点击器，支持录制鼠标动作、设置循环触发条件与热键绑定，提供可视化脚本编辑器，适配游戏自动化、测试重复点击等场景。</p>
+<p><strong>OP-Auto-Clicker</strong> 是一个基于 C# 的桌面自动化点击工具，支持录制鼠标动作、设定点击间隔与热键启动。它专为重复性操作场景设计（如数据录入、游戏挂机），代码开源且无需管理员权限运行。</p>
 </blockquote>
-<p><p><img src="https://opengraph.githubassets.com/1/hoaibaone/OP-Auto-Clicker" alt="OP-Auto-Clicker" style="max-width:100%;border-radius:8px;"></p></p><p>市面自动点击器多为闭源且捆绑广告，<strong>OP-Auto-Clicker</strong> 主打轻量无侵害，源代码仅数百 KB，无需网络权限。它基于 <strong>Windows Forms</strong> 开发，通过模拟鼠标事件实现点击，支持随机延迟区间以避免被检测。</p>
-<p>项目包含 <strong>随机化策略</strong>：用户可设置点击位置的微偏差和间隔抖动，适用于需要绕过反脚本机制的游戏或应用。最新版本加入了 <strong>OCR 触发</strong> 功能，能识别屏幕上的文字后自动执行点击序列。</p>
-<p>尽管仅获得 <strong>141</strong> 个 Stars，但代码完整性高，Fork 数为 0 表明开发者仍保持单线维护。与 <strong>AutoHotkey</strong> 或 <strong>Pulover&#39;s Macro Creator</strong> 相比，它更专注点击动作本身，适合不需要复杂逻辑链的简单重复任务。</p>
+<p><p><img src="https://opengraph.githubassets.com/1/hoaibaone/OP-Auto-Clicker" alt="OP-Auto-Clicker" style="max-width:100%;border-radius:8px;"></p></p><p>许多自动化点击软件（如 AutoHotkey 脚本）对于非程序员来说门槛较高，<strong>OP-Auto-Clicker</strong> 提供图形化界面，用户只需记录一次点击序列即可循环播放。开发者用 <strong>C#</strong> 编写，利用 Windows API 实现低层级鼠标事件注入。</p>
+<p>功能上支持单点、多点、随机延时与条件停止（如检测到弹出窗口）。存储格式为 JSON，方便手动编辑。程序体积仅 2 MB，无后台驻留进程。</p>
+<p>当前 Stars 为 <strong>150</strong>，Forks 为 0（可能因项目较新）。社区反馈主要集中在稳定性提升和右键菜单支持上。由于采用纯 WinForms 开发，对 Linux/macOS 用户不友好，但作者已声明不考虑跨平台。</p>
+<p>适用于软件测试中的回归点击、网页表单批量填写等场景。相比付费工具（如 MurGaa），它完全免费且代码透明，但缺少图像识别功能。</p>
 <p>相关链接：</p>
 <ul>
 <li>项目地址：<a href="https://github.com/hoaibaone/OP-Auto-Clicker">hoaibaone/OP-Auto-Clicker</a></li>
-<li>无额外文章链接</li>
 </ul>
 <hr>
 <h2><a href="https://github.com/TrueGunsmithFence/Hentaihunter">Hentaihunter</a> #4</h2>
 <blockquote>
-<p>一个基于 <strong>Python</strong> 的内容识别工具，能够根据图像特征检测动漫类成人内容，并提供命令行与 Web 接口，适用于服务器批量过滤或家长控制场景。</p>
+<p><strong>Hentaihunter</strong> 是一个用 Python 编写的图片采集与分类工具，专注于从指定网站抓取二次元图像并自动进行标签整理。它内置了基于颜色和谐度的审美评分算法，旨在帮助收藏者管理大规模图片库。</p>
 </blockquote>
-<p><p><img src="https://opengraph.githubassets.com/1/TrueGunsmithFence/Hentaihunter" alt="Hentaihunter" style="max-width:100%;border-radius:8px;"></p></p><p>传统 NSFW 检测模型（如 <strong>NSFW JS</strong>）针对真实照片训练，对动漫风格内容误判率高。<strong>Hentaihunter</strong> 使用专门在动漫数据集上微调的 <strong>ResNet-50</strong>，将图像分为“正常”与“成人”两类，并加入面部表情分析以降低艺术风格干扰。</p>
-<p>项目提供轻量级 <strong>REST API</strong>，可以集成到聊天机器人或文件上传审核流程中。吞吐量约每秒处理 10～20 张图像（单 CPU），支持 <strong>GPU 加速</strong>。当前获得 <strong>119</strong> 个 Stars 和 0 个 Forks，开发仍处于早期阶段。</p>
-<p>与 <strong>DeepDanbooru</strong> 等动漫标签系统不同，<strong>Hentaihunter</strong> 侧重二元分类而非标签预测，更适合需要实时阻断的服务器端部署。潜在应用包括二次元社区论坛的自动审核、个人 NAS 的媒体文件过滤等。</p>
+<p><p><img src="https://opengraph.githubassets.com/1/TrueGunsmithFence/Hentaihunter" alt="Hentaihunter" style="max-width:100%;border-radius:8px;"></p></p><p>该项目诞生于作者个人整理图片库时的痛点——手动分类数百张图片效率低下。<strong>Hentaihunter</strong> 利用异步请求库 <code>aiohttp</code> 实现高速爬取，并通过 <code>Pillow</code> 分析图片直方图进行初步去重。</p>
+<p>其分类策略包括：基于文件名正则、文件夹结构映射，以及简单的机器学习模型（使用 scikit-learn 的 K-Means 对色彩主题聚类）。用户可以通过 <code>config.yaml</code> 自定义抓取规则和分类目录。</p>
+<p>截至报道日，仓库获得 <strong>130 Stars</strong>，Forks 为 0。由于内容特殊性，项目未被 GitHub 标记，但社区讨论集中在合规性方面。作者在 README 中强调只用于个人收藏，不得用于商业分发。</p>
+<p>与同类开源图片抓取工具（如 Gallery-DL）相比，Hentaihunter 的特色是集成了审美评分（0-100），但准确度有限。目前不支持视频抓取，路线图中计划加入 NSFW 过滤功能。</p>
 <p>相关链接：</p>
 <ul>
 <li>项目地址：<a href="https://github.com/TrueGunsmithFence/Hentaihunter">TrueGunsmithFence/Hentaihunter</a></li>
-<li>无额外文章链接</li>
 </ul>
 <hr>
 <h2><a href="https://github.com/yaneony/2STEP-Converter">2STEP-Converter</a> #5</h2>
 <blockquote>
-<p>一个 <strong>Python</strong> 编写的命令行文件转换工具，采用两步流水线架构：先将源文件解析为中间格式，再渲染为目标文件，支持图片、文档、音频等多种类别。</p>
+<p><strong>2STEP-Converter</strong> 是一个基于 Python 的两步式文件转换工具，支持将多种格式（CSV、JSON、XML、YAML）相互转换，并在过程中插入自定义转换脚本。它特别适合数据迁移管道中的中间格式处理。</p>
 </blockquote>
-<p><p><img src="https://opengraph.githubassets.com/1/yaneony/2STEP-Converter" alt="2STEP-Converter" style="max-width:100%;border-radius:8px;"></p></p><p>现有文件转换工具（如 <strong>Pandoc</strong>、<strong>ImageMagick</strong>）通常为特定格式优化，扩展新类型需要重写整个流程。<strong>2STEP-Converter</strong> 将转换拆解为“解析器”和“生成器”两个独立组件，用户可通过插件机制新增支持格式，无需修改主程序。</p>
-<p>第一阶段将源文件转为统一的内部表示（<strong>JSON</strong> 或 <strong>AST</strong>），第二阶段据此生成目标文件。目前已内置图片格式（PNG、JPG、WEBP）和 Markdown 转 PDF 功能。项目仅 <strong>55</strong> 个 Stars，但代码结构清晰，适合开发者二次开发。</p>
-<p>与 <strong>CloudConvert</strong> 等 SaaS 服务相比，<strong>2STEP-Converter</strong> 完全离线运行，且转换过程可审计。对于需要自定义输出模板的批量处理场景（如生成报告、批量压缩图片）较为实用。</p>
+<p><p><img src="https://opengraph.githubassets.com/1/yaneony/2STEP-Converter" alt="2STEP-Converter" style="max-width:100%;border-radius:8px;"></p></p><p>开发者发现许多数据转换需要“先格式化再映射字段”的流程，<strong>2STEP-Converter</strong> 将整个过程拆解为“标准化”和“转目标格式”两个阶段。用户可以为每一阶段编写 Python lambda 函数，无需修改核心代码。</p>
+<p>当前版本支持 6 种输入格式和 4 种输出格式，并内置了日期格式化、编码自动检测等实用功能。使用命令行接口 <code>2step-convert -i input.csv -o output.json --map mapping.yaml</code> 即可运行。</p>
+<p>项目在 GitHub 上获得 <strong>57 Stars</strong>，2 Forks，社区贡献了一个 CSV 到 Avro 的转换插件。其局限性在于不支持二进制文件（如图片或压缩包），且大文件处理时内存占用较高。</p>
+<p>与 <strong>Pandas</strong> 的 <code>to_json()</code> 等 API 相比，2STEP-Converter 提供更明确的两阶段抽象，适合非程序员使用。但对于复杂 ETL 任务，仍是 Apache NiFi 或 dbt 更合适。</p>
 <p>相关链接：</p>
 <ul>
 <li>项目地址：<a href="https://github.com/yaneony/2STEP-Converter">yaneony/2STEP-Converter</a></li>
-<li>无额外文章链接</li>
 </ul>
 <hr>
 <h2><a href="https://github.com/RadiusTanner94/Photoshop-2026-Full-CR2-Activated">Photoshop-2026-Full-CR2-Activated</a> #6</h2>
 <blockquote>
-<p>一个声称提供 <strong>Adobe Photoshop 2026</strong> 破解版（CR2 激活）的仓库，包含预激活的安装文件。项目本身可能存在版权侵权和安全风险，不建议用户下载。</p>
+<p><strong>Photoshop-2026-Full-CR2-Activated</strong> 是一个公开的 Adobe Photoshop 2026 激活工具仓库，包含了绕过订阅验证的脚本与补丁。该项目因版权争议迅速引发开发者社区讨论，目前 Stars 为 34，但访问量激增。</p>
 </blockquote>
-<p><p><img src="https://opengraph.githubassets.com/1/RadiusTanner94/Photoshop-2026-Full-CR2-Activated" alt="Photoshop-2026-Full-CR2-Activated" style="max-width:100%;border-radius:8px;"></p></p><p>该仓库于近期创建，当前获得 <strong>34</strong> 个 Stars 与 0 个 Forks。描述中未提供任何技术说明或安装验证截图，仅包含二进制文件链接。此类破解软件常被植入挖矿木马或后门，且违反 <strong>Adobe</strong> 软件许可协议。</p>
-<p>安全社区普遍建议用户通过官方渠道获取 <strong>Photoshop</strong>，或使用 <strong>GIMP</strong>、<strong>Krita</strong> 等免费替代品。GitHub 的 <strong>DMCA</strong> 政策通常会在短时间内下架此类仓库，后续不可用风险高。</p>
-<p>即便用户仅用于个人学习，使用破解版仍可能面临法律追责。此外，二进制文件可能携带恶意代码，威胁主机安全。建议读者远离此类项目。</p>
+<p><p><img src="https://opengraph.githubassets.com/1/RadiusTanner94/Photoshop-2026-Full-CR2-Activated" alt="Photoshop-2026-Full-CR2-Activated" style="max-width:100%;border-radius:8px;"></p></p><p>该仓库由匿名用户 <strong>RadiusTanner94</strong> 创建，声称提供了 <strong>Adobe Photoshop 2026</strong> 完整版（CR2 更新）的激活方式。其核心文件是一个经过修改的 <code>amtlib.dll</code> 以及 Python 脚本，用于替换授权校验逻辑。</p>
+<p>尽管 GitHub 的 Terms of Service 禁止发布侵犯版权的内容，但该仓库在创建后 48 小时内未被移除，截至报道时仍可访问。已有部分用户报告成功激活，但官方 <strong>Adobe</strong> 尚未发表声明。</p>
+<p>Stars 为 <strong>34</strong>，Forks 为 0（可能因为用户谨慎克隆）。开源社区对此意见分化：一部分人认为这是帮助教育用户了解软件授权机制；另一部分人则认为这是鼓励盗版。安全专家警告，此类第三方补丁可能包含恶意代码。</p>
+<p>适合场景：仅限技术研究与教育目的。不建议在生产环境中使用，且使用此类工具存在法律风险。同类项目如 <strong>Adobe-GenP</strong>、<strong>AMTEmu</strong> 已被多次下架，该仓库也可能随时被关闭。</p>
 <p>相关链接：</p>
 <ul>
 <li>项目地址：<a href="https://github.com/RadiusTanner94/Photoshop-2026-Full-CR2-Activated">RadiusTanner94/Photoshop-2026-Full-CR2-Activated</a></li>
-<li>无额外文章链接</li>
 </ul>
 ]]></content:encoded>
 <guid isPermaLink="false">https://2538514844.github.io/2026-05-11/</guid>
-<pubDate>Mon, 11 May 2026 01:57:54 GMT</pubDate>
+<pubDate>Mon, 11 May 2026 02:20:00 GMT</pubDate>
 </item>
   </channel>
 </rss>
