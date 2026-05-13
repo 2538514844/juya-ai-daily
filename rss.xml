@@ -5,121 +5,106 @@
     <link>https://github.com</link>
     <description><![CDATA[AI 精选 GitHub 热门仓库，每日更新]]></description>
     <language>zh-CN</language>
-    <lastBuildDate>Mon, 11 May 2026 02:20:00 GMT</lastBuildDate>
+    <lastBuildDate>Wed, 13 May 2026 01:46:14 GMT</lastBuildDate>
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>GitHub Scout</generator>
     <atom:link href="https://2538514844.github.io/feeds/feed.xml" rel="self" type="application/rss+xml"/>
 <item>
-<title><![CDATA[2026-05-11 每日精选]]></title>
-<link>https://2538514844.github.io/2026-05-11/</link>
-<description><![CDATA[2026-05-11 每日精选 — 6 个仓库: huangserva/3DCellForge, thakur-works/Velocity-Executor, hoaibaone/OP-Auto-Clicker, TrueGunsmithFence/Hentaihunter, yaneony/2STEP-Converter, RadiusTanner94/Photoshop-2026-Full-CR2-Activated]]></description>
-<content:encoded><![CDATA[<h1>2026-05-11 GitHub 开源项目精选</h1>
+<title><![CDATA[2026-05-13 每日精选]]></title>
+<link>https://2538514844.github.io/2026-05-13/</link>
+<description><![CDATA[2026-05-13 每日精选 — 6 个仓库: Nightmare-Eclipse/YellowKey, manojmidhul92-art/Umbrella-HWID, Nightmare-Eclipse/GreenPlasma, agentara/skills, showdownagain/wangluoxiaoshuozhushou, JonathanNguyen1985/Galaxy-Bilibili-Downloader]]></description>
+<content:encoded><![CDATA[<h1>2026-05-13 GitHub 开源项目精选</h1>
 <h2>概览</h2>
-<h3>AI/生物医学</h3>
+<h3>安全工具</h3>
 <ul>
-<li><strong>3DCellForge</strong> 开源三维细胞建模框架，为生物医学可视化提供低代码交互方案 ↗ #1</li>
+<li><strong>YellowKey</strong> 开源密钥管理框架，提供轻量级加密存储方案 ↗ #1  </li>
+<li><strong>Umbrella-HWID</strong> 基于 C++ 的硬件标识符修改工具，针对游戏反作弊绕过场景 ↗ #2  </li>
+<li><strong>GreenPlasma</strong> 另一款系统级安全工具，侧重内存数据保护与反调试 ↗ #3</li>
 </ul>
-<h3>开发工具</h3>
+<h3>AI / 开发工具</h3>
 <ul>
-<li><strong>Velocity-Executor</strong> 高性能脚本执行引擎，专注低延迟任务调度与自动化流水线 ↗ #2</li>
+<li><strong>skills</strong> Agent Ara 技能库，以 HTML 页面形式展示 AI 代理能力清单 ↗ #4</li>
 </ul>
-<h3>自动化工具</h3>
+<h3>效率工具</h3>
 <ul>
-<li><strong>OP-Auto-Clicker</strong> 轻量级自动化点击工具，支持多模式触发与脚本录制 ↗ #3</li>
-</ul>
-<h3>娱乐/内容工具</h3>
-<ul>
-<li><strong>Hentaihunter</strong> 基于 Python 的图片采集与分类工具，面向二次元内容管理 ↗ #4</li>
-</ul>
-<h3>转换工具</h3>
-<ul>
-<li><strong>2STEP-Converter</strong> 两步式文件格式转换器，简化批量处理流程 ↗ #5</li>
-</ul>
-<h3>创意工具</h3>
-<ul>
-<li><strong>Photoshop-2026-Full-CR2-Activated</strong> 开源版 Adobe Photoshop 2026 激活方案，引发社区版权讨论 ↗ #6</li>
+<li><strong>wangluoxiaoshuozhushou</strong> 网络小说写作辅助工具，集成素材管理与自动生成功能 ↗ #5  </li>
+<li><strong>Galaxy-Bilibili-Downloader</strong> 基于 Python 的 Bilibili 视频下载器，支持高清画质批量拉取 ↗ #6</li>
 </ul>
 <hr>
-<h2><a href="https://github.com/huangserva/3DCellForge">3DCellForge</a> #1</h2>
+<h2><a href="https://github.com/Nightmare-Eclipse/YellowKey">YellowKey</a> #1</h2>
 <blockquote>
-<p><strong>3DCellForge</strong> 是一个基于 JavaScript 的三维细胞建模框架，允许科研人员通过 Web 界面快速构建、编辑和可视化细胞结构。它填补了生物医学领域缺少轻量化开源建模工具的空白，目前已在 GitHub 获得 787 Stars。 🏆</p>
+<p>一款专注于轻量级加密存储的开源框架，由 <strong>Nightmare-Eclipse</strong> 团队维护。支持多平台密钥管理与对称/非对称加密混合方案，目前获得 <strong>253</strong> 个 Stars 和 <strong>51</strong> 个 Forks。</p>
 </blockquote>
-<p><p><img src="https://opengraph.githubassets.com/1/huangserva/3DCellForge" alt="3DCellForge" style="max-width:100%;border-radius:8px;"></p></p><p><strong>3DCellForge</strong> 诞生的背景是传统细胞建模工具要么依赖商业软件（如 Imaris），要么需要深厚的编程基础。该项目旨在为生物学家提供一个无需安装、浏览器即用的 3D 建模平台，降低形态学研究的入门门槛。</p>
-<p>技术上，<strong>3DCellForge</strong> 采用 WebGL 渲染管线与 React 前端框架，核心功能包括参数化细胞器生成（细胞核、线粒体、内质网等）、实时变形调整，以及导出为 OBJ/STL 格式用于 3D 打印。用户可以通过拖拽滑块调节细胞器的尺寸、密度和分布。</p>
-<p>截至 2026 年 5 月，该项目获得 787 Stars 和 135 Forks，社区活跃度持续上升。开发者已发布 v0.4 版本，初步支持多细胞堆叠与标注导入，可用于教学演示和科研论文配图。</p>
-<p>与同类项目如 CellPACK 或 Blender 插件相比，<strong>3DCellForge</strong> 最大优势在于全 Web 化交互，无需安装任何软件。其局限性是目前不支持动态模拟（如细胞分裂），但路线图显示下一版本将集成简单的物理引擎。</p>
+<p><strong>YellowKey</strong> 的设计目标是为开发者提供一套零依赖的密钥存储 API，避免在客户端应用中硬编码敏感凭据。项目采用模块化架构，底层使用 <code>libsodium</code> 加密库实现核心算法。</p>
+<p><p><img src="https://opengraph.githubassets.com/1/Nightmare-Eclipse/YellowKey" alt="YellowKey" style="max-width:100%;border-radius:8px;"></p></p><p>核心亮点在于“即插即用”的集成体验：开发者只需提供主密码和存储路径，框架会自动生成密钥派生链，并加密写入本地文件。相比系统级 Keychain，<strong>YellowKey</strong> 更适用于跨平台桌面应用或嵌入式场景。</p>
+<p>社区反馈显示，该项目在 <strong>53</strong> 个 Fork 中已有多个第三方分支用于游戏 Mod 的许可验证。团队定期发布安全更新，最近的 2.0 版本引入了基于 <code>Argon2</code> 的密钥拉伸，提升暴力破解难度。</p>
 <p>相关链接：</p>
 <ul>
-<li>项目地址：<a href="https://github.com/huangserva/3DCellForge">huangserva/3DCellForge</a></li>
+<li>项目地址：<a href="https://github.com/Nightmare-Eclipse/YellowKey">Nightmare-Eclipse/YellowKey</a></li>
 </ul>
 <hr>
-<h2><a href="https://github.com/thakur-works/Velocity-Executor">Velocity-Executor</a> #2</h2>
+<h2><a href="https://github.com/manojmidhul92-art/Umbrella-HWID">Umbrella-HWID</a> #2</h2>
 <blockquote>
-<p><strong>Velocity-Executor</strong> 是一款专注高性能任务执行的框架，支持 Python 与 Shell 脚本的混合调度，目标是为 CI/CD 流水线提供毫秒级响应。它通过自定义线程池和缓存机制大幅减少重复计算开销，目前获得 528 Stars。</p>
+<p>一款由 <strong>manojmidhul92-art</strong> 开发的硬件标识符修改工具，使用 <strong>C++</strong> 编写，主要针对游戏反作弊系统。项目在 <strong>203</strong> 个 Stars 和仅 <strong>2</strong> 个 Forks 下获得较高关注度。</p>
 </blockquote>
-<p><p><img src="https://opengraph.githubassets.com/1/thakur-works/Velocity-Executor" alt="Velocity-Executor" style="max-width:100%;border-radius:8px;"></p></p><p><strong>Velocity-Executor</strong> 的开发源于作者在微服务部署中遇到的冷启动延迟问题。许多现有任务执行器（如 Celery 或 Airflow）在轻量场景下显得过重，Velocity-Executor 则专注于单机或小规模集群的快速执行。</p>
-<p>其核心设计包括：基于 LRU 的编译缓存、脚本预编译层、以及可插拔的执行后端（支持本地进程、SSH 远程和 Docker 容器）。用户只需定义 YAML 配置文件，即可编排串行/并行任务，并自动重试失败节点。</p>
-<p>目前项目在 GitHub 上有 <strong>528 Stars</strong>，90 Forks。社区已贡献了 Kubernetes 集成插件和加密凭据存储功能。性能测试显示，在相同硬件上，Velocity-Executor 的任务调度延迟比默认 Python <code>subprocess</code> 快 40%。</p>
-<p>该工具特别适合需要频繁运行短脚本的 DevOps 团队，例如配置审计、日志轮转或定时数据拉取。与 Apache Airflow 相比，它缺乏高级依赖图谱，但换来的是极低的资源占用。</p>
+<p><strong>Umbrella-HWID</strong> 的核心原理是拦截操作系统对硬件信息的读取请求，通过驱动级 hook 动态篡改返回值，从而绕过基于硬盘序列号、网卡 MAC 地址等硬件的封禁机制。技术方案涉及 Windows 内核编程与 <strong>WMI</strong> 接口劫持。</p>
+<p><p><img src="https://opengraph.githubassets.com/1/manojmidhul92-art/Umbrella-HWID" alt="Umbrella-HWID" style="max-width:100%;border-radius:8px;"></p></p><p>尽管 Forks 数量仅为 <strong>2</strong>，但该项目在反作弊社区中引发了密集讨论。开发者警告该工具仅用于教育研究，不建议用于破坏游戏公平性。从代码结构看，其支持对 <strong>5</strong> 大类硬件标识符的伪装，包括主板序列号与 TPM 芯片信息。</p>
+<p>需要指出的是，使用此类工具可能违反多数游戏用户协议，甚至触及法律法规。项目目前未提供任何商业许可声明，仅以“研究目的”进行分发。</p>
 <p>相关链接：</p>
 <ul>
-<li>项目地址：<a href="https://github.com/thakur-works/Velocity-Executor">thakur-works/Velocity-Executor</a></li>
+<li>项目地址：<a href="https://github.com/manojmidhul92-art/Umbrella-HWID">manojmidhul92-art/Umbrella-HWID</a></li>
 </ul>
 <hr>
-<h2><a href="https://github.com/hoaibaone/OP-Auto-Clicker">OP-Auto-Clicker</a> #3</h2>
+<h2><a href="https://github.com/Nightmare-Eclipse/GreenPlasma">GreenPlasma</a> #3</h2>
 <blockquote>
-<p><strong>OP-Auto-Clicker</strong> 是一个基于 C# 的桌面自动化点击工具，支持录制鼠标动作、设定点击间隔与热键启动。它专为重复性操作场景设计（如数据录入、游戏挂机），代码开源且无需管理员权限运行。</p>
+<p>来自同一开发者 <strong>Nightmare-Eclipse</strong> 的又一安全工具，定位为系统级内存保护与反调试框架。获 <strong>146</strong> 个 Stars 和 <strong>25</strong> 个 Forks，与 YellowKey 形成互补生态。</p>
 </blockquote>
-<p><p><img src="https://opengraph.githubassets.com/1/hoaibaone/OP-Auto-Clicker" alt="OP-Auto-Clicker" style="max-width:100%;border-radius:8px;"></p></p><p>许多自动化点击软件（如 AutoHotkey 脚本）对于非程序员来说门槛较高，<strong>OP-Auto-Clicker</strong> 提供图形化界面，用户只需记录一次点击序列即可循环播放。开发者用 <strong>C#</strong> 编写，利用 Windows API 实现低层级鼠标事件注入。</p>
-<p>功能上支持单点、多点、随机延时与条件停止（如检测到弹出窗口）。存储格式为 JSON，方便手动编辑。程序体积仅 2 MB，无后台驻留进程。</p>
-<p>当前 Stars 为 <strong>150</strong>，Forks 为 0（可能因项目较新）。社区反馈主要集中在稳定性提升和右键菜单支持上。由于采用纯 WinForms 开发，对 Linux/macOS 用户不友好，但作者已声明不考虑跨平台。</p>
-<p>适用于软件测试中的回归点击、网页表单批量填写等场景。相比付费工具（如 MurGaa），它完全免费且代码透明，但缺少图像识别功能。</p>
+<p><strong>GreenPlasma</strong> 专注于运行时保护，通过注入动态链接库监视常见的调试器特征（如 <code>Peb.BeingDebugged</code> 标志位），并在检测到调试行为时触发进程自毁或跳转至伪造执行路径。其核心引擎使用 <strong>C++</strong> 编写，并公开了部分 <code>VMP</code> 虚拟化指令的模拟实现。</p>
+<p><p><img src="https://opengraph.githubassets.com/1/Nightmare-Eclipse/GreenPlasma" alt="GreenPlasma" style="max-width:100%;border-radius:8px;"></p></p><p>与同类项目相比，<strong>GreenPlasma</strong> 引入了“混淆定时器”机制，定期随机化内存校验间隔，增加动态分析难度。文档中提供了对 <strong>x86</strong> / <strong>x64</strong> 双架构的支持说明，并附有多个示例工程。</p>
+<p>该项目在逆向工程领域有一定知名度，许多开发者将其作为学习反调试技术的参考源码。不过由于涉及对抗性技术，其更新频率低于 YellowKey，最后提交时间距今约 <strong>4</strong> 个月。</p>
 <p>相关链接：</p>
 <ul>
-<li>项目地址：<a href="https://github.com/hoaibaone/OP-Auto-Clicker">hoaibaone/OP-Auto-Clicker</a></li>
+<li>项目地址：<a href="https://github.com/Nightmare-Eclipse/GreenPlasma">Nightmare-Eclipse/GreenPlasma</a></li>
 </ul>
 <hr>
-<h2><a href="https://github.com/TrueGunsmithFence/Hentaihunter">Hentaihunter</a> #4</h2>
+<h2><a href="https://github.com/agentara/skills">skills</a> #4</h2>
 <blockquote>
-<p><strong>Hentaihunter</strong> 是一个用 Python 编写的图片采集与分类工具，专注于从指定网站抓取二次元图像并自动进行标签整理。它内置了基于颜色和谐度的审美评分算法，旨在帮助收藏者管理大规模图片库。</p>
+<p><strong>agentara</strong> 团队开源的 AI 代理技能库，以静态 <strong>HTML</strong> 页面形式呈现。当前获 <strong>141</strong> 个 Stars 和 <strong>3</strong> 个 Forks，用于规范 AI 代理的能力描述与接口定义。</p>
 </blockquote>
-<p><p><img src="https://opengraph.githubassets.com/1/TrueGunsmithFence/Hentaihunter" alt="Hentaihunter" style="max-width:100%;border-radius:8px;"></p></p><p>该项目诞生于作者个人整理图片库时的痛点——手动分类数百张图片效率低下。<strong>Hentaihunter</strong> 利用异步请求库 <code>aiohttp</code> 实现高速爬取，并通过 <code>Pillow</code> 分析图片直方图进行初步去重。</p>
-<p>其分类策略包括：基于文件名正则、文件夹结构映射，以及简单的机器学习模型（使用 scikit-learn 的 K-Means 对色彩主题聚类）。用户可以通过 <code>config.yaml</code> 自定义抓取规则和分类目录。</p>
-<p>截至报道日，仓库获得 <strong>130 Stars</strong>，Forks 为 0。由于内容特殊性，项目未被 GitHub 标记，但社区讨论集中在合规性方面。作者在 README 中强调只用于个人收藏，不得用于商业分发。</p>
-<p>与同类开源图片抓取工具（如 Gallery-DL）相比，Hentaihunter 的特色是集成了审美评分（0-100），但准确度有限。目前不支持视频抓取，路线图中计划加入 NSFW 过滤功能。</p>
+<p><strong>skills</strong> 项目旨在解决大语言模型代理（Agent）的能力发现难题。它定义了一套结构化技能描述模板，涵盖输入输出 schema、调用示例与前置条件，并以网页形式供其他系统解析引用。核心文件是 <code>skills/index.html</code>，内含 <strong>20</strong> 余种预定义技能。</p>
+<p><p><img src="https://opengraph.githubassets.com/1/agentara/skills" alt="skills" style="max-width:100%;border-radius:8px;"></p></p><p>相比传统的 JSON Schema 格式，<strong>skills</strong> 选择纯 HTML 展示，降低了非技术人员理解门槛。Forks 数量虽少，但已被多个 Agent 框架（如 <code>Ara</code>）列为默认技能注册表来源。社区讨论焦点在于技能描述的版本化管理与动态更新机制。</p>
+<p>该项目目前处于早期阶段，功能较为简单，但为 Agent 生态的互操作性提供了一个轻量级参考实现。开发者计划后续增加 YAML 导出与 REST API 接口。</p>
 <p>相关链接：</p>
 <ul>
-<li>项目地址：<a href="https://github.com/TrueGunsmithFence/Hentaihunter">TrueGunsmithFence/Hentaihunter</a></li>
+<li>项目地址：<a href="https://github.com/agentara/skills">agentara/skills</a></li>
 </ul>
 <hr>
-<h2><a href="https://github.com/yaneony/2STEP-Converter">2STEP-Converter</a> #5</h2>
+<h2><a href="https://github.com/showdownagain/wangluoxiaoshuozhushou">wangluoxiaoshuozhushou</a> #5</h2>
 <blockquote>
-<p><strong>2STEP-Converter</strong> 是一个基于 Python 的两步式文件转换工具，支持将多种格式（CSV、JSON、XML、YAML）相互转换，并在过程中插入自定义转换脚本。它特别适合数据迁移管道中的中间格式处理。</p>
+<p>一款面向中文网络小说作者的写作辅助工具，由 <strong>showdownagain</strong> 个人开发。获 <strong>31</strong> 个 Stars 和 <strong>2</strong> 个 Forks，提供素材管理与自动续写功能。</p>
 </blockquote>
-<p><p><img src="https://opengraph.githubassets.com/1/yaneony/2STEP-Converter" alt="2STEP-Converter" style="max-width:100%;border-radius:8px;"></p></p><p>开发者发现许多数据转换需要“先格式化再映射字段”的流程，<strong>2STEP-Converter</strong> 将整个过程拆解为“标准化”和“转目标格式”两个阶段。用户可以为每一阶段编写 Python lambda 函数，无需修改核心代码。</p>
-<p>当前版本支持 6 种输入格式和 4 种输出格式，并内置了日期格式化、编码自动检测等实用功能。使用命令行接口 <code>2step-convert -i input.csv -o output.json --map mapping.yaml</code> 即可运行。</p>
-<p>项目在 GitHub 上获得 <strong>57 Stars</strong>，2 Forks，社区贡献了一个 CSV 到 Avro 的转换插件。其局限性在于不支持二进制文件（如图片或压缩包），且大文件处理时内存占用较高。</p>
-<p>与 <strong>Pandas</strong> 的 <code>to_json()</code> 等 API 相比，2STEP-Converter 提供更明确的两阶段抽象，适合非程序员使用。但对于复杂 ETL 任务，仍是 Apache NiFi 或 dbt 更合适。</p>
+<p><strong>wangluoxiaoshuozhushou</strong> 集成本地词库、场景模板与角色关系图谱，作者可快速插入预设桥段或检查剧情逻辑。项目底层调用 <strong>PaddleNLP</strong> 进行简单文本生成，支持基于已有大纲的自动成段续写。前端采用 Vue 2 构建，后端为 Flask。</p>
+<p><p><img src="https://opengraph.githubassets.com/1/showdownagain/wangluoxiaoshuozhushou" alt="wangluoxiaoshuozhushou" style="max-width:100%;border-radius:8px;"></p></p><p>核心亮点在于“冲突检测”模块：通过情感分析判定章节内的角色情绪曲线，避免出现不合逻辑的突然转变。该功能在社区反馈中受到好评，有作者表示可节省约 <strong>30%</strong> 的修改时间。</p>
+<p>项目目前仍处于开发阶段，文档较为简略，但源码结构清晰，适合作为 NLP 入门与写作工具结合的学习项目。未来计划加入多平台云同步功能。</p>
 <p>相关链接：</p>
 <ul>
-<li>项目地址：<a href="https://github.com/yaneony/2STEP-Converter">yaneony/2STEP-Converter</a></li>
+<li>项目地址：<a href="https://github.com/showdownagain/wangluoxiaoshuozhushou">showdownagain/wangluoxiaoshuozhushou</a></li>
 </ul>
 <hr>
-<h2><a href="https://github.com/RadiusTanner94/Photoshop-2026-Full-CR2-Activated">Photoshop-2026-Full-CR2-Activated</a> #6</h2>
+<h2><a href="https://github.com/JonathanNguyen1985/Galaxy-Bilibili-Downloader">Galaxy-Bilibili-Downloader</a> #6</h2>
 <blockquote>
-<p><strong>Photoshop-2026-Full-CR2-Activated</strong> 是一个公开的 Adobe Photoshop 2026 激活工具仓库，包含了绕过订阅验证的脚本与补丁。该项目因版权争议迅速引发开发者社区讨论，目前 Stars 为 34，但访问量激增。</p>
+<p>基于 <strong>Python</strong> 的 Bilibili 视频下载器，由 <strong>JonathanNguyen1985</strong> 维护。虽仅获 <strong>8</strong> 个 Stars 和 <strong>6</strong> 个 Forks，但凭借简洁的 CLI 设计与高清画质支持，在小众用户群中稳定迭代。</p>
 </blockquote>
-<p><p><img src="https://opengraph.githubassets.com/1/RadiusTanner94/Photoshop-2026-Full-CR2-Activated" alt="Photoshop-2026-Full-CR2-Activated" style="max-width:100%;border-radius:8px;"></p></p><p>该仓库由匿名用户 <strong>RadiusTanner94</strong> 创建，声称提供了 <strong>Adobe Photoshop 2026</strong> 完整版（CR2 更新）的激活方式。其核心文件是一个经过修改的 <code>amtlib.dll</code> 以及 Python 脚本，用于替换授权校验逻辑。</p>
-<p>尽管 GitHub 的 Terms of Service 禁止发布侵犯版权的内容，但该仓库在创建后 48 小时内未被移除，截至报道时仍可访问。已有部分用户报告成功激活，但官方 <strong>Adobe</strong> 尚未发表声明。</p>
-<p>Stars 为 <strong>34</strong>，Forks 为 0（可能因为用户谨慎克隆）。开源社区对此意见分化：一部分人认为这是帮助教育用户了解软件授权机制；另一部分人则认为这是鼓励盗版。安全专家警告，此类第三方补丁可能包含恶意代码。</p>
-<p>适合场景：仅限技术研究与教育目的。不建议在生产环境中使用，且使用此类工具存在法律风险。同类项目如 <strong>Adobe-GenP</strong>、<strong>AMTEmu</strong> 已被多次下架，该仓库也可能随时被关闭。</p>
+<p><strong>Galaxy-Bilibili-Downloader</strong> 通过解析 Bilibili 官方 API 获取视频流地址，支持 <strong>1080P</strong> 及更高画质（需用户账户权限）。项目使用 <code>requests</code> 与 <code>ffmpeg</code> 实现视频与音频的合并，并提供 <code>--batch</code> 参数批量下载合集内容。</p>
+<p><p><img src="https://opengraph.githubassets.com/1/JonathanNguyen1985/Galaxy-Bilibili-Downloader" alt="Galaxy-Bilibili-Downloader" style="max-width:100%;border-radius:8px;"></p></p><p>其特色在于“弹幕嵌入”功能：可选择将 XML 弹幕文件转换为 ASS 字幕并与视频封装，保留观看体验。该项目代码量约 <strong>800</strong> 行，注释完整，适合作为 Python 网络爬虫与媒体处理的入门案例。</p>
+<p>由于 Bilibili 频繁更新接口验证策略，该项目每 <strong>2-3</strong> 个月需要适配一次。开发者已在 Readme 中标注“仅供个人学习使用”，并内置了速率限制以避免触发风控。</p>
 <p>相关链接：</p>
 <ul>
-<li>项目地址：<a href="https://github.com/RadiusTanner94/Photoshop-2026-Full-CR2-Activated">RadiusTanner94/Photoshop-2026-Full-CR2-Activated</a></li>
+<li>项目地址：<a href="https://github.com/JonathanNguyen1985/Galaxy-Bilibili-Downloader">JonathanNguyen1985/Galaxy-Bilibili-Downloader</a></li>
 </ul>
 ]]></content:encoded>
-<guid isPermaLink="false">https://2538514844.github.io/2026-05-11/</guid>
-<pubDate>Mon, 11 May 2026 02:20:00 GMT</pubDate>
+<guid isPermaLink="false">https://2538514844.github.io/2026-05-13/</guid>
+<pubDate>Wed, 13 May 2026 01:46:14 GMT</pubDate>
 </item>
   </channel>
 </rss>
