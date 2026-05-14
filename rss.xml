@@ -5,106 +5,114 @@
     <link>https://github.com</link>
     <description><![CDATA[AI 精选 GitHub 热门仓库，每日更新]]></description>
     <language>zh-CN</language>
-    <lastBuildDate>Wed, 13 May 2026 01:46:14 GMT</lastBuildDate>
+    <lastBuildDate>Thu, 14 May 2026 01:38:23 GMT</lastBuildDate>
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>GitHub Scout</generator>
     <atom:link href="https://2538514844.github.io/feeds/feed.xml" rel="self" type="application/rss+xml"/>
 <item>
-<title><![CDATA[2026-05-13 每日精选]]></title>
-<link>https://2538514844.github.io/2026-05-13/</link>
-<description><![CDATA[2026-05-13 每日精选 — 6 个仓库: Nightmare-Eclipse/YellowKey, manojmidhul92-art/Umbrella-HWID, Nightmare-Eclipse/GreenPlasma, agentara/skills, showdownagain/wangluoxiaoshuozhushou, JonathanNguyen1985/Galaxy-Bilibili-Downloader]]></description>
-<content:encoded><![CDATA[<h1>2026-05-13 GitHub 开源项目精选</h1>
+<title><![CDATA[2026-05-14 每日精选]]></title>
+<link>https://2538514844.github.io/2026-05-14/</link>
+<description><![CDATA[2026-05-14 每日精选 — 6 个仓库: feder-cr/invisible_playwright, thinkpixelIab/polymarket-ai-trading, PrimeKeeper58/blooket-hacks, himomohi/AirTranslate, easyeda/online-gencad-viewer, JoeYing1019/ODE]]></description>
+<content:encoded><![CDATA[<h1>2026-05-14 GitHub 开源项目精选</h1>
 <h2>概览</h2>
-<h3>安全工具</h3>
+<h3>自动化工具</h3>
 <ul>
-<li><strong>YellowKey</strong> 开源密钥管理框架，提供轻量级加密存储方案 ↗ #1  </li>
-<li><strong>Umbrella-HWID</strong> 基于 C++ 的硬件标识符修改工具，针对游戏反作弊绕过场景 ↗ #2  </li>
-<li><strong>GreenPlasma</strong> 另一款系统级安全工具，侧重内存数据保护与反调试 ↗ #3</li>
+<li><strong>invisible_playwright</strong> 让 Playwright 自动化浏览器行为在指纹检测中隐身 ↗ #1</li>
+<li><strong>ODE</strong> 轻量级常微分方程数值求解库，适合教学与快速原型 ↗ #6</li>
 </ul>
-<h3>AI / 开发工具</h3>
+<h3>AI/大模型</h3>
 <ul>
-<li><strong>skills</strong> Agent Ara 技能库，以 HTML 页面形式展示 AI 代理能力清单 ↗ #4</li>
+<li><strong>polymarket-ai-trading</strong> 基于 AI 的 Polymarket 预测市场自动化交易策略 ↗ #2</li>
 </ul>
 <h3>效率工具</h3>
 <ul>
-<li><strong>wangluoxiaoshuozhushou</strong> 网络小说写作辅助工具，集成素材管理与自动生成功能 ↗ #5  </li>
-<li><strong>Galaxy-Bilibili-Downloader</strong> 基于 Python 的 Bilibili 视频下载器，支持高清画质批量拉取 ↗ #6</li>
+<li><strong>AirTranslate</strong> macOS 全局即时翻译利器，支持多引擎切换 ↗ #4</li>
+<li><strong>blooket-hacks</strong> 为教育游戏平台 Blooket 提供多种“游戏增强”脚本 ↗ #3</li>
+</ul>
+<h3>开发工具</h3>
+<ul>
+<li><strong>online-gencad-viewer</strong> 无需安装，浏览器中即可查看 Gerber 与 Excellon 文件 ↗ #5</li>
 </ul>
 <hr>
-<h2><a href="https://github.com/Nightmare-Eclipse/YellowKey">YellowKey</a> #1</h2>
+<h2><a href="https://github.com/feder-cr/invisible_playwright">invisible_playwright</a> #1</h2>
 <blockquote>
-<p>一款专注于轻量级加密存储的开源框架，由 <strong>Nightmare-Eclipse</strong> 团队维护。支持多平台密钥管理与对称/非对称加密混合方案，目前获得 <strong>253</strong> 个 Stars 和 <strong>51</strong> 个 Forks。</p>
+<p><strong>invisible_playwright</strong> 是一个用于绕过网站机器人检测的 Python 库。它通过修改 Playwright 的自动特征，让无头浏览器行为看起来更像真实用户，从而避免被 Cloudflare 等反爬系统拦截。目前获得 86 Stars，13 Forks。</p>
 </blockquote>
-<p><strong>YellowKey</strong> 的设计目标是为开发者提供一套零依赖的密钥存储 API，避免在客户端应用中硬编码敏感凭据。项目采用模块化架构，底层使用 <code>libsodium</code> 加密库实现核心算法。</p>
-<p><p><img src="https://opengraph.githubassets.com/1/Nightmare-Eclipse/YellowKey" alt="YellowKey" style="max-width:100%;border-radius:8px;"></p></p><p>核心亮点在于“即插即用”的集成体验：开发者只需提供主密码和存储路径，框架会自动生成密钥派生链，并加密写入本地文件。相比系统级 Keychain，<strong>YellowKey</strong> 更适用于跨平台桌面应用或嵌入式场景。</p>
-<p>社区反馈显示，该项目在 <strong>53</strong> 个 Fork 中已有多个第三方分支用于游戏 Mod 的许可验证。团队定期发布安全更新，最近的 2.0 版本引入了基于 <code>Argon2</code> 的密钥拉伸，提升暴力破解难度。</p>
+<p>随着各大网站反爬升级，基于 Playwright 的自动化脚本常被快速识别并拦截。项目团队发现核心问题在于 WebDriver 特征、浏览器指纹等静态标记过于明显，因此开发了这套隐身增强方案。</p>
+<p><p><img src="https://opengraph.githubassets.com/1/feder-cr/invisible_playwright" alt="invisible_playwright" style="max-width:100%;border-radius:8px;"></p></p><p><strong>invisible_playwright</strong> 核心攻防点包括：移除 <code>navigator.webdriver</code> 属性、伪装 <code>plugins</code> 和 <code>languages</code> 列表、注入虚假的 WebGL 指纹。它还内置了随机 User-Agent 轮换和延迟操作模拟，让行为模式更接近人类。</p>
+<p>该项目目前处于早期阶段，但社区反馈积极。对比同类方案（如 <code>puppeteer-extra</code> 的 Stealth 插件），<strong>invisible_playwright</strong> 更专注于 Python 生态，且 API 设计轻量，只需一行初始化代码即可启用隐身注入。</p>
+<p>适用场景包括：需要频繁抓取受 Cloudflare 保护数据的价格监控、舆情分析、学术爬虫等。开发者需注意：本项目仅用于合法测试，滥用可能违反目标网站服务条款。</p>
 <p>相关链接：</p>
 <ul>
-<li>项目地址：<a href="https://github.com/Nightmare-Eclipse/YellowKey">Nightmare-Eclipse/YellowKey</a></li>
+<li>项目地址：<a href="https://github.com/feder-cr/invisible_playwright">feder-cr/invisible_playwright</a></li>
 </ul>
 <hr>
-<h2><a href="https://github.com/manojmidhul92-art/Umbrella-HWID">Umbrella-HWID</a> #2</h2>
+<h2><a href="https://github.com/thinkpixelIab/polymarket-ai-trading">polymarket-ai-trading</a> #2</h2>
 <blockquote>
-<p>一款由 <strong>manojmidhul92-art</strong> 开发的硬件标识符修改工具，使用 <strong>C++</strong> 编写，主要针对游戏反作弊系统。项目在 <strong>203</strong> 个 Stars 和仅 <strong>2</strong> 个 Forks 下获得较高关注度。</p>
+<p><strong>polymarket-ai-trading</strong> 是一个将 AI 模型接入 Polymarket 预测市场的自动化交易框架。它利用大语言模型解析新闻与事件信息，自动生成交易信号并在链上执行，项目当前获得 78 Stars。</p>
 </blockquote>
-<p><strong>Umbrella-HWID</strong> 的核心原理是拦截操作系统对硬件信息的读取请求，通过驱动级 hook 动态篡改返回值，从而绕过基于硬盘序列号、网卡 MAC 地址等硬件的封禁机制。技术方案涉及 Windows 内核编程与 <strong>WMI</strong> 接口劫持。</p>
-<p><p><img src="https://opengraph.githubassets.com/1/manojmidhul92-art/Umbrella-HWID" alt="Umbrella-HWID" style="max-width:100%;border-radius:8px;"></p></p><p>尽管 Forks 数量仅为 <strong>2</strong>，但该项目在反作弊社区中引发了密集讨论。开发者警告该工具仅用于教育研究，不建议用于破坏游戏公平性。从代码结构看，其支持对 <strong>5</strong> 大类硬件标识符的伪装，包括主板序列号与 TPM 芯片信息。</p>
-<p>需要指出的是，使用此类工具可能违反多数游戏用户协议，甚至触及法律法规。项目目前未提供任何商业许可声明，仅以“研究目的”进行分发。</p>
+<p>Polymarket 作为去中心化预测市场，交易决策高度依赖信息解读速度。传统手动交易难以跟上实时事件流，而 AI 模型恰好擅长从非结构化数据中提取关键信号。</p>
+<p><p><img src="https://opengraph.githubassets.com/1/thinkpixelIab/polymarket-ai-trading" alt="polymarket-ai-trading" style="max-width:100%;border-radius:8px;"></p></p><p>项目架构分为三层：<strong>数据源层</strong>（订阅新闻 RSS、Twitter 流和链上数据）、<strong>分析层</strong>（调用 OpenAI GPT-4、Claude 或本地模型进行事件影响评估）、<strong>执行层</strong>（通过 <strong>Polymarket</strong> API 自动下单）。用户可自定义评估提示词和风险参数。</p>
+<p>目前项目无公开 Forks，但 Issues 区已有多次针对 API 限速和 gas 优化讨论。与同类项目（如 <code>PolymarketBot</code>）相比，<strong>polymarket-ai-trading</strong> 更强调模型插件的可替换性，支持从开源 LLM 到商业 API 的灵活切换。</p>
+<p>需要注意的是，预测市场交易存在高风险，作者在 README 中明确提示项目仅供学习研究，不构成投资建议。运行前需准备以太坊钱包和相应 API Key。</p>
 <p>相关链接：</p>
 <ul>
-<li>项目地址：<a href="https://github.com/manojmidhul92-art/Umbrella-HWID">manojmidhul92-art/Umbrella-HWID</a></li>
+<li>项目地址：<a href="https://github.com/thinkpixelIab/polymarket-ai-trading">thinkpixelIab/polymarket-ai-trading</a></li>
 </ul>
 <hr>
-<h2><a href="https://github.com/Nightmare-Eclipse/GreenPlasma">GreenPlasma</a> #3</h2>
+<h2><a href="https://github.com/PrimeKeeper58/blooket-hacks">blooket-hacks</a> #3</h2>
 <blockquote>
-<p>来自同一开发者 <strong>Nightmare-Eclipse</strong> 的又一安全工具，定位为系统级内存保护与反调试框架。获 <strong>146</strong> 个 Stars 和 <strong>25</strong> 个 Forks，与 YellowKey 形成互补生态。</p>
+<p><strong>blooket-hacks</strong> 是一套针对教育游戏平台 Blooket 的浏览器端脚本合集，提供自动答题、无限代币、解锁稀有角色等功能。项目已获得 47 Stars，目前 Forks 为零，表明其仍在早期传播阶段。</p>
 </blockquote>
-<p><strong>GreenPlasma</strong> 专注于运行时保护，通过注入动态链接库监视常见的调试器特征（如 <code>Peb.BeingDebugged</code> 标志位），并在检测到调试行为时触发进程自毁或跳转至伪造执行路径。其核心引擎使用 <strong>C++</strong> 编写，并公开了部分 <code>VMP</code> 虚拟化指令的模拟实现。</p>
-<p><p><img src="https://opengraph.githubassets.com/1/Nightmare-Eclipse/GreenPlasma" alt="GreenPlasma" style="max-width:100%;border-radius:8px;"></p></p><p>与同类项目相比，<strong>GreenPlasma</strong> 引入了“混淆定时器”机制，定期随机化内存校验间隔，增加动态分析难度。文档中提供了对 <strong>x86</strong> / <strong>x64</strong> 双架构的支持说明，并附有多个示例工程。</p>
-<p>该项目在逆向工程领域有一定知名度，许多开发者将其作为学习反调试技术的参考源码。不过由于涉及对抗性技术，其更新频率低于 YellowKey，最后提交时间距今约 <strong>4</strong> 个月。</p>
+<p>Blooket 广泛应用于课堂互动，但部分学生寻求“捷径”获取游戏内货币或额外功能。项目作者收集并整理了多个开源脚本，覆盖 Blooket 的主流游戏模式（如 Gold Quest、Tower Defense）。</p>
+<p><p><img src="https://opengraph.githubassets.com/1/PrimeKeeper58/blooket-hacks" alt="blooket-hacks" style="max-width:100%;border-radius:8px;"></p></p><p>这些脚本主要基于 <strong>JavaScript</strong>，通过注入 <code>fetch</code> 拦截修改请求响应，或在客户端覆盖游戏逻辑变量。例如 <code>auto-answer.js</code> 能自动解析题目并选择正确选项，<code>max-gold.js</code> 将金币数值固定为最大。</p>
+<p>由于 Blooket 持续更新反作弊机制，这些脚本的有效性可能随时间衰减。项目没有提供持续维护承诺，使用者需自行承担账号封禁风险。教育工作者也应关注此类工具的传播，以便调整课堂监控策略。</p>
 <p>相关链接：</p>
 <ul>
-<li>项目地址：<a href="https://github.com/Nightmare-Eclipse/GreenPlasma">Nightmare-Eclipse/GreenPlasma</a></li>
+<li>项目地址：<a href="https://github.com/PrimeKeeper58/blooket-hacks">PrimeKeeper58/blooket-hacks</a></li>
 </ul>
 <hr>
-<h2><a href="https://github.com/agentara/skills">skills</a> #4</h2>
+<h2><a href="https://github.com/himomohi/AirTranslate">AirTranslate</a> #4</h2>
 <blockquote>
-<p><strong>agentara</strong> 团队开源的 AI 代理技能库，以静态 <strong>HTML</strong> 页面形式呈现。当前获 <strong>141</strong> 个 Stars 和 <strong>3</strong> 个 Forks，用于规范 AI 代理的能力描述与接口定义。</p>
+<p><strong>AirTranslate</strong> 是一款专为 macOS 设计的全局即时翻译工具，支持快捷键呼出翻译窗口、多翻译引擎切换，以及系统级取词翻译。项目基于 Swift 开发，stars 22，Forks 3。</p>
 </blockquote>
-<p><strong>skills</strong> 项目旨在解决大语言模型代理（Agent）的能力发现难题。它定义了一套结构化技能描述模板，涵盖输入输出 schema、调用示例与前置条件，并以网页形式供其他系统解析引用。核心文件是 <code>skills/index.html</code>，内含 <strong>20</strong> 余种预定义技能。</p>
-<p><p><img src="https://opengraph.githubassets.com/1/agentara/skills" alt="skills" style="max-width:100%;border-radius:8px;"></p></p><p>相比传统的 JSON Schema 格式，<strong>skills</strong> 选择纯 HTML 展示，降低了非技术人员理解门槛。Forks 数量虽少，但已被多个 Agent 框架（如 <code>Ara</code>）列为默认技能注册表来源。社区讨论焦点在于技能描述的版本化管理与动态更新机制。</p>
-<p>该项目目前处于早期阶段，功能较为简单，但为 Agent 生态的互操作性提供了一个轻量级参考实现。开发者计划后续增加 YAML 导出与 REST API 接口。</p>
+<p>macOS 原生翻译功能在跨语言工作流中有些局限，例如无法自定义引擎、缺少历史记录。<strong>AirTranslate</strong> 聚焦于“轻量 + 快速”，让用户在任何应用中选中文本后一键翻译。</p>
+<p><p><img src="https://opengraph.githubassets.com/1/himomohi/AirTranslate" alt="AirTranslate" style="max-width:100%;border-radius:8px;"></p></p><p>技术实现上，<strong>AirTranslate</strong> 以菜单栏常驻应用形式运行，通过 <code>NSPasteboard</code> 监听剪贴板变化，或使用全局快捷键（默认 <strong>Option+Space</strong>）触发翻译弹窗。目前集成了 <strong>DeepL</strong>、<strong>Google Translate</strong> 和 <strong>Apple 翻译</strong>，用户可在偏好设置中选择默认引擎。</p>
+<p>与同类工具（如 <code>Bob</code>、<code>Easydict</code>）相比，<strong>AirTranslate</strong> 目前功能较基础，但它原生支持 <strong>macOS 14+</strong> 的 <code>SwiftUI</code> 架构，界面响应流畅且内存占用低（约 &lt; 30 MB）。开发者计划后续加入 OCR 识别和语音翻译。</p>
+<p>该工具适合经常需要浏览外语文档、写邮件或阅读技术资料的 Mac 用户。当前版本暂不支持 Windows/Linux。</p>
 <p>相关链接：</p>
 <ul>
-<li>项目地址：<a href="https://github.com/agentara/skills">agentara/skills</a></li>
+<li>项目地址：<a href="https://github.com/himomohi/AirTranslate">himomohi/AirTranslate</a></li>
 </ul>
 <hr>
-<h2><a href="https://github.com/showdownagain/wangluoxiaoshuozhushou">wangluoxiaoshuozhushou</a> #5</h2>
+<h2><a href="https://github.com/easyeda/online-gencad-viewer">online-gencad-viewer</a> #5</h2>
 <blockquote>
-<p>一款面向中文网络小说作者的写作辅助工具，由 <strong>showdownagain</strong> 个人开发。获 <strong>31</strong> 个 Stars 和 <strong>2</strong> 个 Forks，提供素材管理与自动续写功能。</p>
+<p><strong>online-gencad-viewer</strong> 是 EasyEDA 团队开源的浏览器端 Gerber、Excellon 文件查看器。它无需安装专业 EDA 软件，即可在线预览 PCB 设计文件，项目获 20 Stars。</p>
 </blockquote>
-<p><strong>wangluoxiaoshuozhushou</strong> 集成本地词库、场景模板与角色关系图谱，作者可快速插入预设桥段或检查剧情逻辑。项目底层调用 <strong>PaddleNLP</strong> 进行简单文本生成，支持基于已有大纲的自动成段续写。前端采用 Vue 2 构建，后端为 Flask。</p>
-<p><p><img src="https://opengraph.githubassets.com/1/showdownagain/wangluoxiaoshuozhushou" alt="wangluoxiaoshuozhushou" style="max-width:100%;border-radius:8px;"></p></p><p>核心亮点在于“冲突检测”模块：通过情感分析判定章节内的角色情绪曲线，避免出现不合逻辑的突然转变。该功能在社区反馈中受到好评，有作者表示可节省约 <strong>30%</strong> 的修改时间。</p>
-<p>项目目前仍处于开发阶段，文档较为简略，但源码结构清晰，适合作为 NLP 入门与写作工具结合的学习项目。未来计划加入多平台云同步功能。</p>
+<p>传统 PCB 制造流程中，设计文件（Gerber RS-274X、钻孔文件）需要特定工具（如 <strong>Altium</strong>、<strong>KiCad</strong>）打开，协作时发送视图非常不便。<strong>EasyEDA</strong> 作为在线 EDA 平台，将核心渲染能力剥离为独立库开源。</p>
+<p><p><img src="https://opengraph.githubassets.com/1/easyeda/online-gencad-viewer" alt="online-gencad-viewer" style="max-width:100%;border-radius:8px;"></p></p><p>项目基于 <strong>TypeScript</strong>，使用 Canvas 实现 2D 图形渲染，支持图层开关、测量、缩放和平移。它采用流式解析，可处理大体积文件（实测 50 MB 单文件无卡顿）。API 设计面向 Web 组件化，开发者可方便地嵌入到自己的网页或工具中。</p>
+<p>与 <strong>GerberViewer</strong>（KiCad 配套工具）和 <strong>Tracespace</strong> 等开源方案对比，本项目的最大优势是零依赖——所有渲染逻辑自包含，无需安装任何 WASM 或后端服务。EasyEDA 团队表示将持续更新以支持最新的 Gerber 格式规范。</p>
+<p>适用场景包括：PCB 工厂快速预览、团队协作审核、在线教学演示。开发者可通过 npm 包直接引用。</p>
 <p>相关链接：</p>
 <ul>
-<li>项目地址：<a href="https://github.com/showdownagain/wangluoxiaoshuozhushou">showdownagain/wangluoxiaoshuozhushou</a></li>
+<li>项目地址：<a href="https://github.com/easyeda/online-gencad-viewer">easyeda/online-gencad-viewer</a></li>
 </ul>
 <hr>
-<h2><a href="https://github.com/JonathanNguyen1985/Galaxy-Bilibili-Downloader">Galaxy-Bilibili-Downloader</a> #6</h2>
+<h2><a href="https://github.com/JoeYing1019/ODE">ODE</a> #6</h2>
 <blockquote>
-<p>基于 <strong>Python</strong> 的 Bilibili 视频下载器，由 <strong>JonathanNguyen1985</strong> 维护。虽仅获 <strong>8</strong> 个 Stars 和 <strong>6</strong> 个 Forks，但凭借简洁的 CLI 设计与高清画质支持，在小众用户群中稳定迭代。</p>
+<p><strong>ODE</strong> 是一个用 Python 编写的常微分方程数值求解库，专注于简单易用的 API 和基础方法覆盖。当前 Stars 16，Forks 1，适合教学和小型科学计算场景。</p>
 </blockquote>
-<p><strong>Galaxy-Bilibili-Downloader</strong> 通过解析 Bilibili 官方 API 获取视频流地址，支持 <strong>1080P</strong> 及更高画质（需用户账户权限）。项目使用 <code>requests</code> 与 <code>ffmpeg</code> 实现视频与音频的合并，并提供 <code>--batch</code> 参数批量下载合集内容。</p>
-<p><p><img src="https://opengraph.githubassets.com/1/JonathanNguyen1985/Galaxy-Bilibili-Downloader" alt="Galaxy-Bilibili-Downloader" style="max-width:100%;border-radius:8px;"></p></p><p>其特色在于“弹幕嵌入”功能：可选择将 XML 弹幕文件转换为 ASS 字幕并与视频封装，保留观看体验。该项目代码量约 <strong>800</strong> 行，注释完整，适合作为 Python 网络爬虫与媒体处理的入门案例。</p>
-<p>由于 Bilibili 频繁更新接口验证策略，该项目每 <strong>2-3</strong> 个月需要适配一次。开发者已在 Readme 中标注“仅供个人学习使用”，并内置了速率限制以避免触发风控。</p>
+<p>无论是物理模拟还是生物模型，ODE 求解都是常见需求。主流库如 <code>scipy.integrate</code> 功能强大但学习曲线陡峭，而 <strong>ODE</strong> 的目标是让初学者在几行代码内跑通自定义方程。</p>
+<p><p><img src="https://opengraph.githubassets.com/1/JoeYing1019/ODE" alt="ODE" style="max-width:100%;border-radius:8px;"></p></p><p>项目实现了 <strong>Euler</strong>、<strong>Runge-Kutta 4</strong>、<strong>Adams-Bashforth</strong> 三种经典方法，支持单步和多步输出。用户只需定义导数函数和初始条件，传入时间数组即可获得数值解。代码完全纯 Python，无 <strong>NumPy</strong> 强制依赖（但推荐安装以提高性能）。</p>
+<p>与 <code>odeint</code>、<code>solve_ivp</code> 相比，<strong>ODE</strong> 缺少自适应步长和事件检测功能，但胜在代码精简（核心模块 &lt; 300 行），非常适合学生阅读源码理解算法原理。作者在 README 中提供了洛伦兹系统、SIR 模型等示例。</p>
+<p>当前版本为 0.1.0，计划加入 <strong>Dormand-Prince</strong> 方法和刚性方程求解器。对于需要快速验证 ODE 想法的用户，这是一个干净的起点。</p>
 <p>相关链接：</p>
 <ul>
-<li>项目地址：<a href="https://github.com/JonathanNguyen1985/Galaxy-Bilibili-Downloader">JonathanNguyen1985/Galaxy-Bilibili-Downloader</a></li>
+<li>项目地址：<a href="https://github.com/JoeYing1019/ODE">JoeYing1019/ODE</a></li>
 </ul>
 ]]></content:encoded>
-<guid isPermaLink="false">https://2538514844.github.io/2026-05-13/</guid>
-<pubDate>Wed, 13 May 2026 01:46:14 GMT</pubDate>
+<guid isPermaLink="false">https://2538514844.github.io/2026-05-14/</guid>
+<pubDate>Thu, 14 May 2026 01:38:23 GMT</pubDate>
 </item>
   </channel>
 </rss>
