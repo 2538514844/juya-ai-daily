@@ -5,112 +5,109 @@
     <link>https://github.com</link>
     <description><![CDATA[AI 精选 GitHub 热门仓库，每日更新]]></description>
     <language>zh-CN</language>
-    <lastBuildDate>Thu, 14 May 2026 02:33:29 GMT</lastBuildDate>
+    <lastBuildDate>Fri, 15 May 2026 02:11:19 GMT</lastBuildDate>
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>GitHub Scout</generator>
     <atom:link href="https://2538514844.github.io/feeds/feed.xml" rel="self" type="application/rss+xml"/>
 <item>
-<title><![CDATA[2026-05-14 每日精选]]></title>
-<link>https://2538514844.github.io/2026-05-14/</link>
-<description><![CDATA[2026-05-14 每日精选 — 6 个仓库: feder-cr/invisible_playwright, mikesheehan54/Claude-Code-Design-AI, PrimeKeeper58/blooket-hacks, himomohi/AirTranslate, easyeda/online-gencad-viewer, JoeYing1019/ODE]]></description>
-<content:encoded><![CDATA[<h1>2026-05-14 GitHub 开源项目精选</h1>
+<title><![CDATA[2026-05-15 每日精选]]></title>
+<link>https://2538514844.github.io/2026-05-15/</link>
+<description><![CDATA[2026-05-15 每日精选 — 6 个仓库: S4rdenz/gta-5-mod-menu, yetone/native-feel-skill, boona13/mykonos-island-voxels, haidang1810/md2html, Ingar30/reviewer, dotanminh/youtube-learn-skill]]></description>
+<content:encoded><![CDATA[<h1>2026-05-15 GitHub 开源项目精选</h1>
 <h2>概览</h2>
-<h3>AI/大模型</h3>
+<h3>游戏工具</h3>
 <ul>
-<li><strong>Claude-Code-Design-AI</strong> AI 驱动的代码到设计稿转换工具，用 Claude API 将前端代码自动生成 Figma 图层 ↗ #2</li>
+<li><strong>gta-5-mod-menu</strong> GTA 5 多功能游戏 Mod 菜单，提供大量自定义功能 ↗ #1</li>
 </ul>
-<h3>开发工具 &amp; 自动化</h3>
+<h3>学习工具</h3>
 <ul>
-<li><strong>invisible_playwright</strong> 让 Playwright 浏览器自动化被反爬系统“看不见”，内置隐身反检测技术 ↗ #1</li>
-<li><strong>online-gencad-viewer</strong> 在线开源的 Gerber/NC-Drill 文件查看器，基于 Web 运行无需安装软件 ↗ #5</li>
+<li><strong>native-feel-skill</strong> 以“原生感”为核心的学习技能训练工具，降低入门门槛 ↗ #2</li>
+<li><strong>youtube-learn-skill</strong> 基于 YouTube 视频的智能学习技能提取工具 ↗ #6</li>
 </ul>
-<h3>效率工具 &amp; 插件</h3>
+<h3>3D/可视化</h3>
 <ul>
-<li><strong>AirTranslate</strong> macOS 菜单栏翻译小工具，选中文本即可即时翻译，支持多引擎切换 ↗ #4</li>
+<li><strong>mykonos-island-voxels</strong> 用体素（Voxel）重建米克诺斯岛风光，沉浸式数字沙盘 ↗ #3</li>
 </ul>
-<h3>游戏/娱乐</h3>
+<h3>开发工具</h3>
 <ul>
-<li><strong>blooket-hacks</strong> 针对教育游戏平台 Blooket 的作弊脚本集合，提供自动答题、挖金币等功能 ↗ #3</li>
-</ul>
-<h3>数据/科学计算</h3>
-<ul>
-<li><strong>ODE</strong> 开源神经网络求解常微分方程的实验框架，基于 PyTorch 实现物理信息神经网络 (PINN) ↗ #6</li>
+<li><strong>md2html</strong> 轻量级 Markdown 转 HTML 实时渲染工具，开箱即用 ↗ #4</li>
+<li><strong>reviewer</strong> Python 编写的自动化代码审查助手，提升团队协作效率 ↗ #5</li>
 </ul>
 <hr>
-<h2><a href="https://github.com/feder-cr/invisible_playwright">invisible_playwright</a> #1</h2>
+<h2><a href="https://github.com/S4rdenz/gta-5-mod-menu">gta-5-mod-menu</a> #1</h2>
 <blockquote>
-<p>一个轻量级 Python 库，通过注入反检测补丁让 <strong>Playwright</strong> 自动化脚本绕过 Cloudflare、DataDome 等反爬系统，使浏览器指纹看起来更像真实用户。</p>
+<p>GTA 5 社区中备受关注的 Mod 菜单项目，提供自定义武器、车辆、玩家属性等数十项功能，支持最新游戏版本。拥有 <strong>516</strong> Stars 和 <strong>157</strong> Forks，是当前最活跃的第三方 Mod 之一。</p>
 </blockquote>
-<p><p><img src="https://opengraph.githubassets.com/1/feder-cr/invisible_playwright" alt="invisible_playwright" style="max-width:100%;border-radius:8px;"></p></p><p><strong>网页自动化</strong> 开发者常遇到被目标网站识别为机器人的难题，尤其是使用了 Cloudflare 或 DataDome 等高级反爬服务的站点。<code>invisible_playwright</code> 旨在通过底层 Hook 技术，在 Playwright 启动前修改浏览器环境变量，动态替换 <code>navigator.webdriver</code>、<code>navigator.plugins</code> 等关键属性，让自动化实例伪装成普通 Chrome 浏览器。</p>
-<p>该项目采用 <strong>Python</strong> 编写，核心逻辑是生成一个补丁脚本并在页面加载前执行，覆盖上百个浏览器指纹检测点。据开发者测试，该方案能有效绕过主流 WAF 的机器人检测，且对性能影响极小。目前仓库已有 86 个 Star，13 个 Fork，社区反馈积极。</p>
-<p>与同类项目 <code>puppeteer-extra-plugin-stealth</code> 相比，<code>invisible_playwright</code> 更专注于 Playwright 生态，配置更简洁——只需在启动浏览器时增加一行 <code>import invisible_playwright</code> 并调用 <code>patch_playwright()</code> 即可。适用于爬虫、自动化测试、数据采集等场景。</p>
-<p><strong>相关链接</strong>：</p>
+<p>GTA 5 玩家对 Mod 菜单的需求长期旺盛，但许多项目因游戏更新而失效。<strong>S4rdenz/gta-5-mod-menu</strong> 针对这一痛点，基于 Lua 脚本和 C++ 底层注入技术开发，确保兼容性。</p>
+<p>该 Mod 菜单的核心功能涵盖无限生命、刷车、武器修改、时间冻结等经典选项，同时提供直观的界面切换。所有功能通过热键调用，无需频繁修改游戏文件。</p>
+<p>项目在 GitHub 上获得 516 Stars 和 157 Forks，社区活跃度较高。更新日志显示开发者每月推送数次修复，跟进 <strong>Rockstar</strong> 官方补丁。</p>
+<p><p><img src="https://opengraph.githubassets.com/1/S4rdenz/gta-5-mod-menu" alt="gta-5-mod-menu" style="max-width:100%;border-radius:8px;"></p></p><p>与同类项目相比，该 Mod 菜单主打“轻量化”与“稳定性”，内置防检测机制，降低账号被封风险。适用于单人故事模式或私人服务器体验。</p>
 <ul>
-<li>项目地址：<a href="https://github.com/feder-cr/invisible_playwright">feder-cr/invisible_playwright</a></li>
+<li>项目地址：<a href="https://github.com/S4rdenz/gta-5-mod-menu">S4rdenz/gta-5-mod-menu</a></li>
 </ul>
 <hr>
-<h2><a href="https://github.com/mikesheehan54/Claude-Code-Design-AI">Claude-Code-Design-AI</a> #2</h2>
+<h2><a href="https://github.com/yetone/native-feel-skill">native-feel-skill</a> #2</h2>
 <blockquote>
-<p>使用 <strong>Claude API</strong> 将前端 HTML/CSS/JS 代码自动解析并生成 <strong>Figma</strong> 可编辑设计稿，帮助开发者快速从代码还原设计原型。</p>
+<p>一款专注于“原生感”技能学习的工具，帮助用户快速掌握在母语环境中才能习得的语言或专业能力。项目在 GitHub 上已获 <strong>223</strong> Stars，社区反馈积极。</p>
 </blockquote>
-<p><p><img src="https://opengraph.githubassets.com/1/mikesheehan54/Claude-Code-Design-AI" alt="Claude-Code-Design-AI" style="max-width:100%;border-radius:8px;"></p></p><p>传统工作流中，从设计稿到代码是常见路径，但从已有代码反向生成设计稿却缺乏高效工具。<code>Claude-Code-Design-AI</code> 利用 <strong>Claude 3.5 Sonnet</strong> 模型的视觉与代码理解能力，分析前端文件中的 DOM 结构、CSS 样式和交互逻辑，生成对应的 Figma 节点层级。</p>
-<p>工具以 <strong>TypeScript</strong> 编写，提供 CLI 和 API 两种使用方式。用户上传一个包含入口 HTML 的文件夹，工具会调用 Claude 模型输出 Figma JSON 文件，后者可直接导入 <strong>Figma</strong> 进行二次编辑。测试用例显示，对中等复杂度的登录页面，还原度超过 80%。</p>
-<p>该项目刚发布不久，Star 数 84，Fork 数为 0，但已在开发者社区引发讨论。与 <code>html-to-design</code> 等工具相比，其核心优势在于利用大语言模型处理非标准布局和复杂样式，而非依赖固定规则。适合需要快速从旧项目提取设计规范、或做代码审查前端效果的场景。</p>
-<p><strong>相关链接</strong>：</p>
+<p>传统外语学习工具往往忽视“自然语境”，导致学习者能读写但无法流畅交流。<strong>yetone/native-feel-skill</strong> 通过嵌入真实对话片段与场景模拟，让练习更加贴近母语环境。</p>
+<p>技术方案基于 Python 后端 + 前端交互界面，内置分词、发音评分与情景对话生成器。用户可自定义学习素材，系统根据遗忘曲线规划复习节奏。</p>
+<p>项目目前拥有 223 Stars 和仅 4 个 Forks，表明作者仍处于核心维护阶段。社区贡献指南鼓励开发者提交场景模板。</p>
+<p><p><img src="https://opengraph.githubassets.com/1/yetone/native-feel-skill" alt="native-feel-skill" style="max-width:100%;border-radius:8px;"></p></p> <p>与 <strong>Duolingo</strong> 等游戏化应用不同，该工具强调“沉浸式输入”而非机械重复，适合中级以上学习者突破瓶颈。未来可能接入语音识别 API 增强互动。</p>
 <ul>
-<li>项目地址：<a href="https://github.com/mikesheehan54/Claude-Code-Design-AI">mikesheehan54/Claude-Code-Design-AI</a></li>
+<li>项目地址：<a href="https://github.com/yetone/native-feel-skill">yetone/native-feel-skill</a></li>
 </ul>
 <hr>
-<h2><a href="https://github.com/PrimeKeeper58/blooket-hacks">blooket-hacks</a> #3</h2>
+<h2><a href="https://github.com/boona13/mykonos-island-voxels">mykonos-island-voxels</a> #3</h2>
 <blockquote>
-<p>针对教育游戏平台 <strong>Blooket</strong> 的一系列作弊脚本（JavaScript），支持自动答题、无限金币、修改游戏模式等，仅供学习研究。</p>
+<p>用体素（Voxel）技术还原希腊米克诺斯岛的标志性建筑与海岸线，提供可自由探索的 3D 数字沙盘。项目使用 <strong>JavaScript</strong> 实现，仅 <strong>42</strong> Stars 却颇具观赏价值。</p>
 </blockquote>
-<p><p><img src="https://opengraph.githubassets.com/1/PrimeKeeper58/blooket-hacks" alt="blooket-hacks" style="max-width:100%;border-radius:8px;"></p></p><p><strong>Blooket</strong> 是一款流行的课堂互动游戏平台，教师常用来做知识测验。但部分学生尝试寻找游戏漏洞以获取高分或游戏币。<code>blooket-hacks</code> 项目聚合了多个社区发现的 <strong>Blooket</strong> 前端接口注入技巧，提供一键运行的 Tampermonkey 脚本和书签工具。</p>
-<p>项目以 <strong>JavaScript</strong> 实现，核心原理是拦截并篡改 Blooket 的 API 请求与客户端逻辑。例如，自动填充正确答案、跳过答题等待时间、直接修改玩家金币数量等。仓库中详细列出了每个 hack 对应的游戏模式，并附带风险提示：滥用可能导致账号封禁。</p>
-<p>当前 Star 数 47，Fork 数 0。虽然项目名包含“hacks”，但其技术本质是 Web API 逆向与前端调试，对学习浏览器开发者工具、Ajax 拦截有一定参考价值。需注意：用于真实课堂会有作弊风险，作者声明仅供研究。</p>
-<p><strong>相关链接</strong>：</p>
+<p>体素艺术近年来在游戏开发与可视化展示中兴起，但高质量的地图重建作品仍较稀缺。<strong>boona13/mykonos-island-voxels</strong> 选取希腊著名旅游岛屿作为主题，利用公开地理数据生成地形。</p>
+<p>项目采用 Three.js 渲染引擎，体素分辨率适中以保证浏览器性能。用户可通过鼠标拖拽旋转视角，建筑群、风车、教堂等地标均被抽象为方块风格。</p>
+<p>目前项目获得 42 Stars 和 13 Forks，虽然关注度不高，但其艺术价值受到体素社区好评。开发者计划添加昼夜交替与动画效果。</p>
+<p><p><img src="https://opengraph.githubassets.com/1/boona13/mykonos-island-voxels" alt="mykonos-island-voxels" style="max-width:100%;border-radius:8px;"></p></p> <p>与 <strong>Minecraft</strong> 等通用体素平台相比，该项目是专门针对真实地形的定制化作品，适合作为数字文旅或游戏场景资产。</p>
 <ul>
-<li>项目地址：<a href="https://github.com/PrimeKeeper58/blooket-hacks">PrimeKeeper58/blooket-hacks</a></li>
+<li>项目地址：<a href="https://github.com/boona13/mykonos-island-voxels">boona13/mykonos-island-voxels</a></li>
 </ul>
 <hr>
-<h2><a href="https://github.com/himomohi/AirTranslate">AirTranslate</a> #4</h2>
+<h2><a href="https://github.com/haidang1810/md2html">md2html</a> #4</h2>
 <blockquote>
-<p>macOS 菜单栏一键翻译工具，选中任意文本后按下快捷键即可调用 Google、DeepL 或 ChatGPT 翻译，结果以小弹窗展示。</p>
+<p>极简的 Markdown 转 HTML 工具，无需复杂配置即可将 <code>.md</code> 文件渲染为干净网页。项目由 <strong>HTML</strong> 编写，Stars 数 <strong>25</strong>，适合静态博客或文档站点使用。</p>
 </blockquote>
-<p><p><img src="https://opengraph.githubassets.com/1/himomohi/AirTranslate" alt="AirTranslate" style="max-width:100%;border-radius:8px;"></p></p><p><strong>macOS</strong> 原生缺少类似 Windows 上的“划词翻译”体验，现有工具如 Bob 已经停更或转向订阅制。<code>AirTranslate</code> 用 <strong>Swift</strong> 重写了菜单栏翻译应用，采用纯原生架构，内存占用极低。它监听系统全局快捷键（默认 <code>Cmd+Shift+T</code>），识别当前鼠标选中的文本，调用用户配置的翻译引擎。</p>
-<p>支持 <strong>Google Translate</strong>、<strong>DeepL</strong>、<strong>OpenAI ChatGPT</strong> 三种后端，用户可在偏好设置中选择。翻译结果显示在菜单栏下拉的悬浮卡片中，支持朗读、复制和收藏。项目内置隐私模式，翻译内容仅在本地处理，不上传其他服务器。</p>
-<p>目前 Star 22，Fork 3。与同类产品相比，<code>AirTranslate</code> 完全开源、无广告，且代码结构清晰，适合作为 macOS 原生开发学习案例。缺点是目前仅支持 macOS 12+，未提供 iOS 版本。</p>
-<p><strong>相关链接</strong>：</p>
+<p>Markdown 文档在开发者群体中普及，但将其快速转为网页展示往往需要依赖完整框架。<strong>haidang1810/md2html</strong> 提供一份纯前端解决方案，打开 <code>index.html</code> 即可使用。</p>
+<p>核心功能包括拖拽上传 Markdown 文件、即时预览、一键复制 HTML 源码。支持标准 Markdown 语法及代码高亮。</p>
+<p>项目在 GitHub 获得 25 Stars 和 3 Forks，社区贡献者较少，但代码结构清晰，易于二次开发。适合个人博客作者或小型团队。</p>
+<p><p><img src="https://opengraph.githubassets.com/1/haidang1810/md2html" alt="md2html" style="max-width:100%;border-radius:8px;"></p></p><p>与其他转换工具（如 <strong>pandoc</strong>）相比，该项目免安装、零依赖，但功能覆盖有限（不支持表格、数学公式）。可作为轻量级备选工具。</p>
 <ul>
-<li>项目地址：<a href="https://github.com/himomohi/AirTranslate">himomohi/AirTranslate</a></li>
+<li>项目地址：<a href="https://github.com/haidang1810/md2html">haidang1810/md2html</a></li>
 </ul>
 <hr>
-<h2><a href="https://github.com/easyeda/online-gencad-viewer">online-gencad-viewer</a> #5</h2>
+<h2><a href="https://github.com/Ingar30/reviewer">reviewer</a> #5</h2>
 <blockquote>
-<p><strong>立创EDA</strong> 开源的在线 <strong>Gerber</strong>、<strong>NC-Drill</strong> 文件查看器，基于浏览器 WebGL 渲染，无需安装任何软件即可查看 PCB 制造文件。</p>
+<p>Python 编写的自动化代码审查工具，能对 Pull Request 进行静态分析并给出优化建议。项目 Stars <strong>25</strong>，Forks <strong>6</strong>，面向中小开发团队。</p>
 </blockquote>
-<p><p><img src="https://opengraph.githubassets.com/1/easyeda/online-gencad-viewer" alt="online-gencad-viewer" style="max-width:100%;border-radius:8px;"></p></p><p>PCB 设计完成后，工程师常需检查 Gerber 文件是否正确。传统的离线软件如 <strong>CAM350</strong> 或 <strong>Altium</strong> Viewer 体积大且收费。<code>online-gencad-viewer</code> 由 <strong>EasyEDA</strong>（立创 EDA）团队开发，使用 <strong>TypeScript</strong> 和 <strong>WebGL</strong> 在浏览器中直接解析并渲染 Gerber RS-274X 格式和 NC-Drill 文件。</p>
-<p>工具支持分层显示、缩放、测量、DRC 检查等基础功能。用户只需将 <code>.gbr</code>、<code>.drl</code> 文件拖入浏览器窗口，即可秒级加载并预览 PCB 的铜皮、钻孔、阻焊等各层。项目完全开源，可自行部署或嵌入到其他 Web 应用中。</p>
-<p>当前 Star 20，Fork 1。该查看器主要面向 <strong>立创 EDA</strong> 用户，但也兼容标准 Gerber 格式。与已有开源方案 <code>gerber-viewer</code> 相比，该工具在渲染性能和交互流畅度上更优。适合 PCB 打样前的快速检查，以及教育场景中的教学演示。</p>
-<p><strong>相关链接</strong>：</p>
+<p>人工代码审查耗时长且受主观因素影响，自动化审查工具逐渐成为 CI/CD 流水线标配。<strong>Ingar30/reviewer</strong> 专注于 Python 项目，利用 AST 分析发现潜在 Bug、风格违规和性能瓶颈。</p>
+<p>该工具支持自定义规则集，可通过 <code>.reviewer.yml</code> 配置文件启用/禁用检查项。检查结果以 Markdown 表格形式输出，可直接评论到 GitHub PR 上。</p>
+<p>项目当前有 25 Stars 和 6 Forks，社区参与度一般。开发者表示近期计划增加对 TypeScript 的支持。</p>
+<p><p><img src="https://opengraph.githubassets.com/1/Ingar30/reviewer" alt="reviewer" style="max-width:100%;border-radius:8px;"></p></p><p>相比于 <strong>SonarQube</strong> 或 <strong>CodeQL</strong>，reviewer 更轻量，适合小团队快速集成。但分析深度有限，无法覆盖复杂逻辑漏洞。</p>
 <ul>
-<li>项目地址：<a href="https://github.com/easyeda/online-gencad-viewer">easyeda/online-gencad-viewer</a></li>
+<li>项目地址：<a href="https://github.com/Ingar30/reviewer">Ingar30/reviewer</a></li>
 </ul>
 <hr>
-<h2><a href="https://github.com/JoeYing1019/ODE">ODE</a> #6</h2>
+<h2><a href="https://github.com/dotanminh/youtube-learn-skill">youtube-learn-skill</a> #6</h2>
 <blockquote>
-<p>一个基于 <strong>PyTorch</strong> 的物理信息神经网络 (PINN) 框架，专门用于求解常微分方程 (ODE)，提供简洁的接口和可视化训练过程。</p>
+<p>从 YouTube 视频中自动提取结构化学习要点，帮助用户高效获取知识。基于 <strong>Python</strong> 开发，Stars <strong>10</strong>，适合个人学习辅助。</p>
 </blockquote>
-<p><p><img src="https://opengraph.githubassets.com/1/JoeYing1019/ODE" alt="ODE" style="max-width:100%;border-radius:8px;"></p></p><p>传统数值方法（如 Runge-Kutta）求解 ODE 对于高维或复杂边界条件时效率下降，<strong>PINN</strong>（Physics-Informed Neural Networks）提供了一种数据驱动的替代方案。<code>ODE</code> 项目封装了从问题定义、网络构建到损失计算和可视化的完整流程，用户只需定义 ODE 方程和初始条件即可训练神经网络逼近解。</p>
-<p>使用 <strong>Python</strong> 实现，基于 <code>PyTorch</code> 的自动微分机制构建物理损失项。项目内置了多种激活函数（Tanh、Swish、ReLU）和优化器（Adam、L-BFGS），并支持动态调整学习率。示例代码中包含了 <code>y&#39; = -2xy</code>、<code>y&#39;&#39; + y = 0</code> 等经典方程的求解演示。</p>
-<p>Star 16，Fork 1。相比成熟的库如 <code>deepxde</code>，<code>ODE</code> 更加轻量，专注于 ODE 场景而非偏微分方程，适合入门学习和快速原型验证。项目还提供了训练过程中的损失曲线和预测 vs 真值对比图，方便调试。</p>
-<p><strong>相关链接</strong>：</p>
+<p>YouTube 上海量教学视频缺乏索引，用户常需反复跳转。<strong>dotanminh/youtube-learn-skill</strong> 利用 YouTube Data API 获取字幕，再通过 NLP 提取关键句子、定义和步骤清单。</p>
+<p>工具提供命令行接口，输入视频链接即可输出 Markdown 格式的“课程笔记”。支持中英文视频字幕，依赖 <code>whisper</code> 模型做语音识别。</p>
+<p>目前项目仅有 10 Stars 和 5 Forks，属于早期阶段。功能尚不完善，提取结果的准确率取决于字幕质量。</p>
+<p><p><img src="https://opengraph.githubassets.com/1/dotanminh/youtube-learn-skill" alt="youtube-learn-skill" style="max-width:100%;border-radius:8px;"></p></p> <p>与 <strong>SummarizeBot</strong> 等全自动摘要服务相比，该项目更侧重“技能学习”场景，会刻意保留操作步骤和案例代码。适合自学编程或语言的学习者。</p>
 <ul>
-<li>项目地址：<a href="https://github.com/JoeYing1019/ODE">JoeYing1019/ODE</a></li>
+<li>项目地址：<a href="https://github.com/dotanminh/youtube-learn-skill">dotanminh/youtube-learn-skill</a></li>
 </ul>
 ]]></content:encoded>
-<guid isPermaLink="false">https://2538514844.github.io/2026-05-14/</guid>
-<pubDate>Thu, 14 May 2026 02:33:29 GMT</pubDate>
+<guid isPermaLink="false">https://2538514844.github.io/2026-05-15/</guid>
+<pubDate>Fri, 15 May 2026 02:11:19 GMT</pubDate>
 </item>
   </channel>
 </rss>
